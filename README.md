@@ -20,13 +20,13 @@ https://mcp.rightcard.ai/mcp
 Local (stdio, nothing leaves your machine except a read of the public catalog):
 
 ```
-npx @rightcard/mcp
+npx rightcard-mcp
 ```
 
 Claude Desktop / Claude Code / Cursor config:
 
 ```json
-{ "mcpServers": { "rightcard": { "command": "npx", "args": ["-y", "@rightcard/mcp"] } } }
+{ "mcpServers": { "rightcard": { "command": "npx", "args": ["-y", "rightcard-mcp"] } } }
 ```
 
 ## Tools

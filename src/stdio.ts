@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Local stdio server: `npx @rightcard/mcp`. Reads the public catalog once an hour,
+// Local stdio server: `npx rightcard-mcp`. Reads the public catalog once an hour,
 // answers over stdin/stdout, sends nothing anywhere else.
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { buildServer } from "./tools.js";
