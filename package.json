@@ -1,0 +1,25 @@
+{
+  "name": "@rightcard/mcp",
+  "version": "0.1.0",
+  "description": "RightCard MCP — the card-selection oracle for agents. Which of your credit cards to use at any store, from verified data. No bank login.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "rightcard-mcp": "dist/stdio.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "export-fixtures": "echo 'run: xcodebuild test -only-testing:RightCardTests/GoldenExportTests in the iOS repo'"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0",
+    "wrangler": "^4.125.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  }
+}
