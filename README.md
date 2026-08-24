@@ -1,5 +1,7 @@
 # RightCard MCP
 
+[![npm](https://img.shields.io/npm/v/rightcard-mcp)](https://www.npmjs.com/package/rightcard-mcp)
+
 The card-selection oracle for agents: **which of your credit cards should pay here?**
 Answers come from RightCard's bank-published, two-source-verified reward data — the same
 data the [RightCard iOS app](https://apps.apple.com/app/id6756834989) uses.
