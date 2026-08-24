@@ -1,6 +1,7 @@
 {
   "name": "rightcard-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.parikshitmadahar/rightcard-mcp",
   "description": "RightCard MCP \u2014 the card-selection oracle for agents. Which of your credit cards to use at any store, from verified data. No bank login.",
   "type": "module",
   "license": "MIT",
