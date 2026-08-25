@@ -1,13 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.parikshitmadahar/rightcard-mcp",
+  "name": "ai.rightcard/mcp",
   "title": "RightCard",
   "description": "Which of your credit cards to use at any store, from verified bank data. No bank login.",
   "repository": {
     "url": "https://github.com/parikshitmadahar/rightcard-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://rightcard.ai/mcp",
   "remotes": [
     {
@@ -19,7 +19,7 @@
     {
       "registryType": "npm",
       "identifier": "rightcard-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       }
