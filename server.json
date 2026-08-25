@@ -4,7 +4,7 @@
   "title": "RightCard",
   "description": "Which of your credit cards to use at any store, from verified bank data. No bank login.",
   "repository": {
-    "url": "https://github.com/parikshitmadahar/rightcard-mcp",
+    "url": "https://github.com/rightcard/rightcard-mcp",
     "source": "github"
   },
   "version": "0.1.2",
