@@ -159,8 +159,16 @@ export function exclusionCaveat(m: Merchant): string | null {
   switch (m.merchantType) {
     case "superstore":
       return `${m.displayName} usually codes as a superstore (not a supermarket), so grocery bonuses often don't post — this is your best guaranteed card.`;
-    case "warehouse_club":
-      return `${m.displayName} codes as a warehouse club, so category bonuses usually don't post — this is your best guaranteed card.`;
+    case "warehouse_club": {
+      const base = `${m.displayName} codes as a warehouse club, so category bonuses usually don't post — this is your best guaranteed card.`;
+      // Costco alone is also NETWORK-locked: warehouse registers take Visa
+      // only (Costco.com takes other networks). Mirrors the Swift engine —
+      // keep both sides identical or the parity gate fails.
+      if (m.displayName.toLowerCase().includes("costco")) {
+        return base + " Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.";
+      }
+      return base;
+    }
     default:
       return null;
   }
