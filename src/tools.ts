@@ -18,6 +18,10 @@ function cardSummary(c: CreditCard) {
   return {
     id: c.id, name: c.displayName, issuer: c.issuer, reward_currency: c.rewardCurrency,
     verify_status: c.verifyStatus ?? "unknown", annual_fee: c.annualFee ?? null,
+    // Payment network (visa|mastercard|amex|discover) or null = unknown.
+    // Stated so the model never guesses it (Costco's registers are Visa-only;
+    // a guessed network in an answer is exactly the hallucination this bans).
+    network: c.network ?? null,
   };
 }
 
