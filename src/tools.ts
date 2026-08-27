@@ -2,7 +2,7 @@
 // and `caveats`; verified rows only in rankings; quarantined cards are NAMED, never ranked.
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-import { ALL_CATEGORIES, exclusionCaveat, hasAnyReward, multiplier, overrideIsActive, isPermanentMerchantBenefit,
+import { ALL_CATEGORIES, acceptedNetworksAtRegister, exclusionCaveat, hasAnyReward, multiplier, overrideIsActive, isPermanentMerchantBenefit,
   type CreditCard, type Merchant, type SpendCategory } from "./model.js";
 import { recommend, formatPercent, formatMultiplier, type Recommendation } from "./engine.js";
 import { rankedBrandMatches, searchNormalized } from "./search.js";
@@ -88,7 +88,8 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
     for (const [k, v] of Object.entries(chosen_categories ?? {})) configs[k] = new Set(v as SpendCategory[]);
     const now = on ? new Date(on + "T00:00:00Z") : new Date();
     const r = recommend({ cards, category: cat, subKey, merchantName: merchant ?? null, overrides: catalog.overrides,
-                          valuation: makeValuation(mode), cardConfigs: configs, now });
+                          valuation: makeValuation(mode), cardConfigs: configs, now,
+                          acceptedNetworks: dir ? acceptedNetworksAtRegister(dir) : null });
     if (!r) return err("No recommendation could be computed.");
     const answer = {
       ...shapeAnswer(r, dir, valuation, unverified),

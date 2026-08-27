@@ -41,6 +41,8 @@ export interface RecommendInput {
   cardConfigs?: Record<string, Set<SpendCategory>>;
   now: Date;
   strictMerchantMatch?: boolean;
+  /** Register network lock (Costco = visa-only). null/undefined = no restriction. */
+  acceptedNetworks?: Set<string> | null;
 }
 
 // ── formatting (Swift twins) ──
@@ -272,8 +274,22 @@ function subcategoryBreakdown(cards: CreditCard[], category: SpendCategory, over
 
 /** MerchantYieldEngine.recommend — base-rate mode (offers: []) */
 export function recommend(input: RecommendInput): Recommendation | null {
-  const { cards, category, overrides, now } = input;
+  const { category, overrides, now } = input;
+  let cards = input.cards;
   if (cards.length === 0) return null;
+  // Network-acceptance gate (Costco's Visa-only registers). Mirrors the Swift
+  // engine: a KNOWN-incompatible card can't win when a compatible (or
+  // unknown-network) card exists; if every card is known-incompatible, the
+  // full wallet answers (works on the merchant's site) and the warehouse
+  // caveat carries the register story. Unknown (null) network never gates.
+  const accepted = input.acceptedNetworks;
+  if (accepted && accepted.size > 0) {
+    const eligible = cards.filter((c) => {
+      const net = c.network?.toLowerCase();
+      return net == null || accepted.has(net);
+    });
+    if (eligible.length > 0) cards = eligible;
+  }
   const v = withPooling(input.valuation, cards);
   const cardConfigs = input.cardConfigs ?? {};
   const strict = input.strictMerchantMatch ?? false;

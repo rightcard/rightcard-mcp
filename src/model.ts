@@ -28,6 +28,8 @@ export interface CreditCard {
   multipliers: Record<string, MultiplierField>;
   annualFee?: number | null;
   verifyStatus?: string | null;
+  /** Payment network (migration 0017): visa|mastercard|amex|discover; null = unknown, never gates. */
+  network?: string | null;
 }
 
 /** Supabase `cards` row → CreditCard (SupabaseCard.toCreditCard). */
@@ -48,6 +50,7 @@ export function cardFromRow(row: any): CreditCard {
     multipliers,
     annualFee: row.annual_fee ?? null,
     verifyStatus: row.verify_status ?? null,
+    network: row.network ?? null,
   };
 }
 
@@ -172,6 +175,16 @@ export function exclusionCaveat(m: Merchant): string | null {
     default:
       return null;
   }
+}
+
+/** Merchant.acceptedNetworksAtRegister — Costco's Visa-only register lock.
+ *  null for everything else (no restriction). Costco.com / online rows are
+ *  never gated (they take other networks). Mirrors the Swift twin exactly. */
+export function acceptedNetworksAtRegister(m: Merchant): Set<string> | null {
+  const name = m.displayName.toLowerCase();
+  if (m.merchantType !== "warehouse_club" || !name.includes("costco")) return null;
+  if (m.isOnline || name.includes(".com")) return null;
+  return new Set(["visa"]);
 }
 
 /** Merchant.isCuratedBrand */

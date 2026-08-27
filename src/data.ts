@@ -36,7 +36,7 @@ async function getAll(path: string, fetchImpl: typeof fetch): Promise<any[]> {
 
 export async function loadCatalog(fetchImpl: typeof fetch = fetch): Promise<Catalog> {
   const [cardRows, overrideRows, merchantRows] = await Promise.all([
-    getAll("cards?select=id,name,issuer,reward_currency,base_rate,standard_multipliers,annual_fee,verify_status&country=eq.US&order=id", fetchImpl),
+    getAll("cards?select=id,name,issuer,reward_currency,base_rate,standard_multipliers,annual_fee,verify_status,network&country=eq.US&order=id", fetchImpl),
     getAll("active_overrides?select=*&order=id", fetchImpl),
     getAll("merchants?select=id,display_name,category,sub_key,merchant_type,is_online,aliases&country=eq.US&order=id", fetchImpl),
   ]);
