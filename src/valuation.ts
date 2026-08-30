@@ -145,7 +145,12 @@ export function basisLabel(v: Valuation, card: CreditCard): string {
   return `${PROGRAM_DISPLAY[effectiveProgram(v, card)]} · ${fmt1(cpp)}¢ travel value${pooled}`;
 }
 
-/** Swift String(format: "%.1f") */
+/** Swift String(format: "%.1f") — printf rounds EXACT binary ties to even
+ *  (1.25 → "1.2"), where Math.round rounds them up ("1.3"). Surfaced Aug 29
+ *  2026 when a live card hit a 1.25x earn and 27 golden cases split. */
 export function fmt1(x: number): string {
-  return (Math.round(x * 10) / 10).toFixed(1);
+  const scaled = x * 10;
+  let r = Math.round(scaled);
+  if (scaled - Math.floor(scaled) === 0.5 && r % 2 !== 0) r -= 1;
+  return (r / 10).toFixed(1);
 }
