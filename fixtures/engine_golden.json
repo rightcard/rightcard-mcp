@@ -18279,24 +18279,24 @@
       "wallet" : 0
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 6%"
         ],
         "cardId" : "amex_blue_cash_preferred",
-        "loggableRate" : 1,
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "1%",
-        "reason" : "American Express Blue Cash Preferred® earns the most for general — 1% per dollar.",
+        "rateDisplay" : "6%",
+        "reason" : "American Express Blue Cash Preferred® earns the most for grocery — 6% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Amex Blue Cash Preferred and Amex Gold tie at 1% for cash. Amex Gold's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -19101,29 +19101,29 @@
       "wallet" : 0
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 2.0¢\/pt → 2% per $1"
+          "Earns 4x points",
+          "Valued at 2.0¢\/pt → 8% per $1"
         ],
         "cardId" : "amex_gold",
-        "loggableRate" : 2,
+        "loggableRate" : 8,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "American Express® Gold Card earns 1x points on general — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
+        "rateDisplay" : "8%",
+        "reason" : "American Express® Gold Card earns 4x points on grocery — at 2.0¢ each that's 8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Amex Gold ties Amex Platinum at 2% — picked Amex Gold: the premium card's purchase protections come free at the same rate.",
+        "tieNote" : null,
         "valuationBasis" : "Amex Membership Rewards · 2.0¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 2.0¢ = 2.0¢ per $1",
-        "valueMathShort" : "1x pts × 2¢"
+        "valueCaption" : "4x points · value per $1",
+        "valueMath" : "4x points × 2.0¢ = 8.0¢ per $1",
+        "valueMathShort" : "4x pts × 2¢"
       },
       "subKey" : "in_store",
       "wallet" : 0
@@ -19924,20 +19924,20 @@
       "wallet" : 1
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for general — 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for grocery — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -20757,7 +20757,7 @@
       "wallet" : 1
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -20771,7 +20771,7 @@
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Chase Freedom Unlimited earns 1.5x points on general — at 2.0¢ each that's 3% per dollar, the most in your wallet.",
+        "reason" : "Chase Freedom Unlimited earns 1.5x points on grocery — at 2.0¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -21586,24 +21586,24 @@
       "wallet" : 2
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 6%"
         ],
-        "cardId" : "citi_double_cash",
-        "loggableRate" : 2,
+        "cardId" : "amex_blue_cash_preferred",
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for general — 2% per dollar.",
+        "rateDisplay" : "6%",
+        "reason" : "American Express Blue Cash Preferred® earns the most for grocery — 6% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Citi Double Cash ties Active Cash at 2% — either works.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -22402,24 +22402,24 @@
       "wallet" : 2
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 6%"
         ],
-        "cardId" : "citi_double_cash",
-        "loggableRate" : 2,
+        "cardId" : "amex_blue_cash_preferred",
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for general — 2% per dollar.",
+        "rateDisplay" : "6%",
+        "reason" : "American Express Blue Cash Preferred® earns the most for grocery — 6% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Citi Double Cash ties Active Cash at 2% — either works.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -23216,20 +23216,20 @@
       "wallet" : 3
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 4%"
         ],
-        "cardId" : "citi_double_cash",
-        "loggableRate" : 2,
+        "cardId" : "amex_gold",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for general — 2% per dollar.",
+        "rateDisplay" : "4%",
+        "reason" : "American Express® Gold Card earns the most for grocery — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -24044,29 +24044,29 @@
       "wallet" : 3
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 2.0¢\/pt → 2% per $1"
+          "Earns 4x points",
+          "Valued at 2.0¢\/pt → 8% per $1"
         ],
         "cardId" : "amex_gold",
-        "loggableRate" : 2,
+        "loggableRate" : 8,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "American Express® Gold Card earns 1x points on general — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
+        "rateDisplay" : "8%",
+        "reason" : "American Express® Gold Card earns 4x points on grocery — at 2.0¢ each that's 8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Amex Gold ties Citi Double Cash at 2% — picked Amex Gold for transfer flexibility.",
+        "tieNote" : null,
         "valuationBasis" : "Amex Membership Rewards · 2.0¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 2.0¢ = 2.0¢ per $1",
-        "valueMathShort" : "1x pts × 2¢"
+        "valueCaption" : "4x points · value per $1",
+        "valueMath" : "4x points × 2.0¢ = 8.0¢ per $1",
+        "valueMathShort" : "4x pts × 2¢"
       },
       "subKey" : "in_store",
       "wallet" : 3
@@ -24867,20 +24867,20 @@
       "wallet" : 4
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "chase_freedom_unlimited",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_premier",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for general — 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Citi Premier Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -25693,29 +25693,29 @@
       "wallet" : 4
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.7¢\/pt → 1.7% per $1"
+          "Earns 3x points",
+          "Valued at 1.7¢\/pt → 5.1% per $1"
         ],
         "cardId" : "citi_premier",
-        "loggableRate" : 1.7,
+        "loggableRate" : 5.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "1.7%",
-        "reason" : "Citi Premier Card earns 1x points on general — at 1.7¢ each that's 1.7% per dollar, the most in your wallet.",
+        "rateDisplay" : "5.1%",
+        "reason" : "Citi Premier Card earns 3x points on grocery — at 1.7¢ each that's 5.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Citi Premier ties Citi Custom Cash at 1.7% — picked Citi Premier: the premium card's purchase protections come free at the same rate.",
+        "tieNote" : null,
         "valuationBasis" : "Citi ThankYou Points · 1.7¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.7¢ = 1.7¢ per $1",
-        "valueMathShort" : "1x pts × 1.7¢"
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 1.7¢ = 5.1¢ per $1",
+        "valueMathShort" : "3x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 4
@@ -26516,20 +26516,20 @@
       "wallet" : 5
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for general — 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for grocery — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -27327,20 +27327,20 @@
       "wallet" : 5
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for general — 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for grocery — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -28137,20 +28137,20 @@
       "wallet" : 6
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "capitalone_venture_x",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X earns the most for general — 2% per dollar.",
+        "reason" : "Capital One Venture X earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -28962,7 +28962,7 @@
       "wallet" : 6
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -28976,7 +28976,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X earns 2x miles on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture X earns 2x miles on grocery — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29784,20 +29784,20 @@
       "wallet" : 7
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 3%"
+          "Base grocery earn: 5%"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 5,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for general — 3% per dollar.",
+        "rateDisplay" : "5%",
+        "reason" : "Hilton Honors American Express Card earns the most for grocery — 5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -30612,29 +30612,29 @@
       "wallet" : 7
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 2.0¢\/pt → 2% per $1"
+          "Earns 5x points",
+          "Valued at 0.5¢\/pt → 2.5% per $1"
         ],
-        "cardId" : "chase_sapphire_preferred",
-        "loggableRate" : 2,
+        "cardId" : "american_express_hilton_honors_american_express_card",
+        "loggableRate" : 2.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Chase Sapphire Preferred earns 1x points on general — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.5%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on grocery — at 0.5¢ each that's 2.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Chase Ultimate Rewards · 2.0¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 2.0¢ = 2.0¢ per $1",
-        "valueMathShort" : "1x pts × 2¢"
+        "valuationBasis" : "Hilton Honors · 0.5¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.5¢ = 2.5¢ per $1",
+        "valueMathShort" : "5x pts × 0.5¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -31440,20 +31440,20 @@
       "wallet" : 8
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 2%"
         ],
-        "cardId" : "bofa_premium_rewards",
-        "loggableRate" : 1.5,
+        "cardId" : "bofa_customized_cash",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for general — 1.5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Bank of America Customized Cash earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -32270,7 +32270,7 @@
       "wallet" : 8
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -32284,7 +32284,7 @@
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Bank of America Premium Rewards earns 1.5x points on general — at 2.0¢ each that's 3% per dollar, the most in your wallet.",
+        "reason" : "Bank of America Premium Rewards earns 1.5x points on grocery — at 2.0¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -33092,24 +33092,24 @@
       "wallet" : 9
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 2%"
         ],
-        "cardId" : "apple_card",
-        "loggableRate" : 1,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "1%",
-        "reason" : "Apple Card earns the most for general — 1% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Apple and Autograph tie at 1% for cash. Autograph's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -33915,29 +33915,28 @@
       "wallet" : 9
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base grocery earn: 2%"
         ],
-        "cardId" : "wellsfargo_autograph",
-        "loggableRate" : 1.5,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Wells Fargo Autograph earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "2%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 9
@@ -34736,20 +34735,20 @@
       "wallet" : 10
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for general — 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -35546,20 +35545,20 @@
       "wallet" : 10
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for general — 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -36356,20 +36355,20 @@
       "wallet" : 11
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for general — 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -37166,20 +37165,20 @@
       "wallet" : 11
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for general — 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -37976,20 +37975,20 @@
       "wallet" : 12
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 1.5%"
         ],
         "cardId" : "chase_ink_business_unlimited_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Ink Business Unlimited Credit Card earns the most for general — 1.5% per dollar.",
+        "reason" : "Ink Business Unlimited Credit Card earns the most for grocery — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -38804,7 +38803,7 @@
       "wallet" : 12
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -38818,7 +38817,7 @@
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on general — at 2.0¢ each that's 3% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on grocery — at 2.0¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -39626,20 +39625,20 @@
       "wallet" : 13
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
-        "loggableRate" : 2,
+        "cardId" : "amex_blue_cash_everyday",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for general — 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "American Express Blue Cash Everyday® earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -40436,20 +40435,20 @@
       "wallet" : 13
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
-        "loggableRate" : 2,
+        "cardId" : "amex_blue_cash_everyday",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for general — 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "American Express Blue Cash Everyday® earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -41247,24 +41246,24 @@
       "wallet" : 14
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
-        "loggableRate" : 1,
+        "cardId" : "capital_one_savorone_student",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1%",
-        "reason" : "Ink Business Preferred Credit Card earns the most for general — 1% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "SavorOne Student earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Ink Business Preferred ties Apple at 1% — picked Ink Business Preferred: its points cash out the same, and can be worth more if you ever redeem for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -42069,29 +42068,28 @@
       "wallet" : 14
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 2.0¢\/pt → 2% per $1"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
-        "loggableRate" : 2,
+        "cardId" : "capital_one_savorone_student",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on general — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "SavorOne Student earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Chase Ultimate Rewards · 2.0¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 2.0¢ = 2.0¢ per $1",
-        "valueMathShort" : "1x pts × 2¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 14
@@ -42890,24 +42888,24 @@
       "wallet" : 15
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
-        "cardId" : "capital_one_capital_one_spark_cash_plus",
+        "cardId" : "bofa_customized_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for general — 2% per dollar.",
+        "reason" : "Bank of America Customized Cash earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Spark Cash Plus ties Fidelity Rewards Visa Signature at 2% — either works.",
+        "tieNote" : "Customized Cash ties Spark Cash Plus at 2% — either works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -43718,7 +43716,7 @@
       "wallet" : 15
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -43732,7 +43730,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Spark Miles for Business earns 2x points on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Spark Miles for Business earns 2x points on grocery — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -44538,24 +44536,24 @@
       "wallet" : 16
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "barclays_arrival_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Arrival Plus World Elite Mastercard earns the most for general — 2% per dollar.",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Arrival Plus World Elite Mastercard ties Southwest Rapid Rewards Premier at 2% — either works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -45366,7 +45364,7 @@
       "wallet" : 16
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -45380,7 +45378,7 @@
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on general — at 2.0¢ each that's 3% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on grocery — at 2.0¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -46188,20 +46186,20 @@
       "wallet" : 17
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "capital_one_t_mobile",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "T-Mobile earns the most for general — 2% per dollar.",
+        "reason" : "T-Mobile earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -47016,7 +47014,7 @@
       "wallet" : 17
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -47030,7 +47028,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "T-Mobile earns 2x points on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "T-Mobile earns 2x points on grocery — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -47838,24 +47836,24 @@
       "wallet" : 18
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 3%"
         ],
         "cardId" : "capital_one_savorone_student",
-        "loggableRate" : 1,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1%",
-        "reason" : "SavorOne Student earns the most for general — 1% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "SavorOne Student earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "SavorOne Student and More Rewards Amex tie at 1% for cash. More Rewards Amex's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "SavorOne Student and More Rewards Amex tie at 3% for cash. More Rewards Amex's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -48666,29 +48664,29 @@
       "wallet" : 18
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 2.0¢\/pt → 2% per $1"
+          "Earns 3x points",
+          "Valued at 2.0¢\/pt → 6% per $1"
         ],
         "cardId" : "navy_federal_more_rewards_american_express",
-        "loggableRate" : 2,
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "More Rewards American Express earns 1x points on general — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
+        "rateDisplay" : "6%",
+        "reason" : "More Rewards American Express earns 3x points on grocery — at 2.0¢ each that's 6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Points · 2.0¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 2.0¢ = 2.0¢ per $1",
-        "valueMathShort" : "1x pts × 2¢"
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 2.0¢ = 6.0¢ per $1",
+        "valueMathShort" : "3x pts × 2¢"
       },
       "subKey" : "in_store",
       "wallet" : 18
@@ -49488,20 +49486,20 @@
       "wallet" : 19
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 4%"
         ],
-        "cardId" : "capital_one_capital_one_venture_x_business",
-        "loggableRate" : 2,
+        "cardId" : "amex_gold",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X Business earns the most for general — 2% per dollar.",
+        "rateDisplay" : "4%",
+        "reason" : "American Express® Gold Card earns the most for grocery — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -50316,29 +50314,29 @@
       "wallet" : 19
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 2x miles",
-          "Valued at 1.7¢\/pt → 3.4% per $1"
+          "Earns 4x points",
+          "Valued at 2.0¢\/pt → 8% per $1"
         ],
-        "cardId" : "capital_one_capital_one_venture_x_business",
-        "loggableRate" : 3.3999999999999999,
+        "cardId" : "amex_gold",
+        "loggableRate" : 8,
         "portalNote" : null,
-        "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X Business earns 2x miles on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "rateDisplay" : "8%",
+        "reason" : "American Express® Gold Card earns 4x points on grocery — at 2.0¢ each that's 8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "2x miles · value per $1",
-        "valueMath" : "2x miles × 1.7¢ = 3.4¢ per $1",
-        "valueMathShort" : "2x pts × 1.7¢"
+        "valuationBasis" : "Amex Membership Rewards · 2.0¢ travel value",
+        "valueCaption" : "4x points · value per $1",
+        "valueMath" : "4x points × 2.0¢ = 8.0¢ per $1",
+        "valueMathShort" : "4x pts × 2¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -51138,20 +51136,20 @@
       "wallet" : 20
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for general — 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -51950,20 +51948,20 @@
       "wallet" : 20
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for general — 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52762,20 +52760,20 @@
       "wallet" : 21
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 5%"
         ],
-        "cardId" : "sofi_credit_card",
-        "loggableRate" : 2,
+        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
+        "loggableRate" : 5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for general — 2% per dollar.",
+        "rateDisplay" : "5%",
+        "reason" : "Choice® Hotels Privileges Select Card earns the most for grocery — 5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -53578,28 +53576,29 @@
       "wallet" : 21
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Earns 5x points",
+          "Valued at 1.5¢\/pt → 7.5% per $1"
         ],
-        "cardId" : "sofi_credit_card",
-        "loggableRate" : 2,
+        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
+        "loggableRate" : 7.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for general — 2% per dollar.",
+        "rateDisplay" : "7.5%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
+        "valueMathShort" : "5x pts × 1.5¢"
       },
       "subKey" : "in_store",
       "wallet" : 21
@@ -54392,20 +54391,20 @@
       "wallet" : 22
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "capitalone_venture",
-        "loggableRate" : 2,
+        "cardId" : "capital_one_savorone_student",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Capital One Venture earns the most for general — 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "SavorOne Student earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -55219,7 +55218,7 @@
       "wallet" : 22
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -55233,7 +55232,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture earns 2x miles on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture earns 2x miles on grocery — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -56040,24 +56039,24 @@
       "wallet" : 23
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "capitalone_venture_x",
-        "loggableRate" : 2,
+        "cardId" : "citi_citi_strata_premier_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X earns the most for general — 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Citi Strata Premier ® Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Citi Strata Premier ties Choice Privileges at 3% — picked Citi Strata Premier: its points cash out the same, and can be worth more if you ever redeem for travel.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -56868,29 +56867,29 @@
       "wallet" : 23
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 2x miles",
-          "Valued at 1.7¢\/pt → 3.4% per $1"
+          "Earns 3x points",
+          "Valued at 1.7¢\/pt → 5.1% per $1"
         ],
-        "cardId" : "capitalone_venture_x",
-        "loggableRate" : 3.3999999999999999,
+        "cardId" : "citi_citi_strata_premier_card",
+        "loggableRate" : 5.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X earns 2x miles on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "rateDisplay" : "5.1%",
+        "reason" : "Citi Strata Premier ® Card earns 3x points on grocery — at 1.7¢ each that's 5.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "2x miles · value per $1",
-        "valueMath" : "2x miles × 1.7¢ = 3.4¢ per $1",
-        "valueMathShort" : "2x pts × 1.7¢"
+        "valuationBasis" : "Citi ThankYou Points · 1.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 1.7¢ = 5.1¢ per $1",
+        "valueMathShort" : "3x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 23
@@ -57690,24 +57689,24 @@
       "wallet" : 24
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 3%"
+          "Base grocery earn: 2%"
         ],
-        "cardId" : "ihg_premier",
-        "loggableRate" : 3,
+        "cardId" : "capital_one_capital_one_venture_x_business",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "IHG One Rewards Premier earns the most for general — 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Capital One Venture X Business earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Venture X Business and Visa Signature Flagship Rewards tie at 2% for cash. Visa Signature Flagship Rewards's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -58518,7 +58517,7 @@
       "wallet" : 24
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -58532,7 +58531,7 @@
         "loggableRate" : 4,
         "portalNote" : null,
         "rateDisplay" : "4%",
-        "reason" : "Visa Signature Flagship Rewards earns 2x points on general — at 2.0¢ each that's 4% per dollar, the most in your wallet.",
+        "reason" : "Visa Signature Flagship Rewards earns 2x points on grocery — at 2.0¢ each that's 4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -59340,24 +59339,24 @@
       "wallet" : 25
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
-        "loggableRate" : 2,
+        "cardId" : "wells_fargo_one_key_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for general — 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "One Key® Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Signify Business Cash and Venture tie at 2% for cash. Venture's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -60168,29 +60167,29 @@
       "wallet" : 25
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 2x miles",
-          "Valued at 1.7¢\/pt → 3.4% per $1"
+          "Earns 3x points",
+          "Valued at 1.5¢\/pt → 4.5% per $1"
         ],
-        "cardId" : "capitalone_venture",
-        "loggableRate" : 3.3999999999999999,
+        "cardId" : "wells_fargo_one_key_card",
+        "loggableRate" : 4.5,
         "portalNote" : null,
-        "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture earns 2x miles on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "rateDisplay" : "4.5%",
+        "reason" : "One Key® Card earns 3x points on grocery — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "2x miles · value per $1",
-        "valueMath" : "2x miles × 1.7¢ = 3.4¢ per $1",
-        "valueMathShort" : "2x pts × 1.7¢"
+        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
+        "valueMathShort" : "3x pts × 1.5¢"
       },
       "subKey" : "in_store",
       "wallet" : 25
@@ -60990,24 +60989,24 @@
       "wallet" : 26
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 3%"
         ],
         "cardId" : "amex_blue_cash_everyday",
-        "loggableRate" : 1,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1%",
-        "reason" : "American Express Blue Cash Everyday® earns the most for general — 1% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "American Express Blue Cash Everyday® earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Amex Blue Cash Everyday ties My Best Buy Visa at 1% — either works.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -61814,29 +61813,28 @@
       "wallet" : 26
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "wellsfargo_autograph",
-        "loggableRate" : 1.5,
+        "cardId" : "amex_blue_cash_everyday",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Wells Fargo Autograph earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "American Express Blue Cash Everyday® earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 26
@@ -62634,20 +62632,20 @@
       "wallet" : 27
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "capitalone_venture",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Venture earns the most for general — 2% per dollar.",
+        "reason" : "Capital One Venture earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -63462,7 +63460,7 @@
       "wallet" : 27
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -63476,7 +63474,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture earns 2x miles on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture earns 2x miles on grocery — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -64284,24 +64282,24 @@
       "wallet" : 28
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
-        "cardId" : "u_s_bank_bank_smartly_visa_signature_credit_card",
+        "cardId" : "citi_my_best_buy_visa_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bank Smartly Visa Signature Credit Card earns the most for general — 2% per dollar.",
+        "reason" : "My Best Buy Visa Card earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "My Best Buy Visa and Bank Smartly Visa Signature tie at 2% for cash. Bank Smartly Visa Signature's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -65112,7 +65110,7 @@
       "wallet" : 28
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -65126,7 +65124,7 @@
         "loggableRate" : 4,
         "portalNote" : null,
         "rateDisplay" : "4%",
-        "reason" : "Bank Smartly Visa Signature Credit Card earns 2x points on general — at 2.0¢ each that's 4% per dollar, the most in your wallet.",
+        "reason" : "Bank Smartly Visa Signature Credit Card earns 2x points on grocery — at 2.0¢ each that's 4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -65934,20 +65932,20 @@
       "wallet" : 29
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_miles_for_business",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Miles for Business earns the most for general — 2% per dollar.",
+        "reason" : "Capital One Spark Miles for Business earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -66762,7 +66760,7 @@
       "wallet" : 29
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -66776,7 +66774,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Spark Miles for Business earns 2x points on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Spark Miles for Business earns 2x points on grocery — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -67584,20 +67582,20 @@
       "wallet" : 30
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
-        "loggableRate" : 2,
+        "cardId" : "citi_citi_strata_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for general — 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Citi Strata ℠ Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -68406,29 +68404,28 @@
       "wallet" : 30
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "capitalone_ventureone",
-        "loggableRate" : 2.125,
+        "cardId" : "citi_citi_strata_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on general — at 1.7¢ each that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Citi Strata ℠ Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 30
@@ -69229,26 +69226,27 @@
       "wallet" : 31
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "3% on Grocery — your chosen category",
+          "3% back on the category you spend most in each month (2% on your second, 1% everywhere else). Venmo applies the tiers automatically from your actual spending — set the category you expect to top so RightCard recommends it there. The 2% tier isn't modeled."
         ],
-        "cardId" : "amex_cash_magnet",
-        "loggableRate" : 1.5,
+        "cardId" : "venmo_credit_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Venmo Credit Card is your choose-your-category card — you set Grocery for 3%, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
+        "valueCaption" : "your bonus category · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -70043,26 +70041,27 @@
       "wallet" : 31
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "3% on Grocery — your chosen category",
+          "3% back on the category you spend most in each month (2% on your second, 1% everywhere else). Venmo applies the tiers automatically from your actual spending — set the category you expect to top so RightCard recommends it there. The 2% tier isn't modeled."
         ],
-        "cardId" : "amex_cash_magnet",
-        "loggableRate" : 1.5,
+        "cardId" : "venmo_credit_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Venmo Credit Card is your choose-your-category card — you set Grocery for 3%, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
+        "valueCaption" : "your bonus category · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -70854,20 +70853,20 @@
       "wallet" : 32
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Fidelity Rewards Visa Signature earns the most for general — 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -71666,20 +71665,20 @@
       "wallet" : 32
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 2%"
         ],
         "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Fidelity Rewards Visa Signature earns the most for general — 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for grocery — 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -72478,20 +72477,20 @@
       "wallet" : 33
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 1.5%"
         ],
         "cardId" : "bofa_travel_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Travel Rewards earns the most for general — 1.5% per dollar.",
+        "reason" : "Bank of America Travel Rewards earns the most for grocery — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -73290,20 +73289,20 @@
       "wallet" : 33
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 1.5%"
         ],
         "cardId" : "bofa_travel_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Travel Rewards earns the most for general — 1.5% per dollar.",
+        "reason" : "Bank of America Travel Rewards earns the most for grocery — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -74101,20 +74100,20 @@
       "wallet" : 34
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 1.5%"
         ],
         "cardId" : "capitalone_quick_silver",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Capital One Quicksilver earns the most for general — 1.5% per dollar.",
+        "reason" : "Capital One Quicksilver earns the most for grocery — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -74927,7 +74926,7 @@
       "wallet" : 34
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -74941,7 +74940,7 @@
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on general — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Preferred Credit Card earns 1x points on grocery — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -75748,20 +75747,20 @@
       "wallet" : 35
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 1.5%"
         ],
         "cardId" : "navy_federal_cashrewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Navy Federal cashRewards earns the most for general — 1.5% per dollar.",
+        "reason" : "Navy Federal cashRewards earns the most for grocery — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -76558,20 +76557,20 @@
       "wallet" : 35
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 1.5%"
         ],
         "cardId" : "navy_federal_cashrewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Navy Federal cashRewards earns the most for general — 1.5% per dollar.",
+        "reason" : "Navy Federal cashRewards earns the most for grocery — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -77369,24 +77368,24 @@
       "wallet" : 36
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1.5%"
+          "Base grocery earn: 3%"
         ],
-        "cardId" : "capitalone_quick_silver",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_citi_strata_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Capital One Quicksilver earns the most for general — 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Citi Strata ℠ Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Citi Strata ℠ and More Rewards Amex tie at 3% for cash. More Rewards Amex's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -78197,29 +78196,29 @@
       "wallet" : 36
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 2.0¢\/pt → 2% per $1"
+          "Earns 3x points",
+          "Valued at 2.0¢\/pt → 6% per $1"
         ],
-        "cardId" : "amex_green",
-        "loggableRate" : 2,
+        "cardId" : "navy_federal_more_rewards_american_express",
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "American Express Green Card earns 1x points on general — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
+        "rateDisplay" : "6%",
+        "reason" : "More Rewards American Express earns 3x points on grocery — at 2.0¢ each that's 6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Amex Green ties More Rewards Amex at 2% — picked Amex Green for transfer flexibility.",
-        "valuationBasis" : "Amex Membership Rewards · 2.0¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 2.0¢ = 2.0¢ per $1",
-        "valueMathShort" : "1x pts × 2¢"
+        "tieNote" : null,
+        "valuationBasis" : "Points · 2.0¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 2.0¢ = 6.0¢ per $1",
+        "valueMathShort" : "3x pts × 2¢"
       },
       "subKey" : "in_store",
       "wallet" : 36
@@ -79022,20 +79021,20 @@
       "wallet" : 37
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 1%"
         ],
         "cardId" : "chase_freedom_flex",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Chase Freedom Flex earns the most for general — 1% per dollar.",
+        "reason" : "Chase Freedom Flex earns the most for grocery — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -79850,7 +79849,7 @@
       "wallet" : 37
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -79864,7 +79863,7 @@
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "American Express Green Card earns 1x points on general — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
+        "reason" : "American Express Green Card earns 1x points on grocery — at 2.0¢ each that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -80672,24 +80671,24 @@
       "wallet" : 38
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 2%"
+          "Base grocery earn: 6%"
         ],
-        "cardId" : "capital_one_capital_one_venture_x_business",
-        "loggableRate" : 2,
+        "cardId" : "amex_blue_cash_preferred",
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X Business earns the most for general — 2% per dollar.",
+        "rateDisplay" : "6%",
+        "reason" : "American Express Blue Cash Preferred® earns the most for grocery — 6% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Venture X Business ties Marriott Bonvoy Boundless at 2% — picked Venture X Business for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -81494,29 +81493,28 @@
       "wallet" : 38
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 2x miles",
-          "Valued at 1.7¢\/pt → 3.4% per $1"
+          "Base grocery earn: 6%"
         ],
-        "cardId" : "capital_one_capital_one_venture_x_business",
-        "loggableRate" : 3.3999999999999999,
+        "cardId" : "amex_blue_cash_preferred",
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X Business earns 2x miles on general — at 1.7¢ each that's 3.4% per dollar, the most in your wallet.",
+        "rateDisplay" : "6%",
+        "reason" : "American Express Blue Cash Preferred® earns the most for grocery — 6% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "2x miles · value per $1",
-        "valueMath" : "2x miles × 1.7¢ = 3.4¢ per $1",
-        "valueMathShort" : "2x pts × 1.7¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 38
@@ -82314,20 +82312,20 @@
       "wallet" : 39
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base general earn: 1%"
+          "Base grocery earn: 1%"
         ],
         "cardId" : "discover_discover_it_chrome",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Discover it® Chrome earns the most for general — 1% per dollar.",
+        "reason" : "Discover it® Chrome earns the most for grocery — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -83141,7 +83139,7 @@
       "wallet" : 39
     },
     {
-      "category" : "general",
+      "category" : "grocery",
       "caveat" : null,
       "directoryId" : "aldi",
       "merchant" : "Aldi",
@@ -83155,7 +83153,7 @@
         "loggableRate" : 1.3,
         "portalNote" : null,
         "rateDisplay" : "1.3%",
-        "reason" : "United Quest Card earns 1x miles on general — at 1.3¢ each that's 1.3% per dollar, the most in your wallet.",
+        "reason" : "United Quest Card earns 1x miles on grocery — at 1.3¢ each that's 1.3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -83517,8 +83515,9 @@
     },
     {
       "ids" : [
-        "bj_s_restaurant_brewhouse",
+        "bj_s_wholesale_club",
         "bj_s_pharmacy",
+        "bj_s_restaurant_brewhouse",
         "bj_s_wholesale_club_gas"
       ],
       "query" : "bj's"
