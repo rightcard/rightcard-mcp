@@ -235,7 +235,13 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     lines.push(`Valued at ${cppStr}¢/pt → ${valueStr} per $1`);
   } else {
     reason = `${card.displayName} earns the most for ${cat} — ${valueStr} per dollar.`;
-    lines.push(`Base ${cat} earn: ${valueStr}`);
+    // Mirrors the Swift engine (Sep 2026): a points/miles card in cash mode
+    // still EARNS points — never blur the earn (4x points) with its value (4%).
+    if (card.rewardCurrency !== null && card.rewardCurrency !== "cashback") {
+      lines.push(`Base ${cat} earn: ${formatMultiplier(earn)} ${earnUnitLabel(v, card)} → ${valueStr}`);
+    } else {
+      lines.push(`Base ${cat} earn: ${valueStr}`);
+    }
   }
 
   let caption = configured ? "your bonus category · value per $1" : override ? "rotating bonus · value per $1" : "value per $1";
