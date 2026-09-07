@@ -62,8 +62,14 @@ describe("acceptedNetworksAtRegister", () => {
   it("locks only physical Costco rows", () => {
     expect(acceptedNetworksAtRegister(m("Costco", "warehouse_club"))).toEqual(new Set(["visa"]));
     expect(acceptedNetworksAtRegister(m("Costco.com", "warehouse_club"))).toBeNull();
-    expect(acceptedNetworksAtRegister(m("Costco", "warehouse_club", true))).toBeNull();
+    // The online signal is the NAME (".com"/"online"), deliberately not the
+    // LLM-minted isOnline flag: costco_pharmacy sat is_online=true — a
+    // physical counter — and silently disarmed the lock (Sep 2026). Every
+    // physical department (pharmacy, gas, tire) shares the Visa-only registers.
+    expect(acceptedNetworksAtRegister(m("Costco Online Pharmacy", "pharmacy", true))).toBeNull();
+    expect(acceptedNetworksAtRegister(m("Costco Pharmacy", "pharmacy", true))).toEqual(new Set(["visa"]));
+    expect(acceptedNetworksAtRegister(m("Costco Gasoline", "gas"))).toEqual(new Set(["visa"]));
     expect(acceptedNetworksAtRegister(m("Sam's Club", "warehouse_club"))).toBeNull();
-    expect(acceptedNetworksAtRegister(m("Costco", null))).toBeNull();
+    expect(acceptedNetworksAtRegister(m("Costco", null))).toEqual(new Set(["visa"]));
   });
 });

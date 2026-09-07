@@ -173,17 +173,28 @@ export function exclusionCaveat(m: Merchant): string | null {
       return base;
     }
     default:
+      // Physical Costco DEPARTMENTS (pharmacy / gas / tire / …) share the
+      // warehouse's Visa-only registers; their own MCC stays honest (no
+      // "bonuses don't post" clause). Mirrors the Swift engine (Sep 2026).
+      if (acceptedNetworksAtRegister(m) !== null) {
+        return "Costco takes Visa only at the register — this is your best card that works in-store. Other networks work on Costco.com.";
+      }
       return null;
   }
 }
 
 /** Merchant.acceptedNetworksAtRegister — Costco's Visa-only register lock.
- *  null for everything else (no restriction). Costco.com / online rows are
- *  never gated (they take other networks). Mirrors the Swift twin exactly. */
+ *  EVERY physical Costco row (checkout, pharmacy, gas, tire) is Visa-only
+ *  for credit; null for everything else (no restriction). Costco.com /
+ *  online rows are never gated (they take other networks). Mirrors the
+ *  Swift twin exactly. */
 export function acceptedNetworksAtRegister(m: Merchant): Set<string> | null {
   const name = m.displayName.toLowerCase();
-  if (m.merchantType !== "warehouse_club" || !name.includes("costco")) return null;
-  if (m.isOnline || name.includes(".com")) return null;
+  if (!name.includes("costco")) return null;
+  // NAME is the online signal, deliberately not isOnline — the LLM-minted
+  // flag is noise on this family (costco_pharmacy sat is_online=true).
+  // Mirrors the Swift twin exactly.
+  if (name.includes(".com") || name.includes("online")) return null;
   return new Set(["visa"]);
 }
 
