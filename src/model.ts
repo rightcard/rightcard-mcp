@@ -119,7 +119,13 @@ export function overrideFromRow(r: any): Override {
   };
 }
 
-/** UTC-day canon (SupabaseDateFormat.utcCalendar): compare yyyy-MM-dd strings as UTC days. */
+/** Compare yyyy-MM-dd strings as UTC days.
+ *
+ *  The iOS app judges windows in the USER'S calendar date (Sep 13 2026: an offer
+ *  or quarter marked 9/30 is live through the end of 9/30 where the user is).
+ *  This server has no user timezone, so it keeps UTC; the two can differ only
+ *  inside the few hours around midnight on a window's first or last day. The
+ *  golden fixture is exported at noon UTC so parity is unaffected. */
 export function utcDay(now: Date): string {
   return now.toISOString().slice(0, 10);
 }
