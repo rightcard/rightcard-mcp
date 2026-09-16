@@ -148,12 +148,22 @@ export function basisLabel(v: Valuation, card: CreditCard): string {
   return `${PROGRAM_DISPLAY[effectiveProgram(v, card)]} · ${fmt1(cpp)}¢ travel value${pooled}`;
 }
 
-/** Swift String(format: "%.1f") — printf rounds EXACT binary ties to even
- *  (1.25 → "1.2"), where Math.round rounds them up ("1.3"). Surfaced Aug 29
- *  2026 when a live card hit a 1.25x earn and 27 golden cases split. */
+/** Swift String(format: "%.1f") — printf rounds the EXACT binary value, and
+ *  only an exact tie (1.25 is representable) goes to even ("1.2"). Surfaced
+ *  Aug 29 2026 when a live card hit a 1.25x earn and 27 golden cases split.
+ *  Sep 15 2026: the first mirror scaled by 10 first, and 1.5 × 1.1 =
+ *  1.6500000000000001 × 10 landed on exactly 16.5 — a FALSE tie, rounded to
+ *  "1.6" where Swift prints "1.7" (Delta Biz Platinum transit 1.5x @ 1.1¢).
+ *  toFixed(20) is the exact decimal expansion of the double, so a tie is a
+ *  tie only when the digits past the tenths are literally 5000…0. */
 export function fmt1(x: number): string {
-  const scaled = x * 10;
-  let r = Math.round(scaled);
-  if (scaled - Math.floor(scaled) === 0.5 && r % 2 !== 0) r -= 1;
-  return (r / 10).toFixed(1);
+  const exact = Math.abs(x).toFixed(20);
+  const [ip, fp] = exact.split(".");
+  if (/^[0-9]50{18}$/.test(fp)) {
+    let n = parseInt(ip, 10) * 10 + parseInt(fp[0], 10);
+    if (n % 2 !== 0) n += 1;
+    const s = (n / 10).toFixed(1);
+    return x < 0 ? "-" + s : s;
+  }
+  return x.toFixed(1);
 }
