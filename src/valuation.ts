@@ -69,6 +69,9 @@ export function inferProgram(issuer: string | null, id: string, currency: Credit
   if (has("travel rewards", "travel_rewards")) return "fixedValue";
   if (has("discover")) return "fixedValue";
   if (has("altitude")) return "fixedValue";
+  // GM Rewards (Barclays, Sep 2026): points pegged at 1¢, redeemable only toward
+  // GM — the generic 2¢ fallback read its flat 3x as "6%" (mirrors Swift).
+  if (has("gm_rewards", "gm rewards")) return "fixedValue";
   return currency === "miles" ? "genericMiles" : "genericPoints";
 }
 
