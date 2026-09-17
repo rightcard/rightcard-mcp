@@ -83707,10 +83707,7 @@
       "ids" : [
         "at_t",
         "at_t_tv",
-        "attilio_restaurant_pizzeria",
-        "batteries_plus_bulbs",
-        "bear_mattress",
-        "carta"
+        "attilio_restaurant_pizzeria"
       ],
       "query" : "att"
     },
@@ -83757,10 +83754,7 @@
       "ids" : [
         "ace",
         "ace_rent_a_car",
-        "best_buy_marketplace",
-        "caesars_palace",
-        "etsy_marketplace",
-        "facebook_marketplace"
+        "acer"
       ],
       "query" : "ace"
     },

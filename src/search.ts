@@ -74,7 +74,11 @@ export function matchScore(q: string, qc: string, rawQuery: string, candidates: 
     if (q.startsWith(n + " ")) best = Math.max(best, 75);
     const words = n.split(" ");
     if (words.slice(1).some((w) => w.startsWith(q))) best = Math.max(best, 70);
-    if (n.includes(q)) best = Math.max(best, 55);
+    // INTERIOR substring, only for a query long enough to mean something. A 2–3
+    // character query matching mid-word is noise: "LG" returned Algenist,
+    // Bulgari, Trafalgar and the glued alias "naturalgrocers.com" and no LG
+    // (user report, Sep 17 2026). Mirrors Merchant.matchScore in the app.
+    if ([...q].length >= 4 && n.includes(q)) best = Math.max(best, 55);
     if (best < 45 && merchantMatches(c.raw, rawQuery)) best = Math.max(best, 45);
     if (best < 30 && [...q].length >= 5) {
       if (withinOneEdit(n, q) || words.some((w) => [...w].length >= 5 && withinOneEdit(w, q))) best = Math.max(best, 30);
