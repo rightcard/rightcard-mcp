@@ -83608,7 +83608,8 @@
     },
     {
       "ids" : [
-        "walgreens"
+        "walgreens",
+        "duane_reade"
       ],
       "query" : "walgreens"
     },
@@ -83616,6 +83617,7 @@
       "ids" : [
         "uber",
         "uber_eats",
+        "uber_rent",
         "jump_by_uber",
         "annual_uber_one_membership",
         "auberge_collection"
@@ -83624,7 +83626,8 @@
     },
     {
       "ids" : [
-        "lyft"
+        "lyft",
+        "lyft_rentals"
       ],
       "query" : "lyft"
     },
@@ -83655,6 +83658,7 @@
     {
       "ids" : [
         "home_depot",
+        "garden_ridge",
         "at_home"
       ],
       "query" : "home depot"
@@ -83662,6 +83666,7 @@
     {
       "ids" : [
         "home_depot",
+        "garden_ridge",
         "at_home"
       ],
       "query" : "home de"
@@ -83672,8 +83677,7 @@
         "amazon_fresh",
         "amazon_music",
         "amazon_pharmacy",
-        "amazon_prime_video",
-        "pillpack"
+        "amazon_prime_video"
       ],
       "query" : "amazon"
     },
@@ -83834,11 +83838,11 @@
     {
       "ids" : [
         "cost_plus_drugs",
+        "cost_plus_world_market",
         "costco",
         "costco_gas",
         "costco_gasoline",
-        "costco_online_fuel",
-        "costco_online_pharmacy"
+        "costco_online_fuel"
       ],
       "query" : "cost"
     },
