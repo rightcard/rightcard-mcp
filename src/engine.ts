@@ -92,19 +92,19 @@ function tieNote(winner: CreditCard, runnerUp: CreditCard, value: number, v: Val
   if (wRank > rRank) {
     const winProgram = effectiveProgram(v, winner);
     if (v.mode === "cash" && winProgram !== "cash" && cashOutCPP(winProgram) >= 1.0) {
-      return `${win} ties ${other} at ${rate} — picked ${win}: its points cash out the same, and can be worth more if you ever redeem for travel.`;
+      return `${other} also earns ${rate} here. We picked ${win} because its points cash out the same and can be worth more for travel.`;
     }
     const smart: Valuation = { mode: "smart", pooledPrograms: v.pooledPrograms };
     if (v.mode === "cash" && centsPerPoint(smart, runnerUp) > 1.0) {
-      return `${win} and ${other} tie at ${rate} for cash. ${other}'s points can be worth more if you redeem for travel — switch to Points & miles to compare.`;
+      return `${other} also earns ${rate} here. Its points can be worth more for travel, so try Points & miles.`;
     }
     const why = v.mode === "smart" ? "transfer flexibility" : "guaranteed cash back";
-    return `${win} ties ${other} at ${rate} — picked ${win} for ${why}.`;
+    return `${other} also earns ${rate} here. We picked ${win} for ${why}.`;
   }
   if (premiumRank(winner) > premiumRank(runnerUp)) {
-    return `${win} ties ${other} at ${rate} — picked ${win}: the premium card's purchase protections come free at the same rate.`;
+    return `${other} also earns ${rate} here. We picked ${win} for its purchase protection.`;
   }
-  return `${win} ties ${other} at ${rate} — either works.`;
+  return `${other} also earns ${rate} here. Either one works.`;
 }
 
 interface PortalBonus { needles: string[]; rate: number; portal: string; premium: boolean }

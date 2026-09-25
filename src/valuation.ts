@@ -22,10 +22,12 @@ export const PROGRAM_DISPLAY: Record<RewardProgram, string> = {
 };
 
 export const TRAVEL_CPP: Record<RewardProgram, number> = {
-  cash: 1.0, amexMR: 2.0, chaseUR: 2.0, capOneMiles: 1.7, citiTYP: 1.7, wellsFargo: 1.5, bilt: 2.0,
+  // Sep 2026: median of TPG / Frequent Miler / Upgraded Points / OMAAT, rounded
+  // down, never above (mirrors Swift RewardProgram.travelCPP).
+  cash: 1.0, amexMR: 2.0, chaseUR: 2.0, capOneMiles: 1.7, citiTYP: 1.6, wellsFargo: 1.5, bilt: 2.0,
   tdRewards: 0.5, scenePlus: 1.0, rbcAvion: 1.5, bmoRewards: 0.7,
-  hyatt: 1.7, marriott: 0.7, ihg: 0.6, choice: 0.6, hilton: 0.5,
-  delta: 1.1, united: 1.3, american: 1.4, southwest: 1.3, jetBlue: 1.3, alaska: 1.4, avios: 1.3, aeroplan: 1.3,
+  hyatt: 1.4, marriott: 0.7, ihg: 0.5, choice: 0.6, hilton: 0.4,
+  delta: 1.1, united: 1.2, american: 1.4, southwest: 1.2, jetBlue: 1.3, alaska: 1.4, avios: 1.2, aeroplan: 1.3,
   fixedValue: 1.0, genericPoints: 2.0, genericMiles: 1.5,
 };
 
