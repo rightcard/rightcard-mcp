@@ -4653,7 +4653,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -4677,7 +4677,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -4701,7 +4701,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -4725,7 +4725,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -4749,7 +4749,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -4788,21 +4788,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "wallet" : 10
     },
@@ -4813,21 +4813,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 10x points",
-          "Valued at 1.5¢\/pt → 15% per $1"
+          "Valued at 0.6¢\/pt → 6% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 15,
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "15%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 10x points on travel — at 1.5¢ each that's 15% per dollar, the most in your wallet.",
+        "rateDisplay" : "6%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 10x points on travel — at 0.6¢ each that's 6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "10x points · value per $1",
-        "valueMath" : "10x points × 1.5¢ = 15.0¢ per $1",
-        "valueMathShort" : "10x pts × 1.5¢"
+        "valueMath" : "10x points × 0.6¢ = 6.0¢ per $1",
+        "valueMathShort" : "10x pts × 0.6¢"
       },
       "wallet" : 10
     },
@@ -4838,21 +4838,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on gas — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on gas — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "tieNote" : "Choice Hotels Privileges Select ties My Best Buy Visa at 3% — picked Choice Hotels Privileges Select for transfer flexibility.",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "wallet" : 10
     },
@@ -4862,22 +4862,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base online earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on online — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for online — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 10
     },
@@ -4887,22 +4886,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base drugstores earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on drugstores — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for drugstores — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 10
     },
@@ -4912,22 +4910,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base transit earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on transit — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for transit — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 10
     },
@@ -4937,22 +4934,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base streaming earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on streaming — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for streaming — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 10
     },
@@ -4962,22 +4958,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 10
     },
@@ -7675,17 +7670,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Base grocery earn: 3x miles → 3%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "chase_aeroplan",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Choice® Privileges Card earns the most for grocery — 3% per dollar.",
+        "reason" : "Aeroplan Credit Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges and Aeroplan tie at 3% for cash. Aeroplan's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "Aeroplan ties Choice Privileges at 3% — either works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -7892,22 +7887,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Earns 3x miles",
+          "Valued at 1.3¢\/pt → 3.9% per $1"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "chase_aeroplan",
+        "loggableRate" : 3.9000000000000004,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on grocery — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3.9%",
+        "reason" : "Aeroplan Credit Card earns 3x miles on grocery — at 1.3¢ each that's 3.9% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Air Canada Aeroplan · 1.3¢ travel value",
+        "valueCaption" : "3x miles · value per $1",
+        "valueMath" : "3x miles × 1.3¢ = 3.9¢ per $1",
+        "valueMathShort" : "3x pts × 1.3¢"
       },
       "wallet" : 17
     },
@@ -7917,22 +7912,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Base travel earn: 4x points → 4%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 7.5,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Privileges Card earns 5x points on travel — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "4%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for travel — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 17
     },
@@ -7942,22 +7936,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Base gas earn: 4x points → 4%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on gas — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "4%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for gas — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 17
     },
@@ -7967,22 +7960,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base online earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on online — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for online — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 17
     },
@@ -7992,22 +7984,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base drugstores earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on drugstores — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for drugstores — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 17
     },
@@ -8017,22 +8008,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base transit earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on transit — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for transit — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 17
     },
@@ -8066,22 +8056,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 17
     },
@@ -34288,7 +34277,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34315,7 +34304,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34342,7 +34331,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34369,7 +34358,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34450,7 +34439,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34477,7 +34466,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34504,7 +34493,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34531,7 +34520,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34558,7 +34547,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34585,7 +34574,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34612,7 +34601,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34693,7 +34682,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34828,7 +34817,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34909,7 +34898,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -34990,7 +34979,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -35017,7 +35006,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -35044,7 +35033,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -35071,7 +35060,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "My Best Buy Visa and Choice Hotels Privileges Select tie at 1% for cash. Choice Hotels Privileges Select's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "My Best Buy Visa ties Choice Hotels Privileges Select at 1% — picked My Best Buy Visa for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -35088,22 +35077,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 10
@@ -35116,22 +35104,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 10
@@ -35144,22 +35131,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 10
@@ -35172,22 +35158,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35201,21 +35186,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : "in_store",
       "wallet" : 10
@@ -35229,21 +35214,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : null,
       "wallet" : 10
@@ -35256,22 +35241,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base streaming earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on streaming — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for streaming — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35284,22 +35268,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base transit earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on transit — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for transit — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35312,22 +35295,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base transit earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on transit — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for transit — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35340,22 +35322,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base streaming earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on streaming — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for streaming — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35368,22 +35349,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base drugstores earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on drugstores — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for drugstores — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35396,22 +35376,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base drugstores earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on drugstores — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for drugstores — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35424,22 +35403,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35480,21 +35458,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on gas — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on gas — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "tieNote" : "Choice Hotels Privileges Select ties My Best Buy Visa at 3% — picked Choice Hotels Privileges Select for transfer flexibility.",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : null,
       "wallet" : 10
@@ -35507,22 +35485,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base streaming earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on streaming — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for streaming — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35536,21 +35513,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 10x points",
-          "Valued at 1.5¢\/pt → 15% per $1"
+          "Valued at 0.6¢\/pt → 6% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 15,
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "15%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 10x points on travel — at 1.5¢ each that's 15% per dollar, the most in your wallet.",
+        "rateDisplay" : "6%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 10x points on travel — at 0.6¢ each that's 6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "10x points · value per $1",
-        "valueMath" : "10x points × 1.5¢ = 15.0¢ per $1",
-        "valueMathShort" : "10x pts × 1.5¢"
+        "valueMath" : "10x points × 0.6¢ = 6.0¢ per $1",
+        "valueMathShort" : "10x pts × 0.6¢"
       },
       "subKey" : "hotel",
       "wallet" : 10
@@ -35564,21 +35541,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : "in_store",
       "wallet" : 10
@@ -35592,21 +35569,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : "in_store",
       "wallet" : 10
@@ -35620,21 +35597,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on grocery — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : "in_store",
       "wallet" : 10
@@ -35647,22 +35624,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 10
@@ -35676,21 +35652,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 10x points",
-          "Valued at 1.5¢\/pt → 15% per $1"
+          "Valued at 0.6¢\/pt → 6% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 15,
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "15%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 10x points on travel — at 1.5¢ each that's 15% per dollar, the most in your wallet.",
+        "rateDisplay" : "6%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 10x points on travel — at 0.6¢ each that's 6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "10x points · value per $1",
-        "valueMath" : "10x points × 1.5¢ = 15.0¢ per $1",
-        "valueMathShort" : "10x pts × 1.5¢"
+        "valueMath" : "10x points × 0.6¢ = 6.0¢ per $1",
+        "valueMathShort" : "10x pts × 0.6¢"
       },
       "subKey" : "flight",
       "wallet" : 10
@@ -35704,21 +35680,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 10x points",
-          "Valued at 1.5¢\/pt → 15% per $1"
+          "Valued at 0.6¢\/pt → 6% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 15,
+        "loggableRate" : 6,
         "portalNote" : null,
-        "rateDisplay" : "15%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 10x points on travel — at 1.5¢ each that's 15% per dollar, the most in your wallet.",
+        "rateDisplay" : "6%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 10x points on travel — at 0.6¢ each that's 6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "10x points · value per $1",
-        "valueMath" : "10x points × 1.5¢ = 15.0¢ per $1",
-        "valueMathShort" : "10x pts × 1.5¢"
+        "valueMath" : "10x points × 0.6¢ = 6.0¢ per $1",
+        "valueMathShort" : "10x pts × 0.6¢"
       },
       "subKey" : "hotel",
       "wallet" : 10
@@ -35731,22 +35707,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35787,21 +35762,21 @@
       "result" : {
         "breakdownLines" : [
           "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 7.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on gas — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice® Hotels Privileges Select Card earns 5x points on gas — at 0.6¢ each that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
+        "tieNote" : "Choice Hotels Privileges Select ties My Best Buy Visa at 3% — picked Choice Hotels Privileges Select for transfer flexibility.",
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
         "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : null,
       "wallet" : 10
@@ -35814,22 +35789,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35842,22 +35816,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base online earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on online — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for online — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35870,22 +35843,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for general — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -35898,22 +35870,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base streaming earn: 1x points → 1%"
         ],
-        "cardId" : "wells_fargo_choice_hotels_privileges_select_card",
-        "loggableRate" : 1.5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Choice® Hotels Privileges Select Card earns 1x points on streaming — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1%",
+        "reason" : "My Best Buy Visa Card earns the most for streaming — 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 10
@@ -45871,17 +45842,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Base grocery earn: 3x miles → 3%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "chase_aeroplan",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Choice® Privileges Card earns the most for grocery — 3% per dollar.",
+        "reason" : "Aeroplan Credit Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges and Aeroplan tie at 3% for cash. Aeroplan's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "Aeroplan ties Choice Privileges at 3% — either works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -45898,17 +45869,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Base grocery earn: 3x miles → 3%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "chase_aeroplan",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Choice® Privileges Card earns the most for grocery — 3% per dollar.",
+        "reason" : "Aeroplan Credit Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges and Aeroplan tie at 3% for cash. Aeroplan's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "Aeroplan ties Choice Privileges at 3% — either works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -46222,17 +46193,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Base grocery earn: 3x miles → 3%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "chase_aeroplan",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Choice® Privileges Card earns the most for grocery — 3% per dollar.",
+        "reason" : "Aeroplan Credit Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges and Aeroplan tie at 3% for cash. Aeroplan's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "Aeroplan ties Choice Privileges at 3% — either works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -46249,17 +46220,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Base grocery earn: 3x miles → 3%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "chase_aeroplan",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Choice® Privileges Card earns the most for grocery — 3% per dollar.",
+        "reason" : "Aeroplan Credit Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges and Aeroplan tie at 3% for cash. Aeroplan's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "Aeroplan ties Choice Privileges at 3% — either works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -46276,17 +46247,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Base grocery earn: 3x miles → 3%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "chase_aeroplan",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Choice® Privileges Card earns the most for grocery — 3% per dollar.",
+        "reason" : "Aeroplan Credit Card earns the most for grocery — 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges and Aeroplan tie at 3% for cash. Aeroplan's points can be worth more if you redeem for travel — switch to Points & miles to compare.",
+        "tieNote" : "Aeroplan ties Choice Privileges at 3% — either works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -46573,22 +46544,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 17
@@ -46601,22 +46571,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 17
@@ -46629,22 +46598,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 17
@@ -46657,22 +46625,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -46685,22 +46652,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Earns 3x miles",
+          "Valued at 1.3¢\/pt → 3.9% per $1"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "chase_aeroplan",
+        "loggableRate" : 3.9000000000000004,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on grocery — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3.9%",
+        "reason" : "Aeroplan Credit Card earns 3x miles on grocery — at 1.3¢ each that's 3.9% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Air Canada Aeroplan · 1.3¢ travel value",
+        "valueCaption" : "3x miles · value per $1",
+        "valueMath" : "3x miles × 1.3¢ = 3.9¢ per $1",
+        "valueMathShort" : "3x pts × 1.3¢"
       },
       "subKey" : "in_store",
       "wallet" : 17
@@ -46713,22 +46680,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Earns 3x miles",
+          "Valued at 1.3¢\/pt → 3.9% per $1"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "chase_aeroplan",
+        "loggableRate" : 3.9000000000000004,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on grocery — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3.9%",
+        "reason" : "Aeroplan Credit Card earns 3x miles on grocery — at 1.3¢ each that's 3.9% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Air Canada Aeroplan · 1.3¢ travel value",
+        "valueCaption" : "3x miles · value per $1",
+        "valueMath" : "3x miles × 1.3¢ = 3.9¢ per $1",
+        "valueMathShort" : "3x pts × 1.3¢"
       },
       "subKey" : null,
       "wallet" : 17
@@ -46768,22 +46735,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base transit earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on transit — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for transit — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -46796,22 +46762,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base transit earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on transit — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for transit — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -46851,22 +46816,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base drugstores earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on drugstores — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for drugstores — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -46879,22 +46843,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base drugstores earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on drugstores — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for drugstores — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -46907,22 +46870,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -46963,22 +46925,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Base gas earn: 4x points → 4%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on gas — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "4%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for gas — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -47018,22 +46979,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Base travel earn: 4x points → 4%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 7.5,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Privileges Card earns 5x points on travel — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "4%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for travel — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "hotel",
       "wallet" : 17
@@ -47046,22 +47006,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Earns 3x miles",
+          "Valued at 1.3¢\/pt → 3.9% per $1"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "chase_aeroplan",
+        "loggableRate" : 3.9000000000000004,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on grocery — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3.9%",
+        "reason" : "Aeroplan Credit Card earns 3x miles on grocery — at 1.3¢ each that's 3.9% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Air Canada Aeroplan · 1.3¢ travel value",
+        "valueCaption" : "3x miles · value per $1",
+        "valueMath" : "3x miles × 1.3¢ = 3.9¢ per $1",
+        "valueMathShort" : "3x pts × 1.3¢"
       },
       "subKey" : "in_store",
       "wallet" : 17
@@ -47074,22 +47034,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Earns 3x miles",
+          "Valued at 1.3¢\/pt → 3.9% per $1"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "chase_aeroplan",
+        "loggableRate" : 3.9000000000000004,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on grocery — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3.9%",
+        "reason" : "Aeroplan Credit Card earns 3x miles on grocery — at 1.3¢ each that's 3.9% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Air Canada Aeroplan · 1.3¢ travel value",
+        "valueCaption" : "3x miles · value per $1",
+        "valueMath" : "3x miles × 1.3¢ = 3.9¢ per $1",
+        "valueMathShort" : "3x pts × 1.3¢"
       },
       "subKey" : "in_store",
       "wallet" : 17
@@ -47102,22 +47062,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Earns 3x miles",
+          "Valued at 1.3¢\/pt → 3.9% per $1"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "chase_aeroplan",
+        "loggableRate" : 3.9000000000000004,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on grocery — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "3.9%",
+        "reason" : "Aeroplan Credit Card earns 3x miles on grocery — at 1.3¢ each that's 3.9% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Air Canada Aeroplan · 1.3¢ travel value",
+        "valueCaption" : "3x miles · value per $1",
+        "valueMath" : "3x miles × 1.3¢ = 3.9¢ per $1",
+        "valueMathShort" : "3x pts × 1.3¢"
       },
       "subKey" : "in_store",
       "wallet" : 17
@@ -47130,22 +47090,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "in_store",
       "wallet" : 17
@@ -47158,22 +47117,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Base travel earn: 4x points → 4%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 7.5,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Privileges Card earns 5x points on travel — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "4%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for travel — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "flight",
       "wallet" : 17
@@ -47186,22 +47144,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 5x points",
-          "Valued at 1.5¢\/pt → 7.5% per $1"
+          "Base travel earn: 4x points → 4%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 7.5,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "7.5%",
-        "reason" : "Choice® Privileges Card earns 5x points on travel — at 1.5¢ each that's 7.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "4%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for travel — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "5x points · value per $1",
-        "valueMath" : "5x points × 1.5¢ = 7.5¢ per $1",
-        "valueMathShort" : "5x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : "hotel",
       "wallet" : 17
@@ -47214,22 +47171,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -47270,22 +47226,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 1.5¢\/pt → 4.5% per $1"
+          "Base gas earn: 4x points → 4%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
-        "loggableRate" : 4.5,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 4,
         "portalNote" : null,
-        "rateDisplay" : "4.5%",
-        "reason" : "Choice® Privileges Card earns 3x points on gas — at 1.5¢ each that's 4.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "4%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for gas — 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 1.5¢ = 4.5¢ per $1",
-        "valueMathShort" : "3x pts × 1.5¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -47298,22 +47253,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -47326,22 +47280,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base online earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on online — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for online — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17
@@ -47354,22 +47307,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Base general earn: 1.5%"
         ],
-        "cardId" : "wells_fargo_choice_privileges_card",
+        "cardId" : "amex_cash_magnet",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Choice® Privileges Card earns 1x points on general — at 1.5¢ each that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "American Express Cash Magnet Card earns the most for general — 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Choice Privileges ties Amex Cash Magnet at 1.5% — picked Choice Privileges for transfer flexibility.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 17

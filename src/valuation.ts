@@ -6,7 +6,7 @@ export type ValuationMode = "cash" | "smart";
 export type RewardProgram =
   | "cash" | "amexMR" | "chaseUR" | "capOneMiles" | "citiTYP" | "wellsFargo" | "bilt"
   | "tdRewards" | "scenePlus" | "rbcAvion" | "bmoRewards"
-  | "hyatt" | "marriott" | "ihg" | "hilton"
+  | "hyatt" | "marriott" | "ihg" | "choice" | "hilton"
   | "delta" | "united" | "american" | "southwest" | "jetBlue" | "alaska" | "avios" | "aeroplan"
   | "fixedValue" | "genericPoints" | "genericMiles";
 
@@ -14,7 +14,7 @@ export const PROGRAM_DISPLAY: Record<RewardProgram, string> = {
   cash: "Cash back", amexMR: "Amex Membership Rewards", chaseUR: "Chase Ultimate Rewards",
   capOneMiles: "Capital One miles", citiTYP: "Citi ThankYou Points", wellsFargo: "Wells Fargo Rewards",
   bilt: "Bilt Rewards", tdRewards: "TD Rewards", scenePlus: "Scene+", rbcAvion: "RBC Avion points",
-  bmoRewards: "BMO Rewards", hyatt: "World of Hyatt", marriott: "Marriott Bonvoy", ihg: "IHG One Rewards",
+  bmoRewards: "BMO Rewards", hyatt: "World of Hyatt", marriott: "Marriott Bonvoy", ihg: "IHG One Rewards", choice: "Choice Privileges",
   hilton: "Hilton Honors", delta: "Delta SkyMiles", united: "United MileagePlus",
   american: "American AAdvantage", southwest: "Southwest Rapid Rewards", jetBlue: "JetBlue TrueBlue",
   alaska: "Alaska Mileage Plan", avios: "British Airways Avios", aeroplan: "Air Canada Aeroplan",
@@ -24,7 +24,7 @@ export const PROGRAM_DISPLAY: Record<RewardProgram, string> = {
 export const TRAVEL_CPP: Record<RewardProgram, number> = {
   cash: 1.0, amexMR: 2.0, chaseUR: 2.0, capOneMiles: 1.7, citiTYP: 1.7, wellsFargo: 1.5, bilt: 2.0,
   tdRewards: 0.5, scenePlus: 1.0, rbcAvion: 1.5, bmoRewards: 0.7,
-  hyatt: 1.7, marriott: 0.7, ihg: 0.6, hilton: 0.5,
+  hyatt: 1.7, marriott: 0.7, ihg: 0.6, choice: 0.6, hilton: 0.5,
   delta: 1.1, united: 1.3, american: 1.4, southwest: 1.3, jetBlue: 1.3, alaska: 1.4, avios: 1.3, aeroplan: 1.3,
   fixedValue: 1.0, genericPoints: 2.0, genericMiles: 1.5,
 };
@@ -47,6 +47,9 @@ export function inferProgram(issuer: string | null, id: string, currency: Credit
   if (has("marriott", "bonvoy")) return "marriott";
   if (has("hyatt")) return "hyatt";
   if (has("ihg")) return "ihg";
+  // Choice Privileges (Wells Fargo-issued) must precede the "wells" needle,
+  // which valued these hotel points at 1.5¢ (mirrors Swift, Sep 24 2026).
+  if (has("choice")) return "choice";
   if (has("delta", "skymiles")) return "delta";
   if (has("united", "mileageplus")) return "united";
   if (has("aadvantage", "american airlines")) return "american";
