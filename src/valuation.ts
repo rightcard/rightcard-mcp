@@ -57,7 +57,7 @@ export function inferProgram(issuer: string | null, id: string, currency: Credit
   if (has("aadvantage", "american airlines")) return "american";
   if (has("southwest", "rapid rewards")) return "southwest";
   if (has("jetblue", "trueblue")) return "jetBlue";
-  if (has("alaska")) return "alaska";
+  if (has("alaska", "atmos")) return "alaska";   // Atmos Ascent's id has no "alaska" (mirrors Swift)
   if (has("aeroplan", "air canada")) return "aeroplan";
   if (has("british airways", "avios")) return "avios";
   if (has("bilt")) return "bilt";
@@ -77,6 +77,9 @@ export function inferProgram(issuer: string | null, id: string, currency: Credit
   // GM Rewards (Barclays, Sep 2026): points pegged at 1¢, redeemable only toward
   // GM — the generic 2¢ fallback read its flat 3x as "6%" (mirrors Swift).
   if (has("gm_rewards", "gm rewards")) return "fixedValue";
+  // Bank of America Premium Rewards + PenFed points: a set ~1¢, no transfer
+  // partners (mirrors RewardValuation.infer, Sep 26 2026).
+  if (has("bank of america", "bank_of_america", "penfed") || s.startsWith("bofa")) return "fixedValue";
   return currency === "miles" ? "genericMiles" : "genericPoints";
 }
 
