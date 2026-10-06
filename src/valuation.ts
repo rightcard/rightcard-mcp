@@ -65,6 +65,9 @@ export function inferProgram(issuer: string | null, id: string, currency: Credit
   if (s.startsWith("td_") || s.endsWith(" td")) return "tdRewards";
   if (has("rbc")) return "rbcAvion";
   if (has("bmo")) return "bmoRewards";
+  // Navy Federal points: ~1¢, no transfer partners. Before the Amex needle:
+  // "More Rewards American Express" is a Navy Federal card (mirrors Swift, Oct 5 2026).
+  if (has("navy")) return "fixedValue";
   if (has("amex", "american express", "membership")) return "amexMR";
   if (has("chase", "sapphire", "freedom", "ink")) return "chaseUR";
   if (has("capital one", "capital_one", "venture")) return "capOneMiles";

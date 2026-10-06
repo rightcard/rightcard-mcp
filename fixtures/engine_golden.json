@@ -83555,7 +83555,8 @@
     },
     {
       "ids" : [
-        "walgreens"
+        "walgreens",
+        "duane_reade"
       ],
       "query" : "walgreens"
     },
@@ -83623,7 +83624,8 @@
         "amazon_fresh",
         "amazon_music",
         "amazon_pharmacy",
-        "amazon_prime_video"
+        "amazon_prime_video",
+        "pillpack"
       ],
       "query" : "amazon"
     },
@@ -83784,11 +83786,11 @@
     {
       "ids" : [
         "cost_plus_drugs",
-        "cost_plus_world_market",
         "costco",
         "costco_gas",
         "costco_gasoline",
-        "costco_online_fuel"
+        "costco_online_fuel",
+        "costco_online_pharmacy"
       ],
       "query" : "cost"
     },
