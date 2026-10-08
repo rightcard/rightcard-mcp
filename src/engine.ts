@@ -200,22 +200,22 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
 
   if (configured) {
     const bonusStr = formatPercent(configured.bonusRate);
-    reason = `${card.displayName} is your choose-your-category card — you set ${disp} for ${bonusStr}, the most in your wallet here.`;
+    reason = `${card.displayName} is your choose-your-category card. You set ${disp} for ${bonusStr}, the most in your wallet here.`;
     if (chosenCategoryCount > configured.slots) {
-      reason += ` You hold more than one — use the copy you set for ${disp}.`;
-      lines.push(`${bonusStr} on ${disp} — your chosen category (the ${disp} copy)`);
+      reason += ` You hold more than one. Use the copy you set for ${disp}.`;
+      lines.push(`${bonusStr} on ${disp} · your chosen category (the ${disp} copy)`);
     } else {
-      lines.push(`${bonusStr} on ${disp} — your chosen category`);
+      lines.push(`${bonusStr} on ${disp} · your chosen category`);
     }
     lines.push(configured.note);
   } else if (override) {
     const scope = override.merchant ? `at ${override.merchant}` : cat;
     if (isPermanentMerchantBenefit(override, now)) {
-      reason = `${card.displayName} earns ${valueStr} ${scope} — the most in your wallet here.`;
-      lines.push(`${valueStr} ${scope} — card benefit`);
+      reason = `${card.displayName} earns ${valueStr} ${scope}, the most in your wallet here.`;
+      lines.push(`${valueStr} ${scope} · card benefit`);
     } else {
       const what = override.label ?? `${formatPercent(override.bonusRate)} rotating ${scope} bonus`;
-      reason = `${card.displayName} has a rotating bonus ${scope} active right now — ${valueStr} this quarter, the most in your wallet.`;
+      reason = `${card.displayName} has a rotating bonus ${scope} active right now: ${valueStr} this quarter, the most in your wallet.`;
       lines.push(`Rotating bonus: ${what}`);
     }
     if (pointsAbove) {
@@ -230,11 +230,11 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     const earnStr = formatMultiplier(earn);
     const unit = earnUnitLabel(v, card);
     const cppStr = fmt1(centsPerPoint(v, card));
-    reason = `${card.displayName} earns ${earnStr} ${unit} on ${cat} — at ${cppStr}¢ each that's ${valueStr} per dollar, the most in your wallet.`;
+    reason = `${card.displayName} earns ${earnStr} ${unit} on ${cat}. At ${cppStr}¢ each, that's ${valueStr} per dollar, the most in your wallet.`;
     lines.push(`Earns ${earnStr} ${unit}`);
     lines.push(`Valued at ${cppStr}¢/pt → ${valueStr} per $1`);
   } else {
-    reason = `${card.displayName} earns the most for ${cat} — ${valueStr} per dollar.`;
+    reason = `${card.displayName} earns the most for ${cat}: ${valueStr} per dollar.`;
     // Mirrors the Swift engine (Sep 2026): a points/miles card in cash mode
     // still EARNS points — never blur the earn (4x points) with its value (4%).
     if (card.rewardCurrency !== null && card.rewardCurrency !== "cashback") {
