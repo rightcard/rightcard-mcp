@@ -18432,7 +18432,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -18565,20 +18565,20 @@
       "wallet" : 0
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1%"
+          "Base rate: 1%"
         ],
         "cardId" : "amex_blue_cash_preferred",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "American Express Blue Cash Preferred® earns the most for online: 1% per dollar.",
+        "reason" : "American Express Blue Cash Preferred® earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -19258,7 +19258,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -19395,7 +19395,7 @@
       "wallet" : 0
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -19409,7 +19409,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express® Gold Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express® Gold Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -20077,7 +20077,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -20212,20 +20212,20 @@
       "wallet" : 1
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -20914,7 +20914,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -21054,7 +21054,7 @@
       "wallet" : 1
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -21068,7 +21068,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Chase Freedom Unlimited earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Chase Freedom Unlimited earns 1.5x points on everyday purchases. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -21739,7 +21739,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -21873,20 +21873,20 @@
       "wallet" : 2
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -22555,7 +22555,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -22689,20 +22689,20 @@
       "wallet" : 2
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -23369,7 +23369,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -23504,20 +23504,20 @@
       "wallet" : 3
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -24191,7 +24191,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -24327,20 +24327,20 @@
       "wallet" : 3
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -25005,7 +25005,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -25139,20 +25139,20 @@
       "wallet" : 4
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -25836,7 +25836,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -25974,7 +25974,7 @@
       "wallet" : 4
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -25988,7 +25988,7 @@
         "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "1.6%",
-        "reason" : "Citi Premier Card earns 1x points on online. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
+        "reason" : "Citi Premier Card earns 1x points on everyday purchases. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -26655,7 +26655,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -26789,20 +26789,20 @@
       "wallet" : 5
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1x points → 1%"
+          "Base rate: 1x points → 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for online: 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -27467,7 +27467,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -27601,20 +27601,20 @@
       "wallet" : 5
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1x points → 1%"
+          "Base rate: 1x points → 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for online: 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -28278,7 +28278,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -28411,20 +28411,20 @@
       "wallet" : 6
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2x miles → 2%"
+          "Base rate: 2x miles → 2%"
         ],
         "cardId" : "capitalone_venture_x",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X earns the most for online: 2% per dollar.",
+        "reason" : "Capital One Venture X earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29107,7 +29107,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -29245,7 +29245,7 @@
       "wallet" : 6
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -29259,7 +29259,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X earns 2x miles on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture X earns 2x miles on everyday purchases. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29925,7 +29925,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -30058,20 +30058,20 @@
       "wallet" : 7
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3x points → 3%"
+          "Base rate: 3x points → 3%"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for online: 3% per dollar.",
+        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -30757,7 +30757,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -30895,7 +30895,7 @@
       "wallet" : 7
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -30909,7 +30909,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Chase Sapphire Preferred earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Chase Sapphire Preferred earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -31580,7 +31580,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -31714,27 +31714,26 @@
       "wallet" : 8
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "3% on Online · your chosen category",
-          "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after)."
+          "Base rate: 1.5x points → 1.5%"
         ],
-        "cardId" : "bofa_customized_cash",
-        "loggableRate" : 3,
+        "cardId" : "bofa_premium_rewards",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Bank of America Customized Cash is your choose-your-category card. You set Online for 3%, the most in your wallet here.",
+        "rateDisplay" : "1.5%",
+        "reason" : "Bank of America Premium Rewards earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "your bonus category · value per $1",
+        "valueCaption" : "value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -32397,7 +32396,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -32531,27 +32530,26 @@
       "wallet" : 8
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "3% on Online · your chosen category",
-          "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after)."
+          "Base rate: 1.5x points → 1.5%"
         ],
-        "cardId" : "bofa_customized_cash",
-        "loggableRate" : 3,
+        "cardId" : "bofa_premium_rewards",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Bank of America Customized Cash is your choose-your-category card. You set Online for 3%, the most in your wallet here.",
+        "rateDisplay" : "1.5%",
+        "reason" : "Bank of America Premium Rewards earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "your bonus category · value per $1",
+        "valueCaption" : "value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -33209,7 +33207,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -33342,20 +33340,20 @@
       "wallet" : 9
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1%"
+          "Base rate: 1%"
         ],
         "cardId" : "apple_card",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Apple Card earns the most for online: 1% per dollar.",
+        "reason" : "Apple Card earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -34034,7 +34032,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -34172,7 +34170,7 @@
       "wallet" : 9
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -34186,7 +34184,7 @@
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Wells Fargo Autograph earns 1x points on online. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "Wells Fargo Autograph earns 1x points on everyday purchases. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -34852,7 +34850,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -34985,20 +34983,20 @@
       "wallet" : 10
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "u_s_bank_shopper_cash_rewards_visa_signature_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for online: 1.5% per dollar.",
+        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -35662,7 +35660,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -35795,20 +35793,20 @@
       "wallet" : 10
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "u_s_bank_shopper_cash_rewards_visa_signature_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for online: 1.5% per dollar.",
+        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -36472,7 +36470,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -36605,20 +36603,20 @@
       "wallet" : 11
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1%"
+          "Base rate: 1%"
         ],
         "cardId" : "apple_card",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Apple Card earns the most for online: 1% per dollar.",
+        "reason" : "Apple Card earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -37284,7 +37282,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -37418,20 +37416,20 @@
       "wallet" : 11
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1%"
+          "Base rate: 1%"
         ],
         "cardId" : "apple_card",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Apple Card earns the most for online: 1% per dollar.",
+        "reason" : "Apple Card earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -38095,7 +38093,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -38228,20 +38226,20 @@
       "wallet" : 12
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1x points → 1%"
+          "Base rate: 1x points → 1%"
         ],
         "cardId" : "chase_ink_business_preferred_credit_card",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Ink Business Preferred Credit Card earns the most for online: 1% per dollar.",
+        "reason" : "Ink Business Preferred Credit Card earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -38920,7 +38918,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -39056,7 +39054,7 @@
       "wallet" : 12
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -39070,7 +39068,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Preferred Credit Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -39736,7 +39734,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -39869,20 +39867,20 @@
       "wallet" : 13
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2x miles → 2%"
+          "Base rate: 2x miles → 2%"
         ],
         "cardId" : "barclays_arrival_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Arrival Plus World Elite Mastercard earns the most for online: 2% per dollar.",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -40560,7 +40558,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -40696,20 +40694,20 @@
       "wallet" : 13
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2x miles → 2%"
+          "Base rate: 2x miles → 2%"
         ],
         "cardId" : "barclays_arrival_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Arrival Plus World Elite Mastercard earns the most for online: 2% per dollar.",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -41374,7 +41372,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -41507,20 +41505,20 @@
       "wallet" : 14
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1%"
+          "Base rate: 1%"
         ],
         "cardId" : "amazon_prime_visa",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Amazon Prime Visa earns the most for online: 1% per dollar.",
+        "reason" : "Amazon Prime Visa earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -42201,7 +42199,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -42339,7 +42337,7 @@
       "wallet" : 14
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -42353,7 +42351,7 @@
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "One Key® Card earns 1x points on online. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "One Key® Card earns 1x points on everyday purchases. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -43019,7 +43017,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -43152,20 +43150,20 @@
       "wallet" : 15
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3x points → 3%"
+          "Base rate: 3x points → 3%"
         ],
         "cardId" : "amex_hilton_aspire",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for online: 3% per dollar.",
+        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -43851,7 +43849,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -43989,7 +43987,7 @@
       "wallet" : 15
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -44003,7 +44001,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Spark Miles for Business earns 2x points on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Spark Miles for Business earns 2x points on everyday purchases. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -44669,7 +44667,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -44802,20 +44800,20 @@
       "wallet" : 16
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "capital_one_bj_s_one_plus_mastercard",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "BJ's One+ Mastercard earns the most for online: 2% per dollar.",
+        "reason" : "BJ's One+ Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -45500,7 +45498,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -45638,7 +45636,7 @@
       "wallet" : 16
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -45652,7 +45650,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "T-Mobile earns 2x points on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "T-Mobile earns 2x points on everyday purchases. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -46318,7 +46316,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -46451,20 +46449,20 @@
       "wallet" : 17
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "bank_of_america_bank_of_america_business_advantage_unlimited_cash_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Business Advantage Unlimited Cash Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Business Advantage Unlimited Cash Rewards earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -47143,7 +47141,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -47277,7 +47275,7 @@
       "wallet" : 17
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -47291,7 +47289,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Amex EveryDay Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Amex EveryDay Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -47956,7 +47954,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -48089,27 +48087,26 @@
       "wallet" : 18
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "3% on Online · your chosen category",
-          "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after)."
+          "Base rate: 1%"
         ],
         "cardId" : "bofa_customized_cash",
-        "loggableRate" : 3,
+        "loggableRate" : 1,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Bank of America Customized Cash is your choose-your-category card. You set Online for 3%, the most in your wallet here.",
+        "rateDisplay" : "1%",
+        "reason" : "Bank of America Customized Cash earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Amex Green also earns 1% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
-        "valueCaption" : "your bonus category · value per $1",
+        "valueCaption" : "value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -48784,7 +48781,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -48922,29 +48919,29 @@
       "wallet" : 18
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "3% on Online · your chosen category",
-          "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after)."
+          "Earns 1x points",
+          "Valued at 1.8¢\/pt → 1.8% per $1"
         ],
-        "cardId" : "bofa_customized_cash",
-        "loggableRate" : 3,
+        "cardId" : "amex_green",
+        "loggableRate" : 1.8,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Bank of America Customized Cash is your choose-your-category card. You set Online for 3%, the most in your wallet here.",
+        "rateDisplay" : "1.8%",
+        "reason" : "American Express Green Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "your bonus category · value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Amex Membership Rewards · 1.8¢ travel value",
+        "valueCaption" : "1x points · value per $1",
+        "valueMath" : "1x points × 1.8¢ = 1.8¢ per $1",
+        "valueMathShort" : "1x pts × 1.8¢"
       },
       "subKey" : null,
       "wallet" : 18
@@ -49602,7 +49599,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -49735,20 +49732,20 @@
       "wallet" : 19
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2x points → 2%"
+          "Base rate: 2x points → 2%"
         ],
         "cardId" : "bilt_palladium_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bilt Palladium Card earns the most for online: 2% per dollar.",
+        "reason" : "Bilt Palladium Card earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -50434,7 +50431,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -50572,7 +50569,7 @@
       "wallet" : 19
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -50586,7 +50583,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "Bilt Palladium Card earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "Bilt Palladium Card earns 2x points on everyday purchases. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -51252,7 +51249,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -51385,27 +51382,26 @@
       "wallet" : 20
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "3% on Online · your chosen category",
-          "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after)."
+          "Base rate: 2%"
         ],
-        "cardId" : "bofa_customized_cash",
-        "loggableRate" : 3,
+        "cardId" : "capital_one_capital_one_spark_cash_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Bank of America Customized Cash is your choose-your-category card. You set Online for 3%, the most in your wallet here.",
+        "rateDisplay" : "2%",
+        "reason" : "Capital One Spark Cash Plus earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "your bonus category · value per $1",
+        "valueCaption" : "value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -52068,7 +52064,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -52204,27 +52200,26 @@
       "wallet" : 20
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "3% on Online · your chosen category",
-          "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after)."
+          "Base rate: 2%"
         ],
-        "cardId" : "bofa_customized_cash",
-        "loggableRate" : 3,
+        "cardId" : "capital_one_capital_one_spark_cash_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Bank of America Customized Cash is your choose-your-category card. You set Online for 3%, the most in your wallet here.",
+        "rateDisplay" : "2%",
+        "reason" : "Capital One Spark Cash Plus earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "your bonus category · value per $1",
+        "valueCaption" : "value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -52882,7 +52877,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -53015,20 +53010,20 @@
       "wallet" : 21
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3x points → 3%"
+          "Base rate: 3x points → 3%"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for online: 3% per dollar.",
+        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -53701,7 +53696,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -53837,20 +53832,20 @@
       "wallet" : 21
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "capital_one_bj_s_one_plus_mastercard",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "BJ's One+ Mastercard earns the most for online: 2% per dollar.",
+        "reason" : "BJ's One+ Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -54514,7 +54509,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -54647,20 +54642,20 @@
       "wallet" : 22
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3%"
+          "Base rate: 3%"
         ],
         "cardId" : "robinhood_gold_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Robinhood Gold Card earns the most for online: 3% per dollar.",
+        "reason" : "Robinhood Gold Card earns the most for everyday purchases: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -55346,7 +55341,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -55484,7 +55479,7 @@
       "wallet" : 22
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -55498,7 +55493,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "The Blue Business Plus Credit Card from American Express earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "The Blue Business Plus Credit Card from American Express earns 2x points on everyday purchases. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -56164,7 +56159,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -56297,20 +56292,20 @@
       "wallet" : 23
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "u_s_bank_shopper_cash_rewards_visa_signature_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for online: 1.5% per dollar.",
+        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -56996,7 +56991,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -57134,7 +57129,7 @@
       "wallet" : 23
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -57148,7 +57143,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Preferred Credit Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -57814,7 +57809,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -57947,20 +57942,20 @@
       "wallet" : 24
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "u_s_bank_shopper_cash_rewards_visa_signature_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for online: 1.5% per dollar.",
+        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -58635,7 +58630,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -58769,20 +58764,20 @@
       "wallet" : 24
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "u_s_bank_shopper_cash_rewards_visa_signature_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for online: 1.5% per dollar.",
+        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -59447,7 +59442,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -59580,20 +59575,20 @@
       "wallet" : 25
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5x points → 1.5%"
+          "Base rate: 1.5x points → 1.5%"
         ],
         "cardId" : "chase_ink_business_unlimited_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Ink Business Unlimited Credit Card earns the most for online: 1.5% per dollar.",
+        "reason" : "Ink Business Unlimited Credit Card earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -60279,7 +60274,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -60417,7 +60412,7 @@
       "wallet" : 25
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -60431,7 +60426,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on everyday purchases. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -61097,7 +61092,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -61230,20 +61225,20 @@
       "wallet" : 26
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2x points → 2%"
+          "Base rate: 2x points → 2%"
         ],
         "cardId" : "capital_one_t_mobile",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "T-Mobile earns the most for online: 2% per dollar.",
+        "reason" : "T-Mobile earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -61929,7 +61924,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -62067,7 +62062,7 @@
       "wallet" : 26
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -62081,7 +62076,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "Bilt Palladium Card earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "Bilt Palladium Card earns 2x points on everyday purchases. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -62747,7 +62742,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -62880,20 +62875,20 @@
       "wallet" : 27
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for online: 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -63566,7 +63561,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -63702,20 +63697,20 @@
       "wallet" : 27
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for online: 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -64379,7 +64374,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -64512,20 +64507,20 @@
       "wallet" : 28
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3x points → 3%"
+          "Base rate: 3x points → 3%"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for online: 3% per dollar.",
+        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -65199,7 +65194,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -65335,7 +65330,7 @@
       "wallet" : 28
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -65349,7 +65344,7 @@
         "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Hilton Honors American Express Card earns 3x points on online. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -66014,7 +66009,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -66147,20 +66142,20 @@
       "wallet" : 29
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "bank_of_america_bank_of_america_business_advantage_unlimited_cash_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Business Advantage Unlimited Cash Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Business Advantage Unlimited Cash Rewards earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -66827,7 +66822,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -66963,20 +66958,20 @@
       "wallet" : 29
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5x points → 1.5%"
+          "Base rate: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_travel_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Travel Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Travel Rewards earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -67640,7 +67635,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -67773,20 +67768,20 @@
       "wallet" : 30
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "sofi_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "SoFi Credit Card earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -68461,7 +68456,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -68597,20 +68592,20 @@
       "wallet" : 30
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "sofi_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "SoFi Credit Card earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -69279,7 +69274,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -69412,20 +69407,20 @@
       "wallet" : 31
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "capital_one_bj_s_one_mastercard",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "BJ's One Mastercard earns the most for online: 1.5% per dollar.",
+        "reason" : "BJ's One Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -70108,7 +70103,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -70244,7 +70239,7 @@
       "wallet" : 31
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -70258,7 +70253,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Preferred Credit Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -70924,7 +70919,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -71057,20 +71052,20 @@
       "wallet" : 32
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "u_s_bank_shopper_cash_rewards_visa_signature_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for online: 1.5% per dollar.",
+        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -71752,7 +71747,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -71888,7 +71883,7 @@
       "wallet" : 32
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -71902,7 +71897,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Amex EveryDay Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Amex EveryDay Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -72568,7 +72563,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -72701,20 +72696,20 @@
       "wallet" : 33
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -73400,7 +73395,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -73538,7 +73533,7 @@
       "wallet" : 33
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -73552,7 +73547,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "The Blue Business Plus Credit Card from American Express earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "The Blue Business Plus Credit Card from American Express earns 2x points on everyday purchases. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -74218,7 +74213,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -74351,20 +74346,20 @@
       "wallet" : 34
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2%"
+          "Base rate: 2%"
         ],
         "cardId" : "sofi_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "SoFi Credit Card earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -75037,7 +75032,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -75173,20 +75168,20 @@
       "wallet" : 34
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 2x miles → 2%"
+          "Base rate: 2x miles → 2%"
         ],
         "cardId" : "barclays_arrival_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Arrival Plus World Elite Mastercard earns the most for online: 2% per dollar.",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -75850,7 +75845,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -75983,20 +75978,20 @@
       "wallet" : 35
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1x miles → 1%"
+          "Base rate: 1x miles → 1%"
         ],
         "cardId" : "barclays_aadvantage_aviator_red",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "AAdvantage Aviator Red Mastercard earns the most for online: 1% per dollar.",
+        "reason" : "AAdvantage Aviator Red Mastercard earns the most for everyday purchases: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -76676,7 +76671,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -76813,7 +76808,7 @@
       "wallet" : 35
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -76827,7 +76822,7 @@
         "loggableRate" : 1.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "1.4%",
-        "reason" : "AAdvantage Aviator Red Mastercard earns 1x miles on online. At 1.4¢ each, that's 1.4% per dollar, the most in your wallet.",
+        "reason" : "AAdvantage Aviator Red Mastercard earns 1x miles on everyday purchases. At 1.4¢ each, that's 1.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -77493,7 +77488,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -77626,24 +77621,24 @@
       "wallet" : 36
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3%"
+          "Base rate: 3x points → 3%"
         ],
-        "cardId" : "amex_blue_cash_everyday",
+        "cardId" : "ihg_premier",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "American Express Blue Cash Everyday® earns the most for online: 3% per dollar.",
+        "reason" : "IHG One Rewards Premier earns the most for everyday purchases: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "IHG One Rewards Premier also earns 3% here. We picked Amex Blue Cash Everyday for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -78325,7 +78320,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -78463,7 +78458,7 @@
       "wallet" : 36
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -78477,7 +78472,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "T-Mobile earns 2x points on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "T-Mobile earns 2x points on everyday purchases. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -79143,7 +79138,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -79276,20 +79271,20 @@
       "wallet" : 37
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "u_s_bank_shopper_cash_rewards_visa_signature_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for online: 1.5% per dollar.",
+        "reason" : "Shopper Cash Rewards Visa Signature Credit Card earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -79975,7 +79970,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -80113,7 +80108,7 @@
       "wallet" : 37
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
@@ -80127,7 +80122,7 @@
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wyndham Rewards Earner Plus Card earns 1x points on online. At 2.0¢ each, that's 2% per dollar, the most in your wallet.",
+        "reason" : "Wyndham Rewards Earner Plus Card earns 1x points on everyday purchases. At 2.0¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -80793,7 +80788,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -80926,24 +80921,24 @@
       "wallet" : 38
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3%"
+          "Base rate: 3x points → 3%"
         ],
-        "cardId" : "amex_blue_cash_everyday",
+        "cardId" : "american_express_hilton_honors_american_express_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "American Express Blue Cash Everyday® earns the most for online: 3% per dollar.",
+        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 3% here. We picked Amex Blue Cash Everyday for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -81625,7 +81620,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -81763,28 +81758,29 @@
       "wallet" : 38
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3%"
+          "Earns 1x points",
+          "Valued at 1.8¢\/pt → 1.8% per $1"
         ],
-        "cardId" : "amex_blue_cash_everyday",
-        "loggableRate" : 3,
+        "cardId" : "amex_gold",
+        "loggableRate" : 1.8,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "American Express Blue Cash Everyday® earns the most for online: 3% per dollar.",
+        "rateDisplay" : "1.8%",
+        "reason" : "American Express® Gold Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : "Amex Platinum also earns 1.8% here. We picked Amex Gold for its purchase protection.",
+        "valuationBasis" : "Amex Membership Rewards · 1.8¢ travel value",
+        "valueCaption" : "1x points · value per $1",
+        "valueMath" : "1x points × 1.8¢ = 1.8¢ per $1",
+        "valueMathShort" : "1x pts × 1.8¢"
       },
       "subKey" : null,
       "wallet" : 38
@@ -82442,7 +82438,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "cash",
       "result" : {
@@ -82575,20 +82571,20 @@
       "wallet" : 39
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "capital_one_bj_s_one_mastercard",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "BJ's One Mastercard earns the most for online: 1.5% per dollar.",
+        "reason" : "BJ's One Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -83258,7 +83254,7 @@
     {
       "category" : "travel",
       "caveat" : null,
-      "directoryId" : "marriott_hotels",
+      "directoryId" : "marriott",
       "merchant" : "Marriott",
       "mode" : "smart",
       "result" : {
@@ -83392,20 +83388,20 @@
       "wallet" : 39
     },
     {
-      "category" : "online",
+      "category" : "general",
       "caveat" : null,
       "directoryId" : "best_buy",
       "merchant" : "Best Buy",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 1.5%"
+          "Base rate: 1.5%"
         ],
         "cardId" : "capital_one_bj_s_one_mastercard",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "BJ's One Mastercard earns the most for online: 1.5% per dollar.",
+        "reason" : "BJ's One Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -83543,7 +83539,8 @@
       "ids" : [
         "publix",
         "publix_pharmacy",
-        "publix_super_markets_pharmacy"
+        "publix_super_markets_pharmacy",
+        "public_storage"
       ],
       "query" : "publix"
     },
@@ -83555,8 +83552,7 @@
     },
     {
       "ids" : [
-        "walgreens",
-        "duane_reade"
+        "walgreens"
       ],
       "query" : "walgreens"
     },
@@ -83586,7 +83582,8 @@
     },
     {
       "ids" : [
-        "shell"
+        "shell",
+        "zippy_shell"
       ],
       "query" : "shell"
     },
@@ -83605,27 +83602,27 @@
     {
       "ids" : [
         "home_depot",
-        "garden_ridge",
-        "at_home"
+        "at_home",
+        "garden_ridge"
       ],
       "query" : "home depot"
     },
     {
       "ids" : [
         "home_depot",
-        "garden_ridge",
-        "at_home"
+        "at_home",
+        "garden_ridge"
       ],
       "query" : "home de"
     },
     {
       "ids" : [
         "amazon",
+        "amazon_buisness",
         "amazon_fresh",
         "amazon_music",
         "amazon_pharmacy",
-        "amazon_prime_video",
-        "pillpack"
+        "amazon_prime_video"
       ],
       "query" : "amazon"
     },
@@ -83683,6 +83680,7 @@
     },
     {
       "ids" : [
+        "dunkin_donuts",
         "dunkin"
       ],
       "query" : "dunkin donuts"
@@ -83717,7 +83715,7 @@
         "apple_music",
         "apple_tv",
         "apple_vacations",
-        "itunes"
+        "applebee_s"
       ],
       "query" : "apple"
     },
@@ -83736,11 +83734,11 @@
     },
     {
       "ids" : [
-        "marriott_hotels",
+        "marriott",
         "ac_hotels_by_marriott",
         "courtyard_by_marriott",
         "jw_marriott",
-        "residence_inn",
+        "residence_inn_by_marriott",
         "springhill_suites_by_marriott"
       ],
       "query" : "marriott"
@@ -83775,22 +83773,22 @@
     {
       "ids" : [
         "waldorf_astoria_hotels_resorts",
+        "waldorf_astoria_conrad_lxr",
         "walgreens",
         "walker_edison",
         "walmart",
-        "walmart_inc_pharmacy",
-        "walmart_marketplace"
+        "walmart_inc_pharmacy"
       ],
       "query" : "wal"
     },
     {
       "ids" : [
         "cost_plus_drugs",
+        "costa_del_mar",
         "costco",
         "costco_gas",
         "costco_gasoline",
-        "costco_online_fuel",
-        "costco_online_pharmacy"
+        "costco_online_fuel"
       ],
       "query" : "cost"
     },
