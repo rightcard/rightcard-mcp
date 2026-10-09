@@ -192,7 +192,9 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
                      configured: ConfigurableCardSpec | null, v: Valuation, category: SpendCategory, now: Date,
                      chosenCategoryCount: number): Recommendation {
   const valueStr = formatPercent(valueCents);
-  const cat = CATEGORY_DISPLAY[category].toLowerCase();
+  // "everyday purchases", not "general" — mirrors SpendCategory.inSentence
+  // in the app (Oct 8 2026).
+  const cat = category === "general" ? "everyday purchases" : CATEGORY_DISPLAY[category].toLowerCase();
   const disp = CATEGORY_DISPLAY[category];
   let reason: string;
   const lines: string[] = [];
@@ -238,9 +240,11 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     // Mirrors the Swift engine (Sep 2026): a points/miles card in cash mode
     // still EARNS points — never blur the earn (4x points) with its value (4%).
     if (card.rewardCurrency !== null && card.rewardCurrency !== "cashback") {
-      lines.push(`Base ${cat} earn: ${formatMultiplier(earn)} ${earnUnitLabel(v, card)} → ${valueStr}`);
+      lines.push(category === "general"
+        ? `Base rate: ${formatMultiplier(earn)} ${earnUnitLabel(v, card)} → ${valueStr}`
+        : `Base ${cat} earn: ${formatMultiplier(earn)} ${earnUnitLabel(v, card)} → ${valueStr}`);
     } else {
-      lines.push(`Base ${cat} earn: ${valueStr}`);
+      lines.push(category === "general" ? `Base rate: ${valueStr}` : `Base ${cat} earn: ${valueStr}`);
     }
   }
 
