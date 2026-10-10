@@ -224,9 +224,11 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
       lines.push(`${formatMultiplier(override.bonusRate)} ${earnUnitLabel(v, card)} × ${fmt1(centsPerPoint(v, card))}¢ → ${valueStr} per $1`);
     }
     if (override.requiresActivation) {
-      const issuer = card.issuer ?? "issuer";
-      reason += ` Activate it in your ${issuer} app to earn the bonus.`;
-      lines.push(`⚠︎ Activate this quarter in your ${issuer} app`);
+      // Mirrors the Swift engine (Oct 9 2026 wording pass): no issuer on the
+      // card → "your bank's app", never the jargon "issuer".
+      const owner = card.issuer != null ? `${card.issuer}` : "bank's";
+      reason += ` Activate it in your ${owner} app to earn the bonus.`;
+      lines.push(`⚠︎ Activate this quarter in your ${owner} app`);
     }
   } else if (pointsAbove) {
     const earnStr = formatMultiplier(earn);
