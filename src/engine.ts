@@ -47,6 +47,11 @@ export interface RecommendInput {
   merchantType?: string | null;
 }
 
+/** Where the quarter is turned on. Mirrors MerchantYieldEngine.activationApp. */
+export function activationApp(issuer: string): string {
+  return issuer.toLowerCase().includes("discover") ? "Capital One or Discover" : issuer;
+}
+
 // ── formatting (Swift twins) ──
 export function formatPercent(v: number): string {
   return v === Math.round(v) ? `${Math.round(v)}%` : `${fmt1(v)}%`;
@@ -234,10 +239,18 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     if (pointsAbove) {
       lines.push(`${formatMultiplier(override.bonusRate)} ${earnUnitLabel(v, card)} × ${fmt1(centsPerPoint(v, card))}¢ → ${valueStr} per $1`);
     }
+    // Discover's utilities quarter counts bills paid online or by phone only.
+    const types = storeTypes(override);
+    if (types && (types.includes("utility") || types.includes("telecom"))) {
+      const howToPay = "It counts bills paid online or by phone, not payments made in person.";
+      reason += ` ${howToPay}`;
+      lines.push(howToPay);
+    }
     if (override.requiresActivation) {
       // Mirrors the Swift engine (Oct 9 2026 wording pass): no issuer on the
-      // card → "your bank's app", never the jargon "issuer".
-      const owner = card.issuer != null ? `${card.issuer}` : "bank's";
+      // card → "your bank's app", never the jargon "issuer". Discover accounts
+      // are moving to Capital One, so both apps are named (activationApp).
+      const owner = card.issuer != null ? activationApp(card.issuer) : "bank's";
       reason += ` Activate it in your ${owner} app to earn the bonus.`;
       lines.push(`⚠︎ Activate this quarter in your ${owner} app`);
     }

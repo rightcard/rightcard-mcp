@@ -35,4 +35,11 @@ describe("store-type quarters", () => {
     expect(ask("Target", "superstore")?.cardId).toBe("cfu");
     expect(ask(null, "entertainment")?.cardId).toBe("cfu");
   });
+  it("a utilities answer says how to pay and names both apps", () => {
+    const r = ask("PSEG", "utility");
+    expect(r?.cardId).toBe("discover_it");
+    expect(r?.reason).toContain("online or by phone");
+    expect(r?.reason).toContain("Capital One or Discover app");
+    expect(ask("AMC Theatres", "entertainment")?.reason).not.toContain("online or by phone");
+  });
 });
