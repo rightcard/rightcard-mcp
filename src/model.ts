@@ -111,6 +111,20 @@ export interface Override {
   merchant: string | null;
 }
 
+/** Quarter categories that are not spend categories, mapped to the directory
+ *  merchant_type values they cover (Discover Q4 2026 entertainment/utilities).
+ *  Mirrors SupabaseOverride.storeTypeCategories in the app. */
+export const STORE_TYPE_CATEGORIES: Record<string, string[]> = {
+  entertainment: ["entertainment"],
+  utilities: ["telecom", "utility"],
+};
+
+/** The store types a row applies to, or null for a category/merchant row. */
+export function storeTypes(o: Override): string[] | null {
+  if (o.merchant && o.merchant !== "") return null;
+  return STORE_TYPE_CATEGORIES[o.category.trim().toLowerCase()] ?? null;
+}
+
 export function overrideFromRow(r: any): Override {
   return {
     id: String(r.id), cardId: r.card_id, category: r.category, bonusRate: Number(r.bonus_rate),

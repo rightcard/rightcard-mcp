@@ -1,6 +1,6 @@
 // Mirrors MerchantYieldEngine (BASE-RATE mode only — offers live on the phone, never here).
 import {
-  CATEGORY_DISPLAY, isPermanentMerchantBenefit, multiplier, overrideIsActive,
+  CATEGORY_DISPLAY, isPermanentMerchantBenefit, multiplier, overrideIsActive, storeTypes,
   type CreditCard, type Override, type SpendCategory,
 } from "./model.js";
 import { merchantMatchesCoBrandBenefit, offerMatches } from "./matching.js";
@@ -43,6 +43,8 @@ export interface RecommendInput {
   strictMerchantMatch?: boolean;
   /** Register network lock (Costco = visa-only). null/undefined = no restriction. */
   acceptedNetworks?: Set<string> | null;
+  /** The directory row's merchant_type, so a store-type quarter can apply. */
+  merchantType?: string | null;
 }
 
 // ── formatting (Swift twins) ──
@@ -141,7 +143,8 @@ function portalNote(cards: CreditCard[], recommended: CreditCard): string | null
 interface Applied { rate: number; override: Override | null; configured: ConfigurableCardSpec | null }
 
 function appliedRate(card: CreditCard, category: SpendCategory, subKey: string | null, merchantQuery: string | null,
-                     overrides: Override[], cardConfigs: Record<string, Set<SpendCategory>>, now: Date, strict: boolean): Applied {
+                     overrides: Override[], cardConfigs: Record<string, Set<SpendCategory>>, now: Date, strict: boolean,
+                     merchantType: string | null = null): Applied {
   let rate = multiplier(card, category, subKey);
   let winningOverride: Override | null = null;
   let winningConfig: ConfigurableCardSpec | null = null;
@@ -153,6 +156,11 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
       matches = isPermanentMerchantBenefit(o, now)
         ? merchantMatchesCoBrandBenefit(o.merchant, merchantQuery)
         : offerMatches(o.merchant, merchantQuery, strict);
+    } else if (storeTypes(o)) {
+      // A store-type quarter (Discover's entertainment): only a store the
+      // directory files under one of its types.
+      if (!merchantType || !storeTypes(o)!.includes(merchantType.toLowerCase())) continue;
+      matches = true;
     } else {
       matches = o.category.trim().toLowerCase() === category;
     }
@@ -168,9 +176,10 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
 interface Winner { card: CreditCard; earn: number; valueCents: number; override: Override | null; configured: ConfigurableCardSpec | null; tieNote: string | null }
 
 function bestBaseCard(cards: CreditCard[], category: SpendCategory, subKey: string | null, merchantQuery: string | null,
-                      overrides: Override[], cardConfigs: Record<string, Set<SpendCategory>>, v: Valuation, now: Date, strict: boolean): Winner | null {
+                      overrides: Override[], cardConfigs: Record<string, Set<SpendCategory>>, v: Valuation, now: Date, strict: boolean,
+                      merchantType: string | null = null): Winner | null {
   const candidates = cards.map((card) => {
-    const a = appliedRate(card, category, subKey, merchantQuery, overrides, cardConfigs, now, strict);
+    const a = appliedRate(card, category, subKey, merchantQuery, overrides, cardConfigs, now, strict, merchantType);
     return { card, earn: a.rate, value: a.rate * centsPerPoint(v, card), override: a.override, configured: a.configured };
   });
   if (candidates.length === 0) return null;
@@ -190,7 +199,7 @@ function bestBaseCard(cards: CreditCard[], category: SpendCategory, subKey: stri
 
 function rateContext(card: CreditCard, earn: number, valueCents: number, override: Override | null,
                      configured: ConfigurableCardSpec | null, v: Valuation, category: SpendCategory, now: Date,
-                     chosenCategoryCount: number): Recommendation {
+                     chosenCategoryCount: number, storeName: string | null = null): Recommendation {
   const valueStr = formatPercent(valueCents);
   // "everyday purchases", not "general" — mirrors SpendCategory.inSentence
   // in the app (Oct 8 2026).
@@ -211,7 +220,9 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     }
     lines.push(configured.note);
   } else if (override) {
-    const scope = override.merchant ? `at ${override.merchant}` : cat;
+    // A store-type quarter reads like a merchant one: "at AMC Theatres".
+    const scope = override.merchant ? `at ${override.merchant}`
+      : (storeTypes(override) && storeName ? `at ${storeName}` : cat);
     if (isPermanentMerchantBenefit(override, now)) {
       reason = `${card.displayName} earns ${valueStr} ${scope}, the most in your wallet here.`;
       lines.push(`${valueStr} ${scope} · card benefit`);
@@ -308,10 +319,11 @@ export function recommend(input: RecommendInput): Recommendation | null {
   const subKey = input.subKey ?? null;
   const merchantName = input.merchantName && input.merchantName.trim() !== "" ? input.merchantName : null;
   const query = merchantName ? merchantName.toLowerCase() : null;
-  const w = bestBaseCard(cards, category, subKey, query, overrides, cardConfigs, v, now, strict);
+  const w = bestBaseCard(cards, category, subKey, query, overrides, cardConfigs, v, now, strict,
+                         merchantName ? (input.merchantType ?? null) : null);
   if (!w) return null;
   const ctx = rateContext(w.card, w.earn, w.valueCents, w.override, w.configured, v, category, now,
-                          cardConfigs[w.card.id]?.size ?? 0);
+                          cardConfigs[w.card.id]?.size ?? 0, merchantName);
   ctx.tieNote = w.tieNote;
   if (category === "travel") ctx.portalNote = portalNote(cards, w.card);
   if (input.merchantName == null && input.subKey == null) {

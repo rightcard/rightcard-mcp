@@ -93,7 +93,8 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
     const now = on ? new Date(on + "T00:00:00Z") : new Date();
     const r = recommend({ cards, category: cat, subKey, merchantName: merchant ?? null, overrides: catalog.overrides,
                           valuation: makeValuation(mode), cardConfigs: configs, now,
-                          acceptedNetworks: dir ? acceptedNetworksAtRegister(dir) : null });
+                          acceptedNetworks: dir ? acceptedNetworksAtRegister(dir) : null,
+                          merchantType: dir?.merchantType ?? null });
     if (!r) return err("No recommendation could be computed.");
     const answer = {
       ...shapeAnswer(r, dir, valuation, unverified),
