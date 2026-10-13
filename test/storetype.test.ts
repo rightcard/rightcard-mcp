@@ -42,4 +42,9 @@ describe("store-type quarters", () => {
     expect(r?.reason).toContain("Capital One or Discover app");
     expect(ask("AMC Theatres", "entertainment")?.breakdownLines.join(" ")).not.toContain("online or by phone");
   });
+  it("a capped quarter states its limit and who wins after it", () => {
+    const r = ask("AMC Theatres", "entertainment");
+    expect(r?.capLimit).toBe("5% on your first $1,500 this quarter, across all its bonus categories. Then 1%.");
+    expect(r?.afterLimit).toBe("Once it's used up: Chase Freedom Unlimited, 1.5%.");
+  });
 });

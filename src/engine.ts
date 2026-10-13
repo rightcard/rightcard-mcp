@@ -1,6 +1,6 @@
 // Mirrors MerchantYieldEngine (BASE-RATE mode only — offers live on the phone, never here).
 import {
-  CATEGORY_DISPLAY, isPermanentMerchantBenefit, multiplier, overrideIsActive, storeTypes,
+  CATEGORY_DISPLAY, isPermanentMerchantBenefit, multiplier, overrideIsActive, rotatingCap, storeTypes,
   type CreditCard, type Override, type SpendCategory,
 } from "./model.js";
 import { merchantMatchesCoBrandBenefit, offerMatches } from "./matching.js";
@@ -29,6 +29,9 @@ export interface Recommendation {
   subcategoryBreakdown: SubcategoryBest[];
   /** set by the caller from the directory (exclusionCaveat) */
   caveat?: string | null;
+  /** The winning rotating quarter's limit and who wins after it (app: CapInfo). */
+  capLimit?: string | null;
+  afterLimit?: string | null;
 }
 
 export interface RecommendInput {
@@ -337,6 +340,23 @@ export function recommend(input: RecommendInput): Recommendation | null {
   const ctx = rateContext(w.card, w.earn, w.valueCents, w.override, w.configured, v, category, now,
                           cardConfigs[w.card.id]?.size ?? 0, merchantName);
   ctx.tieNote = w.tieNote;
+  // Rotating limit (mirrors MerchantYieldEngine.capInfo): re-answer without
+  // this card's capped quarter rows to name who wins after the limit.
+  const o = w.override;
+  const cap = rotatingCap(w.card.id);
+  if (o && cap && o.requiresActivation && !isPermanentMerchantBenefit(o, now)) {
+    const mt = merchantName ? (input.merchantType ?? null) : null;
+    const counts = (x: Override) => x.cardId === w.card.id && x.requiresActivation && !isPermanentMerchantBenefit(x, now);
+    const without = overrides.filter((x) => !counts(x));
+    const own = appliedRate(w.card, category, subKey, query, without, cardConfigs, now, strict, mt).rate * centsPerPoint(v, w.card);
+    const next = bestBaseCard(cards, category, subKey, query, without, cardConfigs, v, now, strict, mt);
+    const amount = cap.amount.toLocaleString("en-US");
+    ctx.capLimit = cap.kind === "spendPerQuarter"
+      ? `${formatPercent(w.valueCents)} on your first $${amount} this quarter, across all its bonus categories. Then ${formatPercent(own)}.`
+      : `${formatPercent(w.valueCents)} until you've earned $${amount} back this year from its bonus categories. Then ${formatPercent(own)}.`;
+    ctx.afterLimit = next && next.card.id !== w.card.id
+      ? `Once it's used up: ${next.card.displayName}, ${formatPercent(next.valueCents)}.` : null;
+  }
   if (category === "travel") ctx.portalNote = portalNote(cards, w.card);
   if (input.merchantName == null && input.subKey == null) {
     ctx.subcategoryBreakdown = subcategoryBreakdown(cards, category, overrides, cardConfigs, v, now);

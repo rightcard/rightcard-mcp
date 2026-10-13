@@ -45,6 +45,7 @@ function resolveMerchant(catalog: Catalog, name: string): Merchant | null {
 function shapeAnswer(r: Recommendation, merchant: Merchant | null, mode: "cash" | "points", unverified: string[]) {
   const caveats: string[] = [];
   if (merchant) { const cv = exclusionCaveat(merchant); if (cv) caveats.push(cv); }
+  if (r.capLimit) caveats.push(r.capLimit + (r.afterLimit ? ` ${r.afterLimit}` : ""));
   if (r.tieNote) caveats.push(r.tieNote);
   if (r.portalNote) caveats.push(r.portalNote);
   if (unverified.length) caveats.push(`Not yet verified by two independent sources (ranked on published data, treat with care): ${unverified.join(", ")}.`);

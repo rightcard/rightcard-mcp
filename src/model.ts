@@ -125,6 +125,21 @@ export function storeTypes(o: Override): string[] | null {
   return STORE_TYPE_CATEGORIES[o.category.trim().toLowerCase()] ?? null;
 }
 
+/** A card's rotating limit (mirrors RotatingCap in the app): Chase and Discover
+ *  $1,500 of combined spend a quarter; Citi Dividend $300 back a year. */
+export type RotatingCap = { kind: "spendPerQuarter" | "cashBackPerYear"; amount: number };
+export function rotatingCap(cardId: string): RotatingCap | null {
+  switch (cardId.toLowerCase()) {
+    case "chase_freedom": case "chase_freedom_flex": case "discover_it":
+    case "discover_discover_it_student_cash_back": case "discover_nhl_credit_card":
+      return { kind: "spendPerQuarter", amount: 1500 };
+    case "citi_dividend":
+      return { kind: "cashBackPerYear", amount: 300 };
+    default:
+      return null;
+  }
+}
+
 export function overrideFromRow(r: any): Override {
   return {
     id: String(r.id), cardId: r.card_id, category: r.category, bonusRate: Number(r.bonus_rate),
