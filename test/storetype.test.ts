@@ -38,8 +38,8 @@ describe("store-type quarters", () => {
   it("a utilities answer says how to pay and names both apps", () => {
     const r = ask("PSEG", "utility");
     expect(r?.cardId).toBe("discover_it");
-    expect(r?.reason).toContain("online or by phone");
+    expect(r?.breakdownLines.join(" ")).toContain("online or by phone");
     expect(r?.reason).toContain("Capital One or Discover app");
-    expect(ask("AMC Theatres", "entertainment")?.reason).not.toContain("online or by phone");
+    expect(ask("AMC Theatres", "entertainment")?.breakdownLines.join(" ")).not.toContain("online or by phone");
   });
 });

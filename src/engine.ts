@@ -242,9 +242,8 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     // Discover's utilities quarter counts bills paid online or by phone only.
     const types = storeTypes(override);
     if (types && (types.includes("utility") || types.includes("telecom"))) {
-      const howToPay = "It counts bills paid online or by phone, not payments made in person.";
-      reason += ` ${howToPay}`;
-      lines.push(howToPay);
+      // The app shows this in the note box under the answer, not in the reason.
+      lines.push("It counts bills paid online or by phone, not payments made in person.");
     }
     if (override.requiresActivation) {
       // Mirrors the Swift engine (Oct 9 2026 wording pass): no issuer on the
