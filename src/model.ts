@@ -173,6 +173,8 @@ export function standingCaps(cardId: string): StandingCap[] {
       return [{ id: "combined", categories: ["grocery", "dining"], limit: 8000, period: "cardYear", after: 1 }];
     case "chase_ink_business_preferred_credit_card":
       return [{ id: "combined", categories: ["travel", "transit"], limit: 150000, period: "cardYear", after: 1 }];
+    case "chase_ink_business_cash_credit_card":
+      return [{ id: "combined", categories: ["gas", "dining"], limit: 25000, period: "cardYear", after: 1 }];
     case "discover_discover_it_chrome": case "discover_discover_it_student_chrome":
       return [{ id: "combined", categories: ["gas", "dining"], limit: 1000, period: "quarter", after: 1 }];
     case "u_s_bank_altitude_go_visa_signature_credit_card": case "u_s_bank_altitude_go_secured_visa_credit_card":
