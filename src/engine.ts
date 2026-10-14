@@ -1,6 +1,6 @@
 // Mirrors MerchantYieldEngine (BASE-RATE mode only — offers live on the phone, never here).
 import {
-  CATEGORY_DISPLAY, isPermanentMerchantBenefit, multiplier, overrideIsActive, rotatingCap, storeTypes,
+  CATEGORY_DISPLAY, capCovers, isPermanentMerchantBenefit, multiplier, overrideIsActive, rotatingCap, standingCaps, storeTypes,
   type CreditCard, type Override, type SpendCategory,
 } from "./model.js";
 import { merchantMatchesCoBrandBenefit, offerMatches } from "./matching.js";
@@ -149,10 +149,11 @@ function portalNote(cards: CreditCard[], recommended: CreditCard): string | null
 }
 
 interface Applied { rate: number; override: Override | null; configured: ConfigurableCardSpec | null }
+const NO_CAPS: ReadonlySet<string> = new Set();
 
 function appliedRate(card: CreditCard, category: SpendCategory, subKey: string | null, merchantQuery: string | null,
                      overrides: Override[], cardConfigs: Record<string, Set<SpendCategory>>, now: Date, strict: boolean,
-                     merchantType: string | null = null): Applied {
+                     merchantType: string | null = null, usedUp: ReadonlySet<string> = NO_CAPS): Applied {
   let rate = multiplier(card, category, subKey);
   let winningOverride: Override | null = null;
   let winningConfig: ConfigurableCardSpec | null = null;
@@ -178,6 +179,15 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
   if (spec && spec.eligible.includes(category) && cardConfigs[card.id]?.has(category) && spec.bonusRate > rate) {
     rate = spec.bonusRate; winningConfig = spec; winningOverride = null;
   }
+  // A standing cap marked used up pays its "after" rate (mirrors the app).
+  if (!winningOverride && usedUp.size > 0) {
+    for (const cap of standingCaps(card.id)) {
+      if (usedUp.has(`${card.id}|std|${cap.id}`) && capCovers(cap, category, !!winningConfig)) {
+        const after = cap.after ?? multiplier(card, "general", null);
+        if (rate > after) { rate = after; winningConfig = null; }
+      }
+    }
+  }
   return { rate, override: winningOverride, configured: winningConfig };
 }
 
@@ -185,9 +195,9 @@ interface Winner { card: CreditCard; earn: number; valueCents: number; override:
 
 function bestBaseCard(cards: CreditCard[], category: SpendCategory, subKey: string | null, merchantQuery: string | null,
                       overrides: Override[], cardConfigs: Record<string, Set<SpendCategory>>, v: Valuation, now: Date, strict: boolean,
-                      merchantType: string | null = null): Winner | null {
+                      merchantType: string | null = null, usedUp: ReadonlySet<string> = NO_CAPS): Winner | null {
   const candidates = cards.map((card) => {
-    const a = appliedRate(card, category, subKey, merchantQuery, overrides, cardConfigs, now, strict, merchantType);
+    const a = appliedRate(card, category, subKey, merchantQuery, overrides, cardConfigs, now, strict, merchantType, usedUp);
     return { card, earn: a.rate, value: a.rate * centsPerPoint(v, card), override: a.override, configured: a.configured };
   });
   if (candidates.length === 0) return null;
@@ -356,6 +366,29 @@ export function recommend(input: RecommendInput): Recommendation | null {
       : `${formatPercent(w.valueCents)} until you've earned $${amount} back this year from its bonus categories. Then ${formatPercent(own)}.`;
     ctx.afterLimit = next && next.card.id !== w.card.id
       ? `Once it's used up: ${next.card.displayName}, ${formatPercent(next.valueCents)}.` : null;
+  }
+  // Standing category cap (mirrors MerchantYieldEngine.standingCapInfo).
+  if (!o) {
+    const chosen = !!w.configured;
+    const capRow = standingCaps(w.card.id).find((c) => capCovers(c, category, chosen));
+    const afterEarn = capRow ? (capRow.after ?? multiplier(w.card, "general", null)) : 0;
+    if (capRow && afterEarn < w.earn - 0.0001) {
+      const mt = merchantName ? (input.merchantType ?? null) : null;
+      const rate = formatPercent(w.valueCents);
+      const then = formatPercent(afterEarn * centsPerPoint(v, w.card));
+      const spend = capRow.limit.toLocaleString("en-US");
+      const names = [...capRow.categories].sort().map((c) => CATEGORY_DISPLAY[c].toLowerCase());
+      if (capRow.chosen && capRow.categories.length > 0) names.unshift("your chosen category");
+      const list = names.length > 1 ? new Intl.ListFormat("en", { type: "conjunction" }).format(names) : null;
+      const per = capRow.period === "quarter" ? "each quarter" : capRow.period === "billingCycle" ? "each billing cycle" : "a year";
+      ctx.capLimit = list
+        ? `${rate} on your first $${spend} ${per} across ${list} combined. Then ${then}.`
+        : `${rate} on your first $${spend} ${per}. Then ${then}.`;
+      const next = bestBaseCard(cards, category, subKey, query, overrides, cardConfigs, v, now, strict, mt,
+                                new Set([`${w.card.id}|std|${capRow.id}`]));
+      ctx.afterLimit = next && next.card.id !== w.card.id
+        ? `Once it's used up: ${next.card.displayName}, ${formatPercent(next.valueCents)}.` : null;
+    }
   }
   if (category === "travel") ctx.portalNote = portalNote(cards, w.card);
   if (input.merchantName == null && input.subKey == null) {

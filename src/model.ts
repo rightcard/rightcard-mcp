@@ -140,6 +140,59 @@ export function rotatingCap(cardId: string): RotatingCap | null {
   }
 }
 
+/** A STANDING category cap (mirrors StandingCap in the app, Oct 14 2026):
+ *  the bonus stops after a spend amount and comes back next period. Quoted
+ *  from each issuer page; see the Swift table for the quotes. */
+export type CapPeriod = "quarter" | "calendarYear" | "cardYear" | "billingCycle";
+export type StandingCap = {
+  id: string; categories: SpendCategory[]; everything?: boolean; chosen?: boolean;
+  limit: number; period: CapPeriod; after?: number;
+};
+export function standingCaps(cardId: string): StandingCap[] {
+  switch (cardId.toLowerCase()) {
+    case "amex_gold":
+      return [{ id: "dining", categories: ["dining"], limit: 50000, period: "calendarYear", after: 1 },
+              { id: "grocery", categories: ["grocery"], limit: 25000, period: "calendarYear", after: 1 }];
+    case "amex_blue_cash_everyday":
+      return [{ id: "grocery", categories: ["grocery"], limit: 6000, period: "calendarYear", after: 1 },
+              { id: "online", categories: ["online"], limit: 6000, period: "calendarYear", after: 1 },
+              { id: "gas", categories: ["gas"], limit: 6000, period: "calendarYear", after: 1 }];
+    case "amex_blue_cash_preferred":
+      return [{ id: "grocery", categories: ["grocery"], limit: 6000, period: "calendarYear", after: 1 }];
+    case "american_express_blue_business_cash_card_from_american_express":
+      return [{ id: "all", categories: [], everything: true, limit: 50000, period: "calendarYear", after: 1 }];
+    case "sams_club_mastercard":
+      return [{ id: "gas", categories: ["gas"], limit: 6000, period: "calendarYear", after: 1 }];
+    case "citi_costco_anywhere":
+      return [{ id: "gas", categories: ["gas"], limit: 7000, period: "calendarYear", after: 1 }];
+    case "marriott_boundless":
+      return [{ id: "combined", categories: ["grocery", "gas", "dining"], limit: 6000, period: "cardYear", after: 2 }];
+    case "southwest_plus":
+      return [{ id: "combined", categories: ["gas", "grocery"], limit: 5000, period: "cardYear", after: 1 }];
+    case "chase_southwest_premier":
+      return [{ id: "combined", categories: ["grocery", "dining"], limit: 8000, period: "cardYear", after: 1 }];
+    case "chase_ink_business_preferred_credit_card":
+      return [{ id: "combined", categories: ["travel", "transit"], limit: 150000, period: "cardYear", after: 1 }];
+    case "discover_discover_it_chrome": case "discover_discover_it_student_chrome":
+      return [{ id: "combined", categories: ["gas", "dining"], limit: 1000, period: "quarter", after: 1 }];
+    case "u_s_bank_altitude_go_visa_signature_credit_card": case "u_s_bank_altitude_go_secured_visa_credit_card":
+      return [{ id: "dining", categories: ["dining"], limit: 2000, period: "quarter", after: 1 }];
+    case "u_s_bank_altitude_connect_visa_signature_credit_card": case "usbank_altitude_connect":
+      return [{ id: "gas", categories: ["gas"], limit: 1000, period: "quarter", after: 1 }];
+    case "bofa_customized_cash":
+      return [{ id: "combined", categories: ["grocery"], chosen: true, limit: 2500, period: "quarter", after: 1 }];
+    case "bank_of_america_bank_of_america_business_advantage_customized_cash_rewards":
+      return [{ id: "combined", categories: ["dining"], chosen: true, limit: 50000, period: "calendarYear", after: 1 }];
+    case "citi_custom_cash":
+      return [{ id: "chosen", categories: [], chosen: true, limit: 500, period: "billingCycle", after: 1 }];
+    default:
+      return [];
+  }
+}
+export function capCovers(cap: StandingCap, category: SpendCategory, chosen: boolean): boolean {
+  return !!cap.everything || cap.categories.includes(category) || (!!cap.chosen && chosen);
+}
+
 export function overrideFromRow(r: any): Override {
   return {
     id: String(r.id), cardId: r.card_id, category: r.category, bonusRate: Number(r.bonus_rate),
