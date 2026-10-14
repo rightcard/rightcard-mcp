@@ -38,6 +38,15 @@ export const CONFIGURABLE_SPECS: ConfigurableCardSpec[] = [
     matchNeedles: ["customcash"], multiCardMax: 3,
   },
   {
+    // Citi Strata: 3x on ONE Self-Select category (streaming by default; also
+    // fitness clubs, live entertainment, cosmetic stores/salons, pet supply).
+    // Only streaming is a category here; the app also takes the store picks.
+    key: "citi_strata", displayName: "Citi Strata Card", bonusRate: 3, slots: 1,
+    eligible: ["streaming"],
+    note: "3x on the one category you picked at citi.com. Citi starts every card on streaming, and you can change it once a quarter. For gyms, salons, pet stores and live events, RightCard counts the big chains it knows. Other stores show 1x.",
+    matchNeedles: ["citirewardsplus", "citistratacard"],
+  },
+  {
     key: "bofa_customized_cash", displayName: "Bank of America Customized Cash Rewards", bonusRate: 3, slots: 1,
     eligible: ["gas", "online", "dining", "travel", "drugstore"],
     note: "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after).",
