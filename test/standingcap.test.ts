@@ -17,18 +17,18 @@ const ask = (cards: CreditCard[], category: any) =>
 describe("standing caps", () => {
   it("states the cap and the card after it", () => {
     const r = ask([bcp, cfu], "grocery");
-    expect(r?.capLimit).toBe("6% on your first $6,000 a year. Then 1%.");
-    expect(r?.afterLimit).toBe("Once it's used up: Chase Freedom Unlimited, 1.5%.");
+    expect(r?.capLimit).toBe("6% on your first $6,000 a year, then 1%.");
+    expect(r?.afterLimit).toBe("After that: Chase Freedom Unlimited, 1.5%.");
   });
   it("says nothing on an uncapped rate", () => {
     expect(ask([bcp, cfu], "gas")?.capLimit ?? null).toBeNull();
   });
   it("names a shared cap's categories and the rate after", () => {
     const b = card("marriott_boundless", "Marriott Bonvoy Boundless", { general: 2, grocery: 3, gas: 3, dining: 3 });
-    expect(ask([b], "dining")?.capLimit).toBe("3% on your first $6,000 a year across dining, gas, and grocery combined. Then 2%.");
+    expect(ask([b], "dining")?.capLimit).toBe("3% on your first $6,000 a year across dining, gas, and grocery, then 2%.");
   });
   it("a quarterly shared cap", () => {
     const c = card("discover_discover_it_chrome", "Discover it Chrome", { general: 1, gas: 2, dining: 2 });
-    expect(ask([c], "gas")?.capLimit).toBe("2% on your first $1,000 each quarter across dining and gas combined. Then 1%.");
+    expect(ask([c], "gas")?.capLimit).toBe("2% on your first $1,000 each quarter across dining and gas, then 1%.");
   });
 });

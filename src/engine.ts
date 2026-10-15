@@ -362,10 +362,10 @@ export function recommend(input: RecommendInput): Recommendation | null {
     const next = bestBaseCard(cards, category, subKey, query, without, cardConfigs, v, now, strict, mt);
     const amount = cap.amount.toLocaleString("en-US");
     ctx.capLimit = cap.kind === "spendPerQuarter"
-      ? `${formatPercent(w.valueCents)} on your first $${amount} this quarter, across all its bonus categories. Then ${formatPercent(own)}.`
-      : `${formatPercent(w.valueCents)} until you've earned $${amount} back this year from its bonus categories. Then ${formatPercent(own)}.`;
+      ? `${formatPercent(w.valueCents)} on your first $${amount} this quarter, then ${formatPercent(own)}.`
+      : `${formatPercent(w.valueCents)} until you've earned $${amount} back this year, then ${formatPercent(own)}.`;
     ctx.afterLimit = next && next.card.id !== w.card.id
-      ? `Once it's used up: ${next.card.displayName}, ${formatPercent(next.valueCents)}.` : null;
+      ? `After that: ${next.card.displayName}, ${formatPercent(next.valueCents)}.` : null;
   }
   // Standing category cap (mirrors MerchantYieldEngine.standingCapInfo).
   if (!o) {
@@ -382,12 +382,12 @@ export function recommend(input: RecommendInput): Recommendation | null {
       const list = names.length > 1 ? new Intl.ListFormat("en", { type: "conjunction" }).format(names) : null;
       const per = capRow.period === "quarter" ? "each quarter" : capRow.period === "billingCycle" ? "each billing cycle" : "a year";
       ctx.capLimit = list
-        ? `${rate} on your first $${spend} ${per} across ${list} combined. Then ${then}.`
-        : `${rate} on your first $${spend} ${per}. Then ${then}.`;
+        ? `${rate} on your first $${spend} ${per} across ${list}, then ${then}.`
+        : `${rate} on your first $${spend} ${per}, then ${then}.`;
       const next = bestBaseCard(cards, category, subKey, query, overrides, cardConfigs, v, now, strict, mt,
                                 new Set([`${w.card.id}|std|${capRow.id}`]));
       ctx.afterLimit = next && next.card.id !== w.card.id
-        ? `Once it's used up: ${next.card.displayName}, ${formatPercent(next.valueCents)}.` : null;
+        ? `After that: ${next.card.displayName}, ${formatPercent(next.valueCents)}.` : null;
     }
   }
   if (category === "travel") ctx.portalNote = portalNote(cards, w.card);

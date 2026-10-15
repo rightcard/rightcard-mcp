@@ -44,7 +44,7 @@ describe("store-type quarters", () => {
   });
   it("a capped quarter states its limit and who wins after it", () => {
     const r = ask("AMC Theatres", "entertainment");
-    expect(r?.capLimit).toBe("5% on your first $1,500 this quarter, across all its bonus categories. Then 1%.");
-    expect(r?.afterLimit).toBe("Once it's used up: Chase Freedom Unlimited, 1.5%.");
+    expect(r?.capLimit).toBe("5% on your first $1,500 this quarter, then 1%.");
+    expect(r?.afterLimit).toBe("After that: Chase Freedom Unlimited, 1.5%.");
   });
 });
