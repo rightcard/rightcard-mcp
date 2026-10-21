@@ -108,8 +108,10 @@ function tieNote(winner: CreditCard, runnerUp: CreditCard, value: number, v: Val
     if (v.mode === "cash" && centsPerPoint(smart, runnerUp) > 1.0) {
       return `${other} also earns ${rate} here. Its points can be worth more for travel, so try Points & miles.`;
     }
-    const why = v.mode === "smart" ? "transfer flexibility" : "guaranteed cash back";
-    return `${other} also earns ${rate} here. We picked ${win} for ${why}.`;
+    if (v.mode === "smart") return `${other} also earns ${rate} here. We picked ${win} for transfer flexibility.`;
+    return winner.rewardCurrency === "cashback"
+      ? `${other} also earns ${rate} here. We picked ${win} for guaranteed cash back.`
+      : `${other} also earns ${rate} here. We picked ${win} because its rewards cash out for more.`;
   }
   if (premiumRank(winner) > premiumRank(runnerUp)) {
     return `${other} also earns ${rate} here. We picked ${win} for its purchase protection.`;
@@ -305,7 +307,9 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     }
   }
 
-  let caption = configured ? "your bonus category · value per $1" : override ? "rotating bonus · value per $1" : "value per $1";
+  let caption = configured ? "your bonus category · value per $1"
+    : override && isPermanentMerchantBenefit(override, now) ? "card benefit · value per $1"
+    : override ? "rotating bonus · value per $1" : "value per $1";
   let valueMath: string | null = null;
   let valueMathShort: string | null = null;
   if (pointsAbove) {
@@ -350,12 +354,16 @@ export function recommend(input: RecommendInput): Recommendation | null {
   // full wallet answers (works on the merchant's site) and the warehouse
   // caveat carries the register story. Unknown (null) network never gates.
   const accepted = input.acceptedNetworks;
+  let refusedAtRegister: CreditCard[] = [];
   if (accepted && accepted.size > 0) {
     const eligible = cards.filter((c) => {
       const net = c.network?.toLowerCase();
       return net == null || accepted.has(net);
     });
-    if (eligible.length > 0) cards = eligible;
+    if (eligible.length > 0) {
+      refusedAtRegister = cards.filter((c) => !eligible.includes(c));
+      cards = eligible;
+    }
   }
   const v = withPooling(input.valuation, cards);
   const cardConfigs = input.cardConfigs ?? {};
@@ -369,6 +377,15 @@ export function recommend(input: RecommendInput): Recommendation | null {
   const ctx = rateContext(w.card, w.earn, w.valueCents, w.override, w.configured, v, category, now,
                           cardConfigs[w.card.id]?.size ?? 0, merchantName);
   ctx.tieNote = w.tieNote;
+  // A better card set aside because the register won't take it: say so
+  // (mirrors MerchantYieldEngine, Oct 22 2026).
+  if (merchantName && refusedAtRegister.length > 0) {
+    const refused = bestBaseCard(refusedAtRegister, category, subKey, query, overrides, cardConfigs, v, now, strict,
+                                 input.merchantType ?? null);
+    if (refused && refused.valueCents > w.valueCents + 0.0001) {
+      ctx.reason = `${w.card.displayName} is your best card that works at the ${merchantName} register: ${formatPercent(w.valueCents)} per dollar.`;
+    }
+  }
   // Rotating limit (mirrors MerchantYieldEngine.capInfo): re-answer without
   // this card's capped quarter rows to name who wins after the limit.
   const o = w.override;

@@ -8526,7 +8526,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -8670,7 +8670,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9376,7 +9376,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9448,7 +9448,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9969,7 +9969,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9993,7 +9993,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -11304,7 +11304,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -27732,7 +27732,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -27759,7 +27759,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -27786,7 +27786,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -28545,7 +28545,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -28572,7 +28572,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -28599,7 +28599,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -30837,7 +30837,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "United MileagePlus · 1.2¢ travel value",
-        "valueCaption" : "2x miles · rotating bonus · value per $1",
+        "valueCaption" : "2x miles · card benefit · value per $1",
         "valueMath" : "2x miles × 1.2¢ = 2.4¢ per $1",
         "valueMathShort" : "2x pts × 1.2¢"
       },
@@ -33336,7 +33336,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -34169,7 +34169,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -36249,7 +36249,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -37073,7 +37073,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -44619,7 +44619,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -45440,7 +45440,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -47984,7 +47984,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -48821,7 +48821,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "United MileagePlus · 1.2¢ travel value",
-        "valueCaption" : "4x miles · rotating bonus · value per $1",
+        "valueCaption" : "4x miles · card benefit · value per $1",
         "valueMath" : "4x miles × 1.2¢ = 4.8¢ per $1",
         "valueMathShort" : "4x pts × 1.2¢"
       },
@@ -49038,7 +49038,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49065,7 +49065,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49092,7 +49092,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49173,7 +49173,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49335,7 +49335,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49389,7 +49389,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49416,7 +49416,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49443,7 +49443,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49713,7 +49713,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business for guaranteed cash back.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51174,7 +51174,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -51988,7 +51988,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
-        "valueCaption" : "6x points · rotating bonus · value per $1",
+        "valueCaption" : "6x points · card benefit · value per $1",
         "valueMath" : "6x points × 0.7¢ = 4.2¢ per $1",
         "valueMathShort" : "6x pts × 0.7¢"
       },
@@ -52554,7 +52554,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52581,7 +52581,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52799,7 +52799,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -52826,7 +52826,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -52851,7 +52851,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52878,7 +52878,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -53659,7 +53659,7 @@
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "rotating bonus · value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -54014,7 +54014,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54041,7 +54041,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54068,7 +54068,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54095,7 +54095,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54257,7 +54257,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54635,7 +54635,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -58918,7 +58918,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59001,7 +59001,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59163,7 +59163,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59542,7 +59542,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph for guaranteed cash back.",
+        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
