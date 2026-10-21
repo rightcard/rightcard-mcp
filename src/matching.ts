@@ -15,6 +15,14 @@ const GENERIC_PLACE = new Set([
   "center", "centre", "outlet", "express", "shopping", "inc", "llc", "farmers",
 ]);
 const COBRAND_GENERIC = new Set(["incorporated", "corporation", "company"]);
+/** Words that name a kind of place, not a brand: sharing only one of these is
+ *  a different business (Hotels.com is not Hilton Hotels & Resorts, Express is
+ *  not Holiday Inn Express). Mirrors MerchantYieldEngine.coBrandPlaceWords. */
+const COBRAND_PLACE_WORDS = new Set([
+  "hotel", "hotels", "resort", "resorts", "suites", "express", "restaurant",
+  "restaurants", "collection", "garden", "gardens", "plaza", "club",
+  "vacations", "airlines", "airline", "airways", "market", "store", "stores",
+]);
 
 const TLD_RE = /\.(com|net|org|co|io|tv|shop|store|us)\b/g;
 const isAlnum = (ch: string) => /[\p{L}\p{N}]/u.test(ch);
@@ -101,8 +109,10 @@ export function merchantMatchesCoBrandBenefit(benefit: string, query: string): b
     s.toLowerCase().replace(/\.(com|net|org|co|io)\b/g, " ")
       .split(/[^\p{L}\p{N}]+/u)
       .filter((t) => t.length >= 4 && !COBRAND_GENERIC.has(t)));
+  const plain = (s: string) => s.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter((t) => t.length > 0).join(" ");
+  if (plain(benefit) !== "" && plain(benefit) === plain(query)) return true;
   const b = distinctive(benefit), q = distinctive(query);
   if (b.size === 0 || q.size === 0) return false;
-  if (![...b].some((x) => q.has(x))) return false;
+  if (![...b].some((x) => q.has(x) && !COBRAND_PLACE_WORDS.has(x))) return false;
   return isSubset(q, b);
 }
