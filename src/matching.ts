@@ -52,8 +52,8 @@ export function merchantMatches(offerMerchant: string, query: string): boolean {
   if (o.length > 0 && q.length > 0) {
     const os = new Set(o), qs = new Set(q);
     if (eq(os, qs)) return true;
-    if (isStrictSubset(os, qs) && (isSubset(minus(qs, os), GENERIC_PLACE) || arrEq(q.slice(0, o.length), o))) return true;
-    if (isStrictSubset(qs, os) && isSubset(minus(os, qs), GENERIC_PLACE)) return true;
+    if (isStrictSubset(os, qs) && (isGenericRemainder(minus(qs, os)) || arrEq(q.slice(0, o.length), o))) return true;
+    if (isStrictSubset(qs, os) && isGenericRemainder(minus(os, qs))) return true;
   }
   const cm = forms(offerMerchant).compact, cq = forms(query).compact;
   if (cm.length < 4 || cq.length < 4) return false;
@@ -61,7 +61,18 @@ export function merchantMatches(offerMerchant: string, query: string): boolean {
   const [short, long] = cm.length <= cq.length ? [cm, cq] : [cq, cm];
   if (!long.startsWith(short)) return false;
   const rest = long.slice(short.length);
-  return GENERIC_PLACE.has(rest) || MERCHANT_STOPWORDS.has(rest);
+  return GENERIC_PLACE.has(rest) || MERCHANT_STOPWORDS.has(rest) || OUTLET_SUFFIXES.has(rest);
+}
+
+/** "Factory Outlet" / "Factory Store" after a brand is that brand's outlet
+ *  ("Express Factory Outlet" is Express); "factory" alone is not (J.Crew
+ *  Factory is its own brand). Mirrors MerchantYieldEngine.isGenericRemainder. */
+const OUTLET_SUFFIXES = new Set(["factoryoutlet", "factorystore", "factorystores"]);
+function isGenericRemainder(rest: Set<string>): boolean {
+  if (isSubset(rest, GENERIC_PLACE)) return true;
+  if (!rest.has("factory") || !["outlet", "store", "stores"].some((w) => rest.has(w))) return false;
+  const r = new Set(rest); r.delete("factory");
+  return isSubset(r, GENERIC_PLACE);
 }
 
 const arrEq = (a: string[], b: string[]) => a.length === b.length && a.every((x, i) => x === b[i]);
@@ -71,7 +82,7 @@ export function merchantMatchesStrict(offerMerchant: string, place: string): boo
   const o = forms(offerMerchant).significant, p = forms(place).significant;
   if (o.size === 0 || p.size === 0) return false;
   if (eq(o, p)) return true;
-  if (isSubset(o, p) && isSubset(minus(p, o), GENERIC_PLACE)) return true;
+  if (isSubset(o, p) && isGenericRemainder(minus(p, o))) return true;
   return forms(offerMerchant).compact === forms(place).compact;
 }
 
