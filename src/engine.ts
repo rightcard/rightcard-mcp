@@ -174,6 +174,12 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
       matches = o.category.trim().toLowerCase() === category;
     }
     if (matches && o.bonusRate > rate) { rate = o.bonusRate; winningOverride = o; winningConfig = null; }
+    else if (matches && o.bonusRate === rate && merchantQuery && o.merchant && winningOverride?.merchant
+             && closerBenefit(o.merchant, winningOverride.merchant, merchantQuery)) {
+      // Same rate, closer name: "Marriott" names Marriott, not TownePlace
+      // Suites by Marriott. Mirrors MerchantYieldEngine (Oct 21 2026).
+      winningOverride = o;
+    }
   }
   const spec = specFor(card);
   if (spec && spec.eligible.includes(category) && cardConfigs[card.id]?.has(category) && spec.bonusRate > rate) {
@@ -189,6 +195,19 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
     }
   }
   return { rate, override: winningOverride, configured: winningConfig };
+}
+
+/** MerchantYieldEngine.benefitCloseness: exact name first, then the fewest
+ *  words, the shortest, then A–Z. True when `a` is closer than `b`. */
+function closerBenefit(a: string, b: string, query: string): boolean {
+  const plain = (s: string) => s.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter((t) => t.length > 0).join(" ");
+  const key = (n: string): [number, number, number, string] => {
+    const p = plain(n);
+    return [p === plain(query) ? 0 : 1, p.split(" ").length, [...p].length, p];
+  };
+  const x = key(a), y = key(b);
+  for (let i = 0; i < 3; i++) if (x[i] !== y[i]) return (x[i] as number) < (y[i] as number);
+  return x[3] < y[3];
 }
 
 interface Winner { card: CreditCard; earn: number; valueCents: number; override: Override | null; configured: ConfigurableCardSpec | null; tieNote: string | null }

@@ -27720,13 +27720,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "5% at Amazon Fresh · card benefit"
+          "5% at Amazon · card benefit"
         ],
         "cardId" : "amazon_prime_visa",
         "loggableRate" : 5,
         "portalNote" : null,
         "rateDisplay" : "5%",
-        "reason" : "Amazon Prime Visa earns 5% at Amazon Fresh, the most in your wallet here.",
+        "reason" : "Amazon Prime Visa earns 5% at Amazon, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
@@ -28533,13 +28533,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "5% at Amazon Fresh · card benefit"
+          "5% at Amazon · card benefit"
         ],
         "cardId" : "amazon_prime_visa",
         "loggableRate" : 5,
         "portalNote" : null,
         "rateDisplay" : "5%",
-        "reason" : "Amazon Prime Visa earns 5% at Amazon Fresh, the most in your wallet here.",
+        "reason" : "Amazon Prime Visa earns 5% at Amazon, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
@@ -33324,13 +33324,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "3% at Apple Music · card benefit"
+          "3% at Apple · card benefit"
         ],
         "cardId" : "apple_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Apple Card earns 3% at Apple Music, the most in your wallet here.",
+        "reason" : "Apple Card earns 3% at Apple, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
@@ -34157,13 +34157,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "3% at Apple Music · card benefit"
+          "3% at Apple · card benefit"
         ],
         "cardId" : "apple_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Apple Card earns 3% at Apple Music, the most in your wallet here.",
+        "reason" : "Apple Card earns 3% at Apple, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
