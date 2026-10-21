@@ -44,7 +44,7 @@ export const CONFIGURABLE_SPECS: ConfigurableCardSpec[] = [
     key: "citi_strata", displayName: "Citi Strata Card", bonusRate: 3, slots: 1,
     eligible: ["streaming"],
     note: "3x on the one category you picked at citi.com. Citi starts every card on streaming, and you can change it once a quarter. For gyms, salons, pet stores and live events, RightCard counts the big chains it knows. Other stores show 1x.",
-    matchNeedles: ["citirewardsplus", "citistratacard"],
+    matchNeedles: ["citirewardsplus", "citistratacard"], multiCardMax: 1,
   },
   {
     key: "bofa_customized_cash", displayName: "Bank of America Customized Cash Rewards", bonusRate: 3, slots: 1,
