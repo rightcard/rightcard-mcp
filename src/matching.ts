@@ -22,13 +22,18 @@ const isAlnum = (ch: string) => /[\p{L}\p{N}]/u.test(ch);
 interface TokenForms { brand: string[]; significant: Set<string>; compact: string }
 const cache = new Map<string, TokenForms>();
 
+/** Product line in front of the brand: "Polo Ralph Lauren" is Ralph Lauren.
+ *  Mirrors MerchantYieldEngine.brandLineNames. */
+const BRAND_LINE_NAMES: [string, string][] = [["polo ralph lauren", "ralph lauren"]];
+
 function forms(s: string): TokenForms {
   const hit = cache.get(s);
   if (hit) return hit;
-  const lowered = s.toLowerCase()
+  let lowered = s.toLowerCase()
     .replace(/&/g, " and ")
     .replace(/(?<=[\p{L}\p{N}])\+(?=[\p{L}\p{N}])/gu, " and ")
     .replace(/(?<=\s)\+(?=\s)/g, " and ");
+  for (const [line, brand] of BRAND_LINE_NAMES) if (lowered.includes(line)) lowered = lowered.split(line).join(brand);
   const stripped = lowered.replace(TLD_RE, " ");
   const parts = stripped.split(/[^\p{L}\p{N}]+/u).filter((p) => p.length > 0);
   const out: TokenForms = {
@@ -67,11 +72,11 @@ export function merchantMatches(offerMerchant: string, query: string): boolean {
 /** "Factory Outlet" / "Factory Store" after a brand is that brand's outlet
  *  ("Express Factory Outlet" is Express); "factory" alone is not (J.Crew
  *  Factory is its own brand). Mirrors MerchantYieldEngine.isGenericRemainder. */
-const OUTLET_SUFFIXES = new Set(["factoryoutlet", "factorystore", "factorystores"]);
+const OUTLET_SUFFIXES = new Set(["factoryoutlet", "factorystore", "factorystores", "factoryhouse"]);
 function isGenericRemainder(rest: Set<string>): boolean {
   if (isSubset(rest, GENERIC_PLACE)) return true;
-  if (!rest.has("factory") || !["outlet", "store", "stores"].some((w) => rest.has(w))) return false;
-  const r = new Set(rest); r.delete("factory");
+  if (!rest.has("factory") || !["outlet", "store", "stores", "house"].some((w) => rest.has(w))) return false;
+  const r = new Set(rest); r.delete("factory"); r.delete("house");
   return isSubset(r, GENERIC_PLACE);
 }
 

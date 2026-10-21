@@ -9,6 +9,15 @@ describe("outlet stores", () => {
     expect(merchantMatches("express", "Express Factory Outlet")).toBe(true);
     expect(merchantMatchesStrict("gap", "Gap Factory Store")).toBe(true);
   });
+  it("Polo Ralph Lauren is Ralph Lauren", () => {
+    expect(merchantMatchesStrict("ralph lauren", "Polo Ralph Lauren Factory Store")).toBe(true);
+    expect(merchantMatches("ralph lauren", "Polo Ralph Lauren Factory Store")).toBe(true);
+    expect(merchantMatchesStrict("ralph lauren", "Polo Grill")).toBe(false);
+  });
+  it("Under Armour Factory House is Under Armour", () => {
+    expect(merchantMatchesStrict("under armour", "Under Armour Factory House")).toBe(true);
+    expect(merchantMatchesStrict("under armour", "Under Armour House")).toBe(false);
+  });
   it("Factory alone is a different brand", () => {
     expect(merchantMatchesStrict("j.crew", "J.Crew Factory")).toBe(false);
     expect(merchantMatchesStrict("cheesecake", "The Cheesecake Factory")).toBe(false);
