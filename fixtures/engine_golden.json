@@ -83348,7 +83348,6 @@
     {
       "ids" : [
         "walmart",
-        "walmart_inc_pharmacy",
         "walmart_marketplace",
         "walmart_neighborhood_market",
         "walmart_pharmacy"
@@ -83638,7 +83637,7 @@
         "walgreens",
         "walker_edison",
         "walmart",
-        "walmart_inc_pharmacy"
+        "walmart_marketplace"
       ],
       "query" : "wal"
     },
