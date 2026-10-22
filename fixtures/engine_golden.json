@@ -17881,20 +17881,20 @@
       "wallet" : 0
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1%"
+          "Base online earn: 1%"
         ],
         "cardId" : "amex_blue_cash_preferred",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "American Express Blue Cash Preferred® earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "American Express Blue Cash Preferred® earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -18694,7 +18694,7 @@
       "wallet" : 0
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -18708,7 +18708,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express® Gold Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express® Gold Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -19523,20 +19523,20 @@
       "wallet" : 1
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -20341,7 +20341,7 @@
       "wallet" : 1
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -20355,7 +20355,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Chase Freedom Unlimited earns 1.5x points on everyday purchases. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Chase Freedom Unlimited earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -21183,20 +21183,20 @@
       "wallet" : 2
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -21999,20 +21999,20 @@
       "wallet" : 2
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -22815,20 +22815,20 @@
       "wallet" : 3
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -23630,20 +23630,20 @@
       "wallet" : 3
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -24453,20 +24453,20 @@
       "wallet" : 4
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -25268,7 +25268,7 @@
       "wallet" : 4
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -25282,7 +25282,7 @@
         "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "1.6%",
-        "reason" : "Citi Premier Card earns 1x points on everyday purchases. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
+        "reason" : "Citi Premier Card earns 1x points on online. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -26103,20 +26103,20 @@
       "wallet" : 5
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1x points → 1%"
+          "Base online earn: 1x points → 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -26915,20 +26915,20 @@
       "wallet" : 5
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1x points → 1%"
+          "Base online earn: 1x points → 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -27727,7 +27727,7 @@
       "wallet" : 6
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -28540,7 +28540,7 @@
       "wallet" : 6
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -29377,7 +29377,7 @@
       "wallet" : 7
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -29391,7 +29391,7 @@
         "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Hilton Honors American Express Card earns 3x points on online. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -30205,7 +30205,7 @@
       "wallet" : 7
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -30219,7 +30219,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Chase Sapphire Preferred earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Chase Sapphire Preferred earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -31042,26 +31042,27 @@
       "wallet" : 8
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5x points → 1.5%"
+          "3% on Online · your chosen category",
+          "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after)."
         ],
-        "cardId" : "bofa_premium_rewards",
-        "loggableRate" : 1.5,
+        "cardId" : "bofa_customized_cash",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for everyday purchases: 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Bank of America Customized Cash is your choose-your-category card. You set Online for 3%, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
+        "valueCaption" : "your bonus category · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -31858,26 +31859,27 @@
       "wallet" : 8
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5x points → 1.5%"
+          "3% on Online · your chosen category",
+          "3% in your chosen category (plus 2% at grocery & wholesale clubs), on up to $2,500 in combined choice + grocery purchases each quarter (1% after)."
         ],
-        "cardId" : "bofa_premium_rewards",
-        "loggableRate" : 1.5,
+        "cardId" : "bofa_customized_cash",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for everyday purchases: 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Bank of America Customized Cash is your choose-your-category card. You set Online for 3%, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
+        "valueCaption" : "your bonus category · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -32674,20 +32676,20 @@
       "wallet" : 9
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1%"
+          "Base online earn: 1%"
         ],
         "cardId" : "apple_card",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Apple Card earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "Apple Card earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -33487,7 +33489,7 @@
       "wallet" : 9
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -33501,7 +33503,7 @@
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Wells Fargo Autograph earns 1x points on everyday purchases. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "Wells Fargo Autograph earns 1x points on online. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -34318,20 +34320,20 @@
       "wallet" : 10
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 1.5%"
         ],
         "cardId" : "capital_one_student_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Quicksilver Rewards for Students earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "Quicksilver Rewards for Students earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -35128,20 +35130,20 @@
       "wallet" : 10
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 1.5%"
         ],
         "cardId" : "capital_one_student_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Quicksilver Rewards for Students earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "Quicksilver Rewards for Students earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -35938,20 +35940,20 @@
       "wallet" : 11
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1%"
+          "Base online earn: 1%"
         ],
         "cardId" : "chase_disney_premier_visa_card",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Disney Premier Visa Card earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "Disney Premier Visa Card earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -36751,7 +36753,7 @@
       "wallet" : 11
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -36765,7 +36767,7 @@
         "loggableRate" : 1.2,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Southwest Rapid Rewards Plus earns 1x points on everyday purchases. At 1.2¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Southwest Rapid Rewards Plus earns 1x points on online. At 1.2¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -37585,20 +37587,20 @@
       "wallet" : 12
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "wellsfargo_activecash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Active Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Wells Fargo Active Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -38395,20 +38397,20 @@
       "wallet" : 12
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "wellsfargo_activecash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Active Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Wells Fargo Active Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -39205,20 +39207,20 @@
       "wallet" : 13
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5x points → 1.5%"
+          "Base online earn: 1.5x points → 1.5%"
         ],
         "cardId" : "citi_citi_strata_elite_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Citi Strata Elite ℠ Card earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "Citi Strata Elite ℠ Card earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -40023,7 +40025,7 @@
       "wallet" : 13
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -40037,7 +40039,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express Business Gold Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express Business Gold Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -40847,20 +40849,20 @@
       "wallet" : 14
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base online earn: 3x points → 3%"
         ],
         "cardId" : "barclays_gm_rewards_mastercard",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "GM Rewards Mastercard earns the most for everyday purchases: 3% per dollar.",
+        "reason" : "GM Rewards Mastercard earns the most for online: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -41657,20 +41659,20 @@
       "wallet" : 14
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base online earn: 3x points → 3%"
         ],
         "cardId" : "barclays_gm_rewards_mastercard",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "GM Rewards Mastercard earns the most for everyday purchases: 3% per dollar.",
+        "reason" : "GM Rewards Mastercard earns the most for online: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -42469,20 +42471,20 @@
       "wallet" : 15
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -43279,20 +43281,20 @@
       "wallet" : 15
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -44092,20 +44094,20 @@
       "wallet" : 16
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -44905,7 +44907,7 @@
       "wallet" : 16
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -44919,7 +44921,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express Business Gold Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express Business Gold Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -45726,20 +45728,20 @@
       "wallet" : 17
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -46539,7 +46541,7 @@
       "wallet" : 17
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -46553,7 +46555,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on everyday purchases. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -47376,20 +47378,20 @@
       "wallet" : 18
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base online earn: 2x points → 2%"
         ],
         "cardId" : "u_s_bank_bank_smartly_visa_signature_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bank Smartly Visa Signature Credit Card earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Bank Smartly Visa Signature Credit Card earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -48189,7 +48191,7 @@
       "wallet" : 18
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -48203,7 +48205,7 @@
         "loggableRate" : 4,
         "portalNote" : null,
         "rateDisplay" : "4%",
-        "reason" : "Bank Smartly Visa Signature Credit Card earns 2x points on everyday purchases. At 2.0¢ each, that's 4% per dollar, the most in your wallet.",
+        "reason" : "Bank Smartly Visa Signature Credit Card earns 2x points on online. At 2.0¢ each, that's 4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -49026,20 +49028,20 @@
       "wallet" : 19
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x miles → 2%"
+          "Base online earn: 2x miles → 2%"
         ],
         "cardId" : "capital_one_capital_one_venture_x_business",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X Business earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Capital One Venture X Business earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -49839,7 +49841,7 @@
       "wallet" : 19
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -49853,7 +49855,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X Business earns 2x miles on everyday purchases. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture X Business earns 2x miles on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -50674,20 +50676,20 @@
       "wallet" : 20
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 3%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "PayPal Cashback Mastercard earns the most for online: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -51487,20 +51489,20 @@
       "wallet" : 20
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 3%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "PayPal Cashback Mastercard earns the most for online: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52302,20 +52304,20 @@
       "wallet" : 21
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 3%"
         ],
         "cardId" : "paypal_cashback",
-        "loggableRate" : 1.5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "PayPal Cashback Mastercard earns the most for online: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -53121,29 +53123,28 @@
       "wallet" : 21
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.8¢\/pt → 1.8% per $1"
+          "Base online earn: 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
-        "loggableRate" : 1.8,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.8%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "PayPal Cashback Mastercard earns the most for online: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Chase Ultimate Rewards · 1.8¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.8¢ = 1.8¢ per $1",
-        "valueMathShort" : "1x pts × 1.8¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "subKey" : null,
       "wallet" : 21
@@ -53960,7 +53961,7 @@
       "wallet" : 22
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -53974,7 +53975,7 @@
         "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on online. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -54782,7 +54783,7 @@
       "wallet" : 22
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -54796,7 +54797,7 @@
         "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "1.6%",
-        "reason" : "Citi Strata Premier ® Card earns 1x points on everyday purchases. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
+        "reason" : "Citi Strata Premier ® Card earns 1x points on online. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -55619,20 +55620,20 @@
       "wallet" : 23
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 1.5%"
         ],
         "cardId" : "navy_federal_cashrewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Navy Federal cashRewards earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "Navy Federal cashRewards earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -56429,20 +56430,20 @@
       "wallet" : 23
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5x points → 1.5%"
+          "Base online earn: 1.5x points → 1.5%"
         ],
         "cardId" : "penfed_pathfinder",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "PenFed Pathfinder Rewards Visa Signature earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "PenFed Pathfinder Rewards Visa Signature earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -57239,20 +57240,20 @@
       "wallet" : 24
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -58049,20 +58050,20 @@
       "wallet" : 24
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -58876,29 +58877,29 @@
       "wallet" : 25
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Earns 3x points",
-          "Valued at 0.4¢\/pt → 1.2% per $1"
+          "Earns 4x points",
+          "Valued at 0.4¢\/pt → 1.6% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 1.2000000000000002,
+        "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
-        "rateDisplay" : "1.2%",
-        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "rateDisplay" : "1.6%",
+        "reason" : "Hilton Honors Surpass earns 4x points on online. At 0.4¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
-        "valueCaption" : "3x points · value per $1",
-        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
-        "valueMathShort" : "3x pts × 0.4¢"
+        "valueCaption" : "4x points · value per $1",
+        "valueMath" : "4x points × 0.4¢ = 1.6¢ per $1",
+        "valueMathShort" : "4x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 25
@@ -59700,29 +59701,29 @@
       "wallet" : 25
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.5¢\/pt → 1.5% per $1"
+          "Earns 4x points",
+          "Valued at 0.4¢\/pt → 1.6% per $1"
         ],
-        "cardId" : "wells_fargo_autograph_journey_card",
-        "loggableRate" : 1.5,
+        "cardId" : "hilton_surpass",
+        "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Autograph® Journey Card earns 1x points on everyday purchases. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
+        "rateDisplay" : "1.6%",
+        "reason" : "Hilton Honors Surpass earns 4x points on online. At 0.4¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "One Key also earns 1.5% here. Either one works.",
-        "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.5¢ = 1.5¢ per $1",
-        "valueMathShort" : "1x pts × 1.5¢"
+        "tieNote" : null,
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "4x points · value per $1",
+        "valueMath" : "4x points × 0.4¢ = 1.6¢ per $1",
+        "valueMathShort" : "4x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 25
@@ -60535,20 +60536,20 @@
       "wallet" : 26
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "wellsfargo_activecash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Active Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Wells Fargo Active Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -61345,20 +61346,20 @@
       "wallet" : 26
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "wellsfargo_activecash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Active Cash earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Wells Fargo Active Cash earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -62158,20 +62159,20 @@
       "wallet" : 27
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5x points → 1.5%"
+          "Base online earn: 1.5x points → 1.5%"
         ],
         "cardId" : "chase_ink_business_unlimited_credit_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Ink Business Unlimited Credit Card earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "Ink Business Unlimited Credit Card earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -62971,7 +62972,7 @@
       "wallet" : 27
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -62985,7 +62986,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on everyday purchases. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -63793,20 +63794,20 @@
       "wallet" : 28
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base online earn: 2x points → 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_miles_for_business",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Miles for Business earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Capital One Spark Miles for Business earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -64606,7 +64607,7 @@
       "wallet" : 28
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -64620,7 +64621,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Spark Miles for Business earns 2x points on everyday purchases. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Spark Miles for Business earns 2x points on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -65443,20 +65444,20 @@
       "wallet" : 29
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1%"
+          "Base online earn: 1%"
         ],
         "cardId" : "amex_blue_cash_preferred",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "American Express Blue Cash Preferred® earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "American Express Blue Cash Preferred® earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -66256,7 +66257,7 @@
       "wallet" : 29
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -66270,7 +66271,7 @@
         "loggableRate" : 1.2,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Southwest Rapid Rewards Priority earns 1x points on everyday purchases. At 1.2¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Southwest Rapid Rewards Priority earns 1x points on online. At 1.2¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -67078,20 +67079,20 @@
       "wallet" : 30
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -67888,20 +67889,20 @@
       "wallet" : 30
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -68703,20 +68704,20 @@
       "wallet" : 31
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1x points → 1%"
+          "Base online earn: 1x points → 1%"
         ],
         "cardId" : "aa_platinum_select",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "AAdvantage Platinum Select earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "AAdvantage Platinum Select earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -69516,7 +69517,7 @@
       "wallet" : 31
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -69530,7 +69531,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express Platinum earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express Platinum earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -70349,20 +70350,20 @@
       "wallet" : 32
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -71162,7 +71163,7 @@
       "wallet" : 32
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -71176,7 +71177,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X Business earns 2x miles on everyday purchases. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture X Business earns 2x miles on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -71990,20 +71991,20 @@
       "wallet" : 33
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -72808,7 +72809,7 @@
       "wallet" : 33
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -72822,7 +72823,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "Bilt Palladium Card earns 2x points on everyday purchases. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "Bilt Palladium Card earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -73636,20 +73637,20 @@
       "wallet" : 34
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x miles → 2%"
+          "Base online earn: 2x miles → 2%"
         ],
         "cardId" : "barclays_arrival_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -74454,7 +74455,7 @@
       "wallet" : 34
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -74468,7 +74469,7 @@
         "loggableRate" : 4,
         "portalNote" : null,
         "rateDisplay" : "4%",
-        "reason" : "Bank Smartly Visa Signature Credit Card earns 2x points on everyday purchases. At 2.0¢ each, that's 4% per dollar, the most in your wallet.",
+        "reason" : "Bank Smartly Visa Signature Credit Card earns 2x points on online. At 2.0¢ each, that's 4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -75291,20 +75292,20 @@
       "wallet" : 35
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -76101,20 +76102,20 @@
       "wallet" : 35
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -76911,20 +76912,20 @@
       "wallet" : 36
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "sofi_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "SoFi Credit Card earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -77724,7 +77725,7 @@
       "wallet" : 36
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
@@ -77738,7 +77739,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X earns 2x miles on everyday purchases. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture X earns 2x miles on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -78552,20 +78553,20 @@
       "wallet" : 37
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 1.5%"
         ],
         "cardId" : "usaa_usaa_preferred_cash_rewards_visa_signature",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "USAA Preferred Cash Rewards Visa Signature earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "USAA Preferred Cash Rewards Visa Signature earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -79362,20 +79363,20 @@
       "wallet" : 37
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1.5%"
+          "Base online earn: 1.5%"
         ],
         "cardId" : "usaa_usaa_preferred_cash_rewards_visa_signature",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "USAA Preferred Cash Rewards Visa Signature earns the most for everyday purchases: 1.5% per dollar.",
+        "reason" : "USAA Preferred Cash Rewards Visa Signature earns the most for online: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -80172,20 +80173,20 @@
       "wallet" : 38
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -80982,20 +80983,20 @@
       "wallet" : 38
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2%"
+          "Base online earn: 2%"
         ],
         "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -81793,20 +81794,20 @@
       "wallet" : 39
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1%"
+          "Base online earn: 1%"
         ],
         "cardId" : "capitalone_savor",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Capital One Savor earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "Capital One Savor earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -82603,20 +82604,20 @@
       "wallet" : 39
     },
     {
-      "category" : "general",
+      "category" : "online",
       "caveat" : null,
       "directoryId" : "amazon",
       "merchant" : "Amazon",
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 1%"
+          "Base online earn: 1%"
         ],
         "cardId" : "capitalone_savor",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Capital One Savor earns the most for everyday purchases: 1% per dollar.",
+        "reason" : "Capital One Savor earns the most for online: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -83338,10 +83339,9 @@
       "ids" : [
         "costco",
         "costco_gas",
-        "costco_gasoline",
-        "costco_online_fuel",
         "costco_online_pharmacy",
-        "costco_pharmacy"
+        "costco_pharmacy",
+        "costco_wholesale_pharmacy"
       ],
       "query" : "costco"
     },
@@ -83427,7 +83427,6 @@
         "uber_eats",
         "uber_rent",
         "jump_by_uber",
-        "annual_uber_one_membership",
         "auberge_collection"
       ],
       "query" : "uber"
@@ -83481,7 +83480,6 @@
     {
       "ids" : [
         "amazon",
-        "amazon_buisness",
         "amazon_fresh",
         "amazon_music",
         "amazon_pharmacy",
