@@ -223,7 +223,20 @@ function bestBaseCard(cards: CreditCard[], category: SpendCategory, subKey: stri
   });
   if (candidates.length === 0) return null;
   const maxValue = Math.max(...candidates.map((c) => c.value));
+  // A card with NO spending limit on this rate beats one that stops paying it
+  // after $X (mirrors MerchantYieldEngine.rateIsCapped, Oct 22 2026).
+  const capped = (c: typeof candidates[number]): boolean => {
+    if (c.override) {
+      return c.override.requiresActivation && !isPermanentMerchantBenefit(c.override, now) && rotatingCap(c.card.id) !== null;
+    }
+    const cap = standingCaps(c.card.id).find((x) => capCovers(x, category, !!c.configured));
+    if (!cap) return false;
+    const after = cap.after ?? multiplier(c.card, "general", null);
+    return !usedUp.has(`${c.card.id}|std|${cap.id}`) && after < c.earn - 0.0001;
+  };
   const tied = candidates.filter((c) => Math.abs(c.value - maxValue) < 0.0001).sort((a, b) => {
+    const ca = capped(a), cb = capped(b);
+    if (ca !== cb) return ca ? 1 : -1;
     const ra = optionalityRank(a.card, v), rb = optionalityRank(b.card, v);
     if (ra !== rb) return rb - ra;
     const pa = premiumRank(a.card), pb = premiumRank(b.card);
@@ -232,7 +245,10 @@ function bestBaseCard(cards: CreditCard[], category: SpendCategory, subKey: stri
   });
   const w = tied[0];
   if (!w) return null;
-  const note = tied.length >= 2 ? tieNote(w.card, tied[1].card, w.value, v) : null;
+  const note = tied.length < 2 ? null
+    : (!capped(w) && capped(tied[1]))
+      ? `${shortName(tied[1].card.displayName)} also earns ${formatPercent(w.value)} here, but only up to a spending limit. We picked ${shortName(w.card.displayName)} because it has no limit.`
+      : tieNote(w.card, tied[1].card, w.value, v);
   return { card: w.card, earn: w.earn, valueCents: w.value, override: w.override, configured: w.configured, tieNote: note };
 }
 

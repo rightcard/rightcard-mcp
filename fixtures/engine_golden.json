@@ -5010,7 +5010,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -5058,7 +5058,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -6748,7 +6748,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Discover it Chrome also earns 2% here. We picked Fidelity Rewards Visa Signature for guaranteed cash back.",
+        "tieNote" : "Discover it Chrome also earns 2% here, but only up to a spending limit. We picked Fidelity Rewards Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -6954,17 +6954,17 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 2x points → 2%"
+          "Base dining earn: 2%"
         ],
-        "cardId" : "discover_discover_it_chrome",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Discover it® Chrome earns the most for dining: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for dining: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. We picked Discover it Chrome for transfer flexibility.",
+        "tieNote" : "Discover it Chrome also earns 2% here, but only up to a spending limit. We picked Fidelity Rewards Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -8578,17 +8578,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 2x points → 2%"
+          "Base gas earn: 2x miles → 2%"
         ],
-        "cardId" : "chase_ink_business_cash_credit_card",
+        "cardId" : "capital_one_capital_one_venture_x_business",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Ink Business Cash Credit Card earns the most for gas: 2% per dollar.",
+        "reason" : "Capital One Venture X Business earns the most for gas: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Venture X Business also earns 2% here. We picked Ink Business Cash because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9091,17 +9091,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 2%"
+          "Base transit earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "bank_of_america_atmos_rewards_ascent_visa_signature",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for transit: 2% per dollar.",
+        "reason" : "Atmos Rewards Ascent Visa Signature earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Atmos Rewards Ascent Visa Signature also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Blue Business Cash from Amex also earns 2% here, but only up to a spending limit. We picked Atmos Rewards Ascent Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9432,15 +9432,15 @@
         "breakdownLines" : [
           "Base travel earn: 3x points → 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
+        "cardId" : "wellsfargo_autograph",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Ink Business Preferred Credit Card earns the most for travel: 3% per dollar.",
+        "reason" : "Wells Fargo Autograph earns the most for travel: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Autograph also earns 3% here. We picked Ink Business Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Ink Business Preferred also earns 3% here, but only up to a spending limit. We picked Autograph because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9528,15 +9528,15 @@
         "breakdownLines" : [
           "Base transit earn: 3x points → 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
+        "cardId" : "wellsfargo_autograph",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Ink Business Preferred Credit Card earns the most for transit: 3% per dollar.",
+        "reason" : "Wells Fargo Autograph earns the most for transit: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Autograph also earns 3% here. We picked Ink Business Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Ink Business Preferred also earns 3% here, but only up to a spending limit. We picked Autograph because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -14736,7 +14736,7 @@
             "rate" : "6%"
           },
           {
-            "cardName" : "Blue Business Cash Card from American Express",
+            "cardName" : "Fidelity Rewards Visa Signature",
             "label" : "Online \/ delivery",
             "rate" : "2%"
           }
@@ -14757,15 +14757,15 @@
         "breakdownLines" : [
           "Base travel earn: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : "Booking through Capital One Travel? Venture X earns up to 10x there.",
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for travel: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -14806,15 +14806,15 @@
         "breakdownLines" : [
           "Base online earn: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -14903,15 +14903,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -17801,7 +17801,7 @@
   "merchantCases" : [
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -17828,7 +17828,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -17855,7 +17855,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -18341,7 +18341,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -18611,7 +18611,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -18639,7 +18639,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -18667,7 +18667,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -19165,7 +19165,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -19443,7 +19443,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -19470,7 +19470,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -19497,7 +19497,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -19986,7 +19986,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -20258,7 +20258,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -20286,7 +20286,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -20314,7 +20314,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -20821,7 +20821,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -21103,7 +21103,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -21130,7 +21130,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -21157,7 +21157,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -21648,7 +21648,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -21919,7 +21919,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -21946,7 +21946,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -21973,7 +21973,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -22464,7 +22464,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -22735,7 +22735,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -22762,7 +22762,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -22789,7 +22789,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -23278,7 +23278,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -23550,7 +23550,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -23577,7 +23577,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -23604,7 +23604,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -24099,7 +24099,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -24373,7 +24373,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -24400,7 +24400,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -24427,7 +24427,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -24914,7 +24914,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -25185,7 +25185,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -25213,7 +25213,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -25241,7 +25241,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -25743,7 +25743,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -26023,7 +26023,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -26050,7 +26050,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -26077,7 +26077,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -26564,7 +26564,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -26835,7 +26835,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -26862,7 +26862,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -26889,7 +26889,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -27376,7 +27376,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -27647,7 +27647,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -27674,7 +27674,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -27701,7 +27701,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -28187,7 +28187,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -28457,7 +28457,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -28485,7 +28485,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -28513,7 +28513,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -29014,7 +29014,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -29294,7 +29294,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -29322,7 +29322,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -29350,7 +29350,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -29847,7 +29847,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -30122,7 +30122,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -30150,7 +30150,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -30178,7 +30178,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -30682,7 +30682,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -30962,7 +30962,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -30989,7 +30989,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -31016,7 +31016,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -31508,7 +31508,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -31779,7 +31779,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -31806,7 +31806,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -31833,7 +31833,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -32325,7 +32325,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -32596,7 +32596,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -32623,7 +32623,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -32650,7 +32650,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -33136,7 +33136,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -33406,7 +33406,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -33434,7 +33434,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -33462,7 +33462,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -33961,7 +33961,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -34240,7 +34240,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -34267,7 +34267,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -34294,7 +34294,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -34780,7 +34780,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -35050,7 +35050,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -35077,7 +35077,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -35104,7 +35104,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -35590,7 +35590,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -35860,7 +35860,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -35887,7 +35887,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -35914,7 +35914,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -35984,7 +35984,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -36011,7 +36011,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -36254,7 +36254,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -36335,7 +36335,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -36362,7 +36362,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -36389,7 +36389,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -36400,7 +36400,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -36551,7 +36551,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Southwest Rapid Rewards Plus also earns 2% here, but only up to a spending limit. We picked Disney Premier Visa because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -36670,7 +36670,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -36698,7 +36698,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -36726,7 +36726,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -37228,7 +37228,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -37507,7 +37507,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -37534,7 +37534,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -37561,7 +37561,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -38047,7 +38047,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -38317,7 +38317,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -38344,7 +38344,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -38371,7 +38371,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -38857,7 +38857,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -39127,7 +39127,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -39154,7 +39154,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -39181,7 +39181,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -39670,7 +39670,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -39942,7 +39942,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -39970,7 +39970,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -39998,7 +39998,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -40491,7 +40491,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -40769,7 +40769,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -40796,7 +40796,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -40823,7 +40823,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -41309,7 +41309,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -41579,7 +41579,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -41606,7 +41606,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -41633,7 +41633,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -42120,7 +42120,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -42391,7 +42391,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -42418,7 +42418,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -42445,7 +42445,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -42758,7 +42758,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Discover it Chrome also earns 2% here. We picked Fidelity Rewards Visa Signature for guaranteed cash back.",
+        "tieNote" : "Discover it Chrome also earns 2% here, but only up to a spending limit. We picked Fidelity Rewards Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -42931,7 +42931,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -43055,7 +43055,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Discover it Chrome also earns 2% here. We picked Fidelity Rewards Visa Signature for guaranteed cash back.",
+        "tieNote" : "Discover it Chrome also earns 2% here, but only up to a spending limit. We picked Fidelity Rewards Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -43201,7 +43201,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -43228,7 +43228,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -43255,7 +43255,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -43558,17 +43558,17 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 2x points → 2%"
+          "Base dining earn: 2%"
         ],
-        "cardId" : "discover_discover_it_chrome",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Discover it® Chrome earns the most for dining: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for dining: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. We picked Discover it Chrome for transfer flexibility.",
+        "tieNote" : "Discover it Chrome also earns 2% here, but only up to a spending limit. We picked Fidelity Rewards Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -43742,7 +43742,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -43858,17 +43858,17 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 2x points → 2%"
+          "Base dining earn: 2%"
         ],
-        "cardId" : "discover_discover_it_chrome",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Discover it® Chrome earns the most for dining: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for dining: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. We picked Discover it Chrome for transfer flexibility.",
+        "tieNote" : "Discover it Chrome also earns 2% here, but only up to a spending limit. We picked Fidelity Rewards Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -44014,7 +44014,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -44041,7 +44041,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -44068,7 +44068,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -44554,7 +44554,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -44824,7 +44824,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -44852,7 +44852,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -44880,7 +44880,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -45372,7 +45372,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -45648,7 +45648,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -45675,7 +45675,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -45702,7 +45702,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -46188,7 +46188,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -46458,7 +46458,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -46486,7 +46486,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -46514,7 +46514,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -47018,7 +47018,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -47298,7 +47298,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -47325,7 +47325,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -47352,7 +47352,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -47838,7 +47838,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -48108,7 +48108,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -48136,7 +48136,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -48164,7 +48164,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -48668,7 +48668,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -48948,7 +48948,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -48975,7 +48975,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -49002,7 +49002,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -49332,17 +49332,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 2x points → 2%"
+          "Base gas earn: 2x miles → 2%"
         ],
-        "cardId" : "chase_ink_business_cash_credit_card",
+        "cardId" : "capital_one_capital_one_venture_x_business",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Ink Business Cash Credit Card earns the most for gas: 2% per dollar.",
+        "reason" : "Capital One Venture X Business earns the most for gas: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Venture X Business also earns 2% here. We picked Ink Business Cash because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49488,7 +49488,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -49629,17 +49629,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 2x points → 2%"
+          "Base gas earn: 2x miles → 2%"
         ],
-        "cardId" : "chase_ink_business_cash_credit_card",
+        "cardId" : "capital_one_capital_one_venture_x_business",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Ink Business Cash Credit Card earns the most for gas: 2% per dollar.",
+        "reason" : "Capital One Venture X Business earns the most for gas: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Venture X Business also earns 2% here. We picked Ink Business Cash because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Altitude Go Visa Signature also earns 2% here. We picked Venture X Business because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -49758,7 +49758,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -49786,7 +49786,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -49814,7 +49814,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -50317,7 +50317,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -50596,7 +50596,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -50623,7 +50623,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -50650,7 +50650,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -50791,17 +50791,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 2%"
+          "Base transit earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "bank_of_america_atmos_rewards_ascent_visa_signature",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for transit: 2% per dollar.",
+        "reason" : "Atmos Rewards Ascent Visa Signature earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Atmos Rewards Ascent Visa Signature also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Blue Business Cash from Amex also earns 2% here, but only up to a spending limit. We picked Atmos Rewards Ascent Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50818,17 +50818,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 2%"
+          "Base transit earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "bank_of_america_atmos_rewards_ascent_visa_signature",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for transit: 2% per dollar.",
+        "reason" : "Atmos Rewards Ascent Visa Signature earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Atmos Rewards Ascent Visa Signature also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
+        "tieNote" : "Blue Business Cash from Amex also earns 2% here, but only up to a spending limit. We picked Atmos Rewards Ascent Visa Signature because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51137,7 +51137,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -51409,7 +51409,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -51436,7 +51436,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -51463,7 +51463,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -51952,7 +51952,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -52224,7 +52224,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -52251,7 +52251,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -52278,7 +52278,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -52423,15 +52423,15 @@
         "breakdownLines" : [
           "Base transit earn: 3x points → 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
+        "cardId" : "wellsfargo_autograph",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Ink Business Preferred Credit Card earns the most for transit: 3% per dollar.",
+        "reason" : "Wells Fargo Autograph earns the most for transit: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Autograph also earns 3% here. We picked Ink Business Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Ink Business Preferred also earns 3% here, but only up to a spending limit. We picked Autograph because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52450,15 +52450,15 @@
         "breakdownLines" : [
           "Base transit earn: 3x points → 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
+        "cardId" : "wellsfargo_autograph",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Ink Business Preferred Credit Card earns the most for transit: 3% per dollar.",
+        "reason" : "Wells Fargo Autograph earns the most for transit: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Autograph also earns 3% here. We picked Ink Business Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Ink Business Preferred also earns 3% here, but only up to a spending limit. We picked Autograph because it has no limit.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52666,15 +52666,15 @@
         "breakdownLines" : [
           "Base travel earn: 3x points → 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
+        "cardId" : "wellsfargo_autograph",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Ink Business Preferred Credit Card earns the most for travel: 3% per dollar.",
+        "reason" : "Wells Fargo Autograph earns the most for travel: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Autograph also earns 3% here. We picked Ink Business Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Delta SkyMiles Platinum Business Amex also earns 3% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52769,7 +52769,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -52804,15 +52804,15 @@
         "breakdownLines" : [
           "Base travel earn: 3x points → 3%"
         ],
-        "cardId" : "chase_ink_business_preferred_credit_card",
+        "cardId" : "wellsfargo_autograph",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Ink Business Preferred Credit Card earns the most for travel: 3% per dollar.",
+        "reason" : "Wells Fargo Autograph earns the most for travel: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Autograph also earns 3% here. We picked Ink Business Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : "Delta SkyMiles Platinum Business Amex also earns 3% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -53040,7 +53040,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -53068,7 +53068,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -53096,7 +53096,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -53599,7 +53599,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -53878,7 +53878,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -53906,7 +53906,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -53934,7 +53934,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -54425,7 +54425,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -54700,7 +54700,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -54728,7 +54728,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -54756,7 +54756,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -55260,7 +55260,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -55540,7 +55540,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -55567,7 +55567,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -55594,7 +55594,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -56080,7 +56080,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -56350,7 +56350,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -56377,7 +56377,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -56404,7 +56404,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -56890,7 +56890,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -57160,7 +57160,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -57187,7 +57187,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -57214,7 +57214,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -57700,7 +57700,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -57970,7 +57970,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -57997,7 +57997,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -58024,7 +58024,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -58520,7 +58520,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -58794,7 +58794,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -58822,7 +58822,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -58850,7 +58850,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -59342,7 +59342,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -59618,7 +59618,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -59646,7 +59646,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -59674,7 +59674,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -60176,7 +60176,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -60456,7 +60456,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -60483,7 +60483,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -60510,7 +60510,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -60996,7 +60996,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -61266,7 +61266,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -61293,7 +61293,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -61320,7 +61320,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -61807,7 +61807,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -62079,7 +62079,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -62106,7 +62106,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -62133,7 +62133,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -62619,7 +62619,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -62889,7 +62889,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -62917,7 +62917,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -62945,7 +62945,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -63437,7 +63437,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -63714,7 +63714,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -63741,7 +63741,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -63768,7 +63768,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -64254,7 +64254,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -64524,7 +64524,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -64552,7 +64552,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -64580,7 +64580,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -65084,7 +65084,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -65364,7 +65364,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -65391,7 +65391,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -65418,7 +65418,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -65904,7 +65904,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -66174,7 +66174,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -66202,7 +66202,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -66230,7 +66230,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -66721,7 +66721,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -66999,7 +66999,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -67026,7 +67026,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -67053,7 +67053,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -67539,7 +67539,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -67809,7 +67809,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -67836,7 +67836,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -67863,7 +67863,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -68354,7 +68354,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -68624,7 +68624,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -68651,7 +68651,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -68678,7 +68678,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -69164,7 +69164,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -69434,7 +69434,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -69462,7 +69462,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -69490,7 +69490,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -69992,7 +69992,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -70270,7 +70270,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -70297,7 +70297,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -70324,7 +70324,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -70810,7 +70810,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -71080,7 +71080,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -71108,7 +71108,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -71136,7 +71136,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -71632,7 +71632,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -71911,7 +71911,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -71919,15 +71919,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -71938,7 +71938,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -71946,15 +71946,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -71965,7 +71965,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -71973,15 +71973,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72000,15 +72000,15 @@
         "breakdownLines" : [
           "Base online earn: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72245,15 +72245,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72354,15 +72354,15 @@
         "breakdownLines" : [
           "Base travel earn: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : "Booking through Capital One Travel? Venture X earns up to 10x there.",
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for travel: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72454,7 +72454,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -72462,15 +72462,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72489,15 +72489,15 @@
         "breakdownLines" : [
           "Base travel earn: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : "Booking through Capital One Travel? Venture X earns up to 10x there.",
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for travel: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72516,15 +72516,15 @@
         "breakdownLines" : [
           "Base travel earn: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : "Booking through Capital One Travel? Venture X earns up to 10x there.",
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for travel: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72543,15 +72543,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72653,15 +72653,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72680,15 +72680,15 @@
         "breakdownLines" : [
           "Base rate: 2%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
+        "cardId" : "fidelity_rewards",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for everyday purchases: 2% per dollar.",
+        "reason" : "Fidelity Rewards Visa Signature earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Fidelity Rewards Visa Signature also earns 2% here. Either one works.",
+        "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -72726,7 +72726,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -72754,7 +72754,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -72782,7 +72782,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -73278,7 +73278,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -73557,7 +73557,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -73584,7 +73584,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -73611,7 +73611,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -74102,7 +74102,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -74372,7 +74372,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -74400,7 +74400,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -74428,7 +74428,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -74932,7 +74932,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -75212,7 +75212,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -75239,7 +75239,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -75266,7 +75266,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -75752,7 +75752,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -76022,7 +76022,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -76049,7 +76049,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -76076,7 +76076,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -76562,7 +76562,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -76832,7 +76832,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -76859,7 +76859,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -76886,7 +76886,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -77372,7 +77372,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -77642,7 +77642,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -77670,7 +77670,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -77698,7 +77698,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -78194,7 +78194,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -78473,7 +78473,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -78500,7 +78500,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -78527,7 +78527,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -79013,7 +79013,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -79283,7 +79283,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -79310,7 +79310,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -79337,7 +79337,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -79823,7 +79823,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -80093,7 +80093,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -80120,7 +80120,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -80147,7 +80147,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -80633,7 +80633,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -80903,7 +80903,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -80930,7 +80930,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -80957,7 +80957,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -81443,7 +81443,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
@@ -81714,7 +81714,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "cash",
@@ -81741,7 +81741,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "cash",
@@ -81768,7 +81768,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "cash",
@@ -82254,7 +82254,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "cash",
@@ -82524,7 +82524,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Costco codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card. Note: Costco warehouses take Visa only at the register; other networks work on Costco.com.",
+      "caveat" : "Costco only takes Visa at the register. Other cards work on Costco.com. Card rewards usually don't count Costco as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "costco",
       "merchant" : "Costco",
       "mode" : "smart",
@@ -82551,7 +82551,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Walmart usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Walmart as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "walmart",
       "merchant" : "Walmart",
       "mode" : "smart",
@@ -82578,7 +82578,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Target usually codes as a superstore (not a supermarket), so grocery bonuses often don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Target as a grocery store, so a grocery bonus often won't apply. This card earns its rate here either way.",
       "directoryId" : "target",
       "merchant" : "Target",
       "mode" : "smart",
@@ -83064,7 +83064,7 @@
     },
     {
       "category" : "general",
-      "caveat" : "Sam's Club codes as a warehouse club, so category bonuses usually don't post. This is your best guaranteed card.",
+      "caveat" : "Card rewards usually don't count Sam's Club as a grocery store or any bonus category, so most bonuses won't apply. This card earns its rate here either way.",
       "directoryId" : "sam_s_club",
       "merchant" : "Sam's Club",
       "mode" : "smart",
