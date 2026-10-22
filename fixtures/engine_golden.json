@@ -3200,13 +3200,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 5x points → 5%"
+          "Base dining earn: 3x points → 3%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for dining: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Chase Sapphire Preferred earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -3224,21 +3224,31 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on grocery. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Hilton Honors American Express Card",
+            "label" : "In a store",
+            "rate" : "2%"
+          },
+          {
+            "cardName" : "Chase Sapphire Preferred",
+            "label" : "Online \/ delivery",
+            "rate" : "3%"
+          }
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "wallet" : 7
     },
@@ -3248,13 +3258,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 3x points → 3%"
+          "Base travel earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 2,
         "portalNote" : "Booking through Chase Travel? Chase Sapphire Preferred earns up to 5x there.",
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for travel: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Chase Sapphire Preferred earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -3272,21 +3282,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on gas. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : "United Gateway also earns 2% here. Either one works.",
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "wallet" : 7
     },
@@ -3296,21 +3307,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for online: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on online. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "wallet" : 7
     },
@@ -3320,21 +3332,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on drugstores. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "wallet" : 7
     },
@@ -3344,17 +3357,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 3x points → 3%"
+          "Base transit earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for transit: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Chase Sapphire Preferred earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "United Gateway also earns 2% here. We picked Chase Sapphire Preferred because its points cash out the same and can be worth more for travel.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -3378,7 +3391,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 3% here. We picked Chase Sapphire Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -3392,21 +3405,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "wallet" : 7
     },
@@ -8942,7 +8956,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -8966,7 +8980,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -8990,7 +9004,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9004,21 +9018,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for gas: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on gas. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "wallet" : 20
     },
@@ -9062,7 +9077,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9134,7 +9149,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9376,7 +9391,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9390,21 +9405,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for grocery: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on grocery. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "wallet" : 21
     },
@@ -9448,7 +9464,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9486,13 +9502,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 2x points → 2%"
+          "Base drugstores earn: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for drugstores: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for drugstores: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -9558,13 +9574,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -9806,17 +9822,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 7x points → 7%"
+          "Base dining earn: 3x points → 3%"
         ],
-        "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 7,
+        "cardId" : "citi_citi_strata_premier_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7%",
-        "reason" : "Hilton Honors Aspire Card earns the most for dining: 7% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Citi Strata Premier ® Card earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Autograph also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9840,7 +9856,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9862,16 +9878,7 @@
         "rateDisplay" : "4%",
         "reason" : "Altitude Connect Visa Signature Credit Card earns the most for travel: 4% per dollar.",
         "subcategoryBreakdown" : [
-          {
-            "cardName" : "Hilton Honors Aspire Card",
-            "label" : "Flights",
-            "rate" : "7%"
-          },
-          {
-            "cardName" : "Altitude Connect Visa Signature Credit Card",
-            "label" : "Hotels",
-            "rate" : "4%"
-          }
+
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
@@ -9911,21 +9918,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for online: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on online. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "wallet" : 22
     },
@@ -9935,21 +9943,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on drugstores. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "wallet" : 22
     },
@@ -9969,7 +9978,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -9993,7 +10002,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -10007,21 +10016,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "wallet" : 22
     },
@@ -10400,17 +10410,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 2x points → 2%"
+          "Base transit earn: 1.5%"
         ],
-        "cardId" : "chase_chase_marriott_bonvoy_bold_credit_card",
-        "loggableRate" : 2,
+        "cardId" : "navy_federal_cashrewards",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Chase Marriott Bonvoy Bold® Credit Card earns the most for transit: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "Navy Federal cashRewards earns the most for transit: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "PenFed Power Cash Rewards Visa Signature also earns 1.5% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -11125,17 +11135,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 6x points → 6%"
+          "Base dining earn: 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "chase_freedom_flex",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for dining: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Chase Freedom Flex earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Autograph Journey also earns 3% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -11149,13 +11159,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 6x points → 6%"
+          "Base grocery earn: 3x points → 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "wells_fargo_one_key_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for grocery: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "One Key® Card earns the most for grocery: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -11197,19 +11207,20 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 6x points → 6%"
+          "Rotating bonus: 5% gas (Q3 2026)",
+          "⚠︎ Activate this quarter in your Chase app"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "chase_freedom_flex",
+        "loggableRate" : 5,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for gas: 6% per dollar.",
+        "rateDisplay" : "5%",
+        "reason" : "Chase Freedom Flex has a rotating bonus gas active right now: 5% this quarter, the most in your wallet. Activate it in your Chase app to earn the bonus.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
+        "valueCaption" : "rotating bonus · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -11221,21 +11232,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 4x points → 4%"
+          "Earns 4x points",
+          "Valued at 0.4¢\/pt → 1.6% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 4,
+        "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
-        "rateDisplay" : "4%",
-        "reason" : "Hilton Honors Surpass earns the most for online: 4% per dollar.",
+        "rateDisplay" : "1.6%",
+        "reason" : "Hilton Honors Surpass earns 4x points on online. At 0.4¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "4x points · value per $1",
+        "valueMath" : "4x points × 0.4¢ = 1.6¢ per $1",
+        "valueMathShort" : "4x pts × 0.4¢"
       },
       "wallet" : 25
     },
@@ -11255,7 +11267,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Chase Freedom Flex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -11304,7 +11316,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -11318,21 +11330,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "wallet" : 25
     },
@@ -15144,17 +15157,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 5x points → 5%"
+          "Base dining earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for dining: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "My Best Buy Visa Card earns the most for dining: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Arrival Plus World Elite Mastercard also earns 2% here. We picked My Best Buy Visa because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -15168,21 +15181,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice Privileges Select Mastercard earns 5x points on grocery. At 0.6¢ each, that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : null,
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "wallet" : 34
     },
@@ -15192,17 +15206,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 3x points → 3%"
+          "Base travel earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for travel: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -15216,17 +15230,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Base gas earn: 3x points → 3%"
         ],
-        "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "My Best Buy Visa Card earns the most for gas: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
+        "tieNote" : "Choice Privileges Select Mastercard also earns 3% here. We picked My Best Buy Visa because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -15240,17 +15254,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base online earn: 3x points → 3%"
+          "Base online earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for online: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for online: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -15264,17 +15278,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Base drugstores earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for drugstores: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -15288,17 +15302,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 3x points → 3%"
+          "Base transit earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for transit: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -15312,17 +15326,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base streaming earn: 3x points → 3%"
+          "Base streaming earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for streaming: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for streaming: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -15336,17 +15350,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -16057,7 +16071,7 @@
           {
             "cardName" : "Choice Privileges Select Mastercard",
             "label" : "Online \/ delivery",
-            "rate" : "5%"
+            "rate" : "3%"
           }
         ],
         "tieNote" : null,
@@ -16098,17 +16112,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Base gas earn: 3%"
         ],
-        "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "cardId" : "amex_blue_cash_preferred",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "American Express Blue Cash Preferred® earns the most for gas: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Choice Privileges Select Mastercard also earns 3% here. We picked Amex Blue Cash Preferred for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -29286,21 +29300,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -29313,21 +29328,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -29340,21 +29356,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -29367,21 +29384,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -29394,21 +29412,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on grocery. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -29421,21 +29440,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on grocery. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -29458,7 +29478,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 3% here. We picked Chase Sapphire Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -29475,17 +29495,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 3x points → 3%"
+          "Base transit earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for transit: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Chase Sapphire Preferred earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "United Gateway also earns 2% here. We picked Chase Sapphire Preferred because its points cash out the same and can be worth more for travel.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -29502,17 +29522,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 3x points → 3%"
+          "Base transit earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for transit: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Chase Sapphire Preferred earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "United Gateway also earns 2% here. We picked Chase Sapphire Preferred because its points cash out the same and can be worth more for travel.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -29539,7 +29559,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 3% here. We picked Chase Sapphire Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -29556,21 +29576,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on drugstores. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -29583,21 +29604,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on drugstores. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -29610,21 +29632,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -29637,13 +29660,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 5x points → 5%"
+          "Base dining earn: 3x points → 3%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for dining: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Chase Sapphire Preferred earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29664,21 +29687,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on gas. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : "United Gateway also earns 2% here. Either one works.",
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -29701,7 +29725,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 3% here. We picked Chase Sapphire Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -29718,13 +29742,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 3x points → 3%"
+          "Base travel earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 2,
         "portalNote" : "Booking through Chase Travel? Chase Sapphire Preferred earns up to 5x there.",
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for travel: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Chase Sapphire Preferred earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29745,21 +29769,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on grocery. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -29772,21 +29797,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on grocery. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -29799,21 +29825,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on grocery. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -29826,21 +29853,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 7
@@ -29853,13 +29881,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 3x points → 3%"
+          "Base travel earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 2,
         "portalNote" : "Booking through Chase Travel? Chase Sapphire Preferred earns up to 5x there.",
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for travel: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Chase Sapphire Preferred earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29880,13 +29908,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 3x points → 3%"
+          "Base travel earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 2,
         "portalNote" : "Booking through Chase Travel? Chase Sapphire Preferred earns up to 5x there.",
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for travel: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Chase Sapphire Preferred earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29907,21 +29935,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -29934,13 +29963,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 5x points → 5%"
+          "Base dining earn: 3x points → 3%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for dining: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Chase Sapphire Preferred earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29961,21 +29990,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.4¢\/pt → 2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Hilton Honors American Express Card earns 5x points on gas. At 0.4¢ each, that's 2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : "United Gateway also earns 2% here. Either one works.",
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.4¢ = 2.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -29988,19 +30018,19 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "2% at United Airlines · card benefit"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "united_gateway",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "United Gateway Card earns 2% at United Airlines, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
+        "valueCaption" : "card benefit · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -30015,21 +30045,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -30042,21 +30073,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -30079,7 +30111,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 3% here. We picked Chase Sapphire Preferred because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50578,7 +50610,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50605,7 +50637,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50632,7 +50664,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50659,7 +50691,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50686,7 +50718,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50713,7 +50745,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50848,7 +50880,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50875,7 +50907,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50902,7 +50934,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50929,7 +50961,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -50946,21 +50978,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for gas: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on gas. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "subKey" : null,
       "wallet" : 20
@@ -51010,7 +51043,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51037,7 +51070,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51064,7 +51097,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51091,7 +51124,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51118,7 +51151,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51145,7 +51178,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51162,21 +51195,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "6% at Marriott · card benefit"
+          "4.2% at Marriott · card benefit",
+          "6x points × 0.7¢ → 4.2% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 6,
+        "loggableRate" : 4.1999999999999993,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Marriott Bonvoy Boundless earns 6% at Marriott, the most in your wallet here.",
+        "rateDisplay" : "4.2%",
+        "reason" : "Marriott Bonvoy Boundless earns 4.2% at Marriott, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "card benefit · value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "6x points · card benefit · value per $1",
+        "valueMath" : "6x points × 0.7¢ = 4.2¢ per $1",
+        "valueMathShort" : "6x pts × 0.7¢"
       },
       "subKey" : "hotel",
       "wallet" : 20
@@ -51199,7 +51233,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51226,7 +51260,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked SavorOne for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51243,21 +51277,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for gas: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on gas. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "subKey" : null,
       "wallet" : 20
@@ -51280,7 +51315,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51307,7 +51342,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -51334,7 +51369,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 2% here. We picked Blue Business Cash from Amex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52193,13 +52228,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52220,13 +52255,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52247,13 +52282,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52274,13 +52309,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52301,21 +52336,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for grocery: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on grocery. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 21
@@ -52328,21 +52364,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for grocery: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on grocery. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "subKey" : null,
       "wallet" : 21
@@ -52463,13 +52500,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 2x points → 2%"
+          "Base drugstores earn: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for drugstores: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for drugstores: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52490,13 +52527,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 2x points → 2%"
+          "Base drugstores earn: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for drugstores: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for drugstores: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52517,13 +52554,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52554,7 +52591,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52581,7 +52618,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52652,21 +52689,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for grocery: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on grocery. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 21
@@ -52679,21 +52717,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for grocery: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on grocery. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 21
@@ -52706,21 +52745,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.7¢\/pt → 2.1% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 3,
+        "loggableRate" : 2.0999999999999996,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for grocery: 3% per dollar.",
+        "rateDisplay" : "2.1%",
+        "reason" : "Marriott Bonvoy Boundless earns 3x points on grocery. At 0.7¢ each, that's 2.1% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "3x pts × 0.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 21
@@ -52733,13 +52773,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52787,21 +52827,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "6% at Marriott · card benefit"
+          "4.2% at Marriott · card benefit",
+          "6x points × 0.7¢ → 4.2% per $1"
         ],
         "cardId" : "marriott_boundless",
-        "loggableRate" : 6,
+        "loggableRate" : 4.1999999999999993,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Marriott Bonvoy Boundless earns 6% at Marriott, the most in your wallet here.",
+        "rateDisplay" : "4.2%",
+        "reason" : "Marriott Bonvoy Boundless earns 4.2% at Marriott, the most in your wallet here.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "card benefit · value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Marriott Bonvoy · 0.7¢ travel value",
+        "valueCaption" : "6x points · card benefit · value per $1",
+        "valueMath" : "6x points × 0.7¢ = 4.2¢ per $1",
+        "valueMathShort" : "6x pts × 0.7¢"
       },
       "subKey" : "hotel",
       "wallet" : 21
@@ -52851,7 +52892,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52878,7 +52919,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Marriott Bonvoy Boundless also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -52895,13 +52936,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52922,13 +52963,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52949,13 +52990,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 2x points → 2%"
+          "Base rate: 1.5%"
         ],
-        "cardId" : "marriott_boundless",
-        "loggableRate" : 2,
+        "cardId" : "paypal_cashback",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Marriott Bonvoy Boundless earns the most for everyday purchases: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "PayPal Cashback Mastercard earns the most for everyday purchases: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -53842,21 +53883,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 22
@@ -53869,21 +53911,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 22
@@ -53896,21 +53939,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 22
@@ -53923,21 +53967,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 22
@@ -53960,7 +54005,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -53987,7 +54032,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54014,7 +54059,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54041,7 +54086,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54068,7 +54113,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54095,7 +54140,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54112,21 +54157,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on drugstores. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 22
@@ -54139,21 +54185,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on drugstores. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 22
@@ -54166,21 +54213,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 22
@@ -54193,17 +54241,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 7x points → 7%"
+          "Base dining earn: 3x points → 3%"
         ],
-        "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 7,
+        "cardId" : "citi_citi_strata_premier_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7%",
-        "reason" : "Hilton Honors Aspire Card earns the most for dining: 7% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Citi Strata Premier ® Card earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Autograph also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54257,7 +54305,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54311,7 +54359,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54338,7 +54386,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54365,7 +54413,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54382,21 +54430,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 22
@@ -54409,13 +54458,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 7x points → 7%"
+          "Base travel earn: 4x points → 4%"
         ],
-        "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 7,
+        "cardId" : "u_s_bank_altitude_connect_visa_signature_credit_card",
+        "loggableRate" : 4,
         "portalNote" : "Booking through Citi Travel? Citi Strata Premier earns up to 10x there.",
-        "rateDisplay" : "7%",
-        "reason" : "Hilton Honors Aspire Card earns the most for travel: 7% per dollar.",
+        "rateDisplay" : "4%",
+        "reason" : "Altitude Connect Visa Signature Credit Card earns the most for travel: 4% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -54463,21 +54512,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 22
@@ -54490,17 +54540,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 7x points → 7%"
+          "Base dining earn: 3x points → 3%"
         ],
-        "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 7,
+        "cardId" : "citi_citi_strata_premier_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "7%",
-        "reason" : "Hilton Honors Aspire Card earns the most for dining: 7% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Citi Strata Premier ® Card earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Autograph also earns 3% here. We picked Citi Strata Premier because its points cash out the same and can be worth more for travel.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -54544,21 +54594,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 22
@@ -54571,21 +54622,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 22
@@ -54598,21 +54650,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "amex_hilton_aspire",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Aspire Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Aspire Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 22
@@ -54635,7 +54688,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Aspire also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -55681,17 +55734,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 2x points → 2%"
+          "Base transit earn: 1.5%"
         ],
-        "cardId" : "chase_chase_marriott_bonvoy_bold_credit_card",
-        "loggableRate" : 2,
+        "cardId" : "navy_federal_cashrewards",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Chase Marriott Bonvoy Bold® Credit Card earns the most for transit: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "Navy Federal cashRewards earns the most for transit: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "PenFed Power Cash Rewards Visa Signature also earns 1.5% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -55708,17 +55761,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 2x points → 2%"
+          "Base transit earn: 1.5%"
         ],
-        "cardId" : "chase_chase_marriott_bonvoy_bold_credit_card",
-        "loggableRate" : 2,
+        "cardId" : "navy_federal_cashrewards",
+        "loggableRate" : 1.5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Chase Marriott Bonvoy Bold® Credit Card earns the most for transit: 2% per dollar.",
+        "rateDisplay" : "1.5%",
+        "reason" : "Navy Federal cashRewards earns the most for transit: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "PenFed Power Cash Rewards Visa Signature also earns 1.5% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -58746,21 +58799,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 25
@@ -58773,21 +58827,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 25
@@ -58800,21 +58855,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 25
@@ -58827,21 +58883,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 25
@@ -58854,13 +58911,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 6x points → 6%"
+          "Base grocery earn: 3x points → 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "wells_fargo_one_key_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for grocery: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "One Key® Card earns the most for grocery: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -58881,13 +58938,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 6x points → 6%"
+          "Base grocery earn: 3x points → 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "wells_fargo_one_key_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for grocery: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "One Key® Card earns the most for grocery: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -58918,7 +58975,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59001,7 +59058,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59028,7 +59085,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Chase Freedom Flex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59055,7 +59112,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Chase Freedom Flex for guaranteed cash back.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59072,21 +59129,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 25
@@ -59099,17 +59157,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 6x points → 6%"
+          "Base dining earn: 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "chase_freedom_flex",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for dining: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Chase Freedom Flex earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Autograph Journey also earns 3% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59126,19 +59184,20 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 6x points → 6%"
+          "Rotating bonus: 5% gas (Q3 2026)",
+          "⚠︎ Activate this quarter in your Chase app"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "chase_freedom_flex",
+        "loggableRate" : 5,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for gas: 6% per dollar.",
+        "rateDisplay" : "5%",
+        "reason" : "Chase Freedom Flex has a rotating bonus gas active right now: 5% this quarter, the most in your wallet. Activate it in your Chase app to earn the bonus.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
+        "valueCaption" : "rotating bonus · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -59163,7 +59222,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59207,13 +59266,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 6x points → 6%"
+          "Base grocery earn: 3x points → 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "wells_fargo_one_key_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for grocery: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "One Key® Card earns the most for grocery: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -59234,13 +59293,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 6x points → 6%"
+          "Base grocery earn: 3x points → 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "wells_fargo_one_key_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for grocery: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "One Key® Card earns the most for grocery: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -59261,13 +59320,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 6x points → 6%"
+          "Base grocery earn: 3x points → 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "wells_fargo_one_key_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for grocery: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "One Key® Card earns the most for grocery: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -59288,21 +59347,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : "in_store",
       "wallet" : 25
@@ -59369,21 +59429,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 25
@@ -59396,17 +59457,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 6x points → 6%"
+          "Base dining earn: 3%"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "chase_freedom_flex",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for dining: 6% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Chase Freedom Flex earns the most for dining: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Autograph Journey also earns 3% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -59423,19 +59484,20 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 6x points → 6%"
+          "Rotating bonus: 5% gas (Q3 2026)",
+          "⚠︎ Activate this quarter in your Chase app"
         ],
-        "cardId" : "hilton_surpass",
-        "loggableRate" : 6,
+        "cardId" : "chase_freedom_flex",
+        "loggableRate" : 5,
         "portalNote" : null,
-        "rateDisplay" : "6%",
-        "reason" : "Hilton Honors Surpass earns the most for gas: 6% per dollar.",
+        "rateDisplay" : "5%",
+        "reason" : "Chase Freedom Flex has a rotating bonus gas active right now: 5% this quarter, the most in your wallet. Activate it in your Chase app to earn the bonus.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
+        "valueCaption" : "rotating bonus · value per $1",
         "valueMath" : null,
         "valueMathShort" : null
       },
@@ -59478,21 +59540,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 25
@@ -59505,21 +59568,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
         "cardId" : "hilton_surpass",
-        "loggableRate" : 3,
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors Surpass earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors Surpass earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 25
@@ -59542,7 +59606,7 @@
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Surpass also earns 3% here. We picked Autograph because its rewards cash out for more.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73498,17 +73562,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73525,17 +73589,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73552,17 +73616,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73579,17 +73643,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73606,21 +73670,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice Privileges Select Mastercard earns 5x points on grocery. At 0.6¢ each, that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : null,
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : "in_store",
       "wallet" : 34
@@ -73633,21 +73698,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice Privileges Select Mastercard earns 5x points on grocery. At 0.6¢ each, that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : null,
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : null,
       "wallet" : 34
@@ -73660,17 +73726,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base streaming earn: 3x points → 3%"
+          "Base streaming earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for streaming: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for streaming: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73687,17 +73753,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 3x points → 3%"
+          "Base transit earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for transit: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73714,17 +73780,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base transit earn: 3x points → 3%"
+          "Base transit earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for transit: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for transit: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73741,17 +73807,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base streaming earn: 3x points → 3%"
+          "Base streaming earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for streaming: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for streaming: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73768,17 +73834,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Base drugstores earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for drugstores: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73795,17 +73861,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base drugstores earn: 3x points → 3%"
+          "Base drugstores earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for drugstores: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for drugstores: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73822,17 +73888,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73849,17 +73915,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 5x points → 5%"
+          "Base dining earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for dining: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "My Best Buy Visa Card earns the most for dining: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Arrival Plus World Elite Mastercard also earns 2% here. We picked My Best Buy Visa because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73876,17 +73942,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Base gas earn: 3x points → 3%"
         ],
-        "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "My Best Buy Visa Card earns the most for gas: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
+        "tieNote" : "Choice Privileges Select Mastercard also earns 3% here. We picked My Best Buy Visa because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73903,17 +73969,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base streaming earn: 3x points → 3%"
+          "Base streaming earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for streaming: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for streaming: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73930,17 +73996,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 3x points → 3%"
+          "Base travel earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for travel: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -73957,21 +74023,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice Privileges Select Mastercard earns 5x points on grocery. At 0.6¢ each, that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : null,
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : "in_store",
       "wallet" : 34
@@ -73984,21 +74051,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice Privileges Select Mastercard earns 5x points on grocery. At 0.6¢ each, that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : null,
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : "in_store",
       "wallet" : 34
@@ -74011,21 +74079,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base grocery earn: 5x points → 5%"
+          "Earns 5x points",
+          "Valued at 0.6¢\/pt → 3% per $1"
         ],
         "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for grocery: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Choice Privileges Select Mastercard earns 5x points on grocery. At 0.6¢ each, that's 3% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "tieNote" : null,
+        "valuationBasis" : "Choice Privileges · 0.6¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 0.6¢ = 3.0¢ per $1",
+        "valueMathShort" : "5x pts × 0.6¢"
       },
       "subKey" : "in_store",
       "wallet" : 34
@@ -74038,17 +74107,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74065,17 +74134,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 3x points → 3%"
+          "Base travel earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for travel: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74092,17 +74161,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base travel earn: 3x points → 3%"
+          "Base travel earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for travel: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74119,17 +74188,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74146,17 +74215,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base dining earn: 5x points → 5%"
+          "Base dining earn: 2x points → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Hilton Honors American Express Card earns the most for dining: 5% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "My Best Buy Visa Card earns the most for dining: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Arrival Plus World Elite Mastercard also earns 2% here. We picked My Best Buy Visa because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74173,17 +74242,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Base gas earn: 3x points → 3%"
         ],
-        "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "cardId" : "citi_my_best_buy_visa_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "My Best Buy Visa Card earns the most for gas: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Hilton Honors Amex also earns 5% here. Either one works.",
+        "tieNote" : "Choice Privileges Select Mastercard also earns 3% here. We picked My Best Buy Visa because its rewards cash out for more.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74200,17 +74269,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74227,17 +74296,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74254,17 +74323,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base rate: 3x points → 3%"
+          "Base rate: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for everyday purchases: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for everyday purchases: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -74281,17 +74350,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base streaming earn: 3x points → 3%"
+          "Base streaming earn: 2x miles → 2%"
         ],
-        "cardId" : "american_express_hilton_honors_american_express_card",
-        "loggableRate" : 3,
+        "cardId" : "barclays_arrival_plus",
+        "loggableRate" : 2,
         "portalNote" : null,
-        "rateDisplay" : "3%",
-        "reason" : "Hilton Honors American Express Card earns the most for streaming: 3% per dollar.",
+        "rateDisplay" : "2%",
+        "reason" : "Arrival Plus World Elite Mastercard earns the most for streaming: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Bank Smartly Visa Signature also earns 2% here. Either one works.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -77146,17 +77215,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Base gas earn: 3%"
         ],
-        "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "cardId" : "amex_blue_cash_preferred",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "American Express Blue Cash Preferred® earns the most for gas: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Choice Privileges Select Mastercard also earns 3% here. We picked Amex Blue Cash Preferred for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -77443,17 +77512,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Base gas earn: 5x points → 5%"
+          "Base gas earn: 3%"
         ],
-        "cardId" : "wells_fargo_choice_select_card",
-        "loggableRate" : 5,
+        "cardId" : "amex_blue_cash_preferred",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "5%",
-        "reason" : "Choice Privileges Select Mastercard earns the most for gas: 5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "American Express Blue Cash Preferred® earns the most for gas: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : null,
+        "tieNote" : "Choice Privileges Select Mastercard also earns 3% here. We picked Amex Blue Cash Preferred for guaranteed cash back.",
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,

@@ -71,7 +71,7 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
       wallet: z.array(z.string()).min(1).describe("Card ids the person holds (from search_cards)."),
       merchant: z.string().optional().describe("Store name, e.g. 'Costco', 'Whole Foods', 'Uber'. Use this OR category."),
       category: CategorySchema.optional().describe("Spend category when there is no specific store."),
-      valuation: z.enum(["cash", "points"]).default("cash").describe("'cash' counts every point at 1¢ (default). 'points' values points per program at conservative travel values."),
+      valuation: z.enum(["cash", "points"]).default("cash").describe("'cash' counts each point at up to 1¢, and hotel/airline points at their lower value (default). 'points' values points per program at conservative travel values."),
       on: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional().describe("Date (YYYY-MM-DD, UTC) for rotating windows; defaults to today."),
       chosen_categories: z.record(z.string(), z.array(CategorySchema)).optional().describe("For choose-your-category cards (Citi Custom Cash, BofA Customized, Venmo): card id → the categories the person set."),
     },
@@ -190,7 +190,7 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
     return { contents: [{ uri: uri.href, mimeType: "application/json", text: JSON.stringify(catalog.cards.map(cardSummary)) }] };
   });
   server.registerResource("valuation", "rightcard://valuation", { title: "How points are valued", mimeType: "application/json" }, async (uri) => ({
-    contents: [{ uri: uri.href, mimeType: "application/json", text: JSON.stringify({ mode_cash: "every point = 1¢", mode_points_travel_cents_per_point: TRAVEL_CPP, source: "Conservative blended baselines (The Points Guy, Bankrate, Frequent Miler), Q2 2026." }) }],
+    contents: [{ uri: uri.href, mimeType: "application/json", text: JSON.stringify({ mode_cash: "each point = min(1¢, its points value)", mode_points_travel_cents_per_point: TRAVEL_CPP, source: "Conservative blended baselines (The Points Guy, Bankrate, Frequent Miler), Q2 2026." }) }],
   }));
 
   server.registerPrompt("which-card", {

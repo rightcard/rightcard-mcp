@@ -140,7 +140,10 @@ export function effectiveProgram(v: Valuation, card: CreditCard): RewardProgram 
 }
 
 export function centsPerPoint(v: Valuation, card: CreditCard): number {
-  return v.mode === "cash" ? 1.0 : TRAVEL_CPP[effectiveProgram(v, card)];
+  // Cash mode: at most 1¢, and never more than the program is worth
+  // (hotel/airline points under a cent). Mirrors RewardValuation.centsPerPoint.
+  const program = TRAVEL_CPP[effectiveProgram(v, card)];
+  return v.mode === "cash" ? Math.min(1.0, program) : program;
 }
 
 export function valuesPointsAboveCash(v: Valuation, card: CreditCard): boolean {
