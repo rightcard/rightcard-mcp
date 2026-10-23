@@ -91,6 +91,11 @@
             "cardName" : "American Express Blue Cash Preferred®",
             "label" : "Hotels",
             "rate" : "1%"
+          },
+          {
+            "cardName" : "American Express Blue Cash Preferred®",
+            "label" : "Other travel",
+            "rate" : "1%"
           }
         ],
         "tieNote" : "Amex Gold also earns 1% here. Its points can be worth more for travel, so try Points & miles.",
@@ -327,6 +332,11 @@
           {
             "cardName" : "American Express® Gold Card",
             "label" : "Hotels",
+            "rate" : "1.8%"
+          },
+          {
+            "cardName" : "American Express® Gold Card",
+            "label" : "Other travel",
             "rate" : "1.8%"
           }
         ],
@@ -1484,6 +1494,11 @@
             "cardName" : "Citi Double Cash",
             "label" : "Hotels",
             "rate" : "2%"
+          },
+          {
+            "cardName" : "Citi Double Cash",
+            "label" : "Other travel",
+            "rate" : "2%"
           }
         ],
         "tieNote" : null,
@@ -1721,6 +1736,11 @@
           {
             "cardName" : "Citi Double Cash",
             "label" : "Hotels",
+            "rate" : "2%"
+          },
+          {
+            "cardName" : "Citi Double Cash",
+            "label" : "Other travel",
             "rate" : "2%"
           }
         ],
@@ -2815,7 +2835,21 @@
         "rateDisplay" : "2%",
         "reason" : "Capital One Venture X earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Chase Sapphire Reserve",
+            "label" : "Flights",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Chase Sapphire Reserve",
+            "label" : "Hotels",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Capital One Venture X",
+            "label" : "Other travel",
+            "rate" : "2%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
@@ -3034,7 +3068,21 @@
         "rateDisplay" : "3.4%",
         "reason" : "Capital One Venture X earns 2x miles on travel. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Chase Sapphire Reserve",
+            "label" : "Flights",
+            "rate" : "7.2%"
+          },
+          {
+            "cardName" : "Chase Sapphire Reserve",
+            "label" : "Hotels",
+            "rate" : "7.2%"
+          },
+          {
+            "cardName" : "Capital One Venture X",
+            "label" : "Other travel",
+            "rate" : "3.4%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
@@ -6794,7 +6842,21 @@
         "rateDisplay" : "2%",
         "reason" : "Fidelity Rewards Visa Signature earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Chase Sapphire Reserve for Business",
+            "label" : "Flights",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Chase Sapphire Reserve for Business",
+            "label" : "Hotels",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Fidelity Rewards Visa Signature",
+            "label" : "Other travel",
+            "rate" : "2%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
@@ -7010,7 +7072,21 @@
         "rateDisplay" : "2%",
         "reason" : "Fidelity Rewards Visa Signature earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Chase Sapphire Reserve for Business",
+            "label" : "Flights",
+            "rate" : "7.2%"
+          },
+          {
+            "cardName" : "Chase Sapphire Reserve for Business",
+            "label" : "Hotels",
+            "rate" : "7.2%"
+          },
+          {
+            "cardName" : "Fidelity Rewards Visa Signature",
+            "label" : "Other travel",
+            "rate" : "2%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
@@ -8112,6 +8188,11 @@
             "cardName" : "Bank Smartly Visa Signature Credit Card",
             "label" : "Hotels",
             "rate" : "2%"
+          },
+          {
+            "cardName" : "Bank Smartly Visa Signature Credit Card",
+            "label" : "Other travel",
+            "rate" : "2%"
           }
         ],
         "tieNote" : "United Quest also earns 2% here. Either one works.",
@@ -8339,6 +8420,11 @@
           {
             "cardName" : "Bank Smartly Visa Signature Credit Card",
             "label" : "Hotels",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Bank Smartly Visa Signature Credit Card",
+            "label" : "Other travel",
             "rate" : "4%"
           }
         ],
@@ -11635,7 +11721,21 @@
         "rateDisplay" : "2%",
         "reason" : "Wells Fargo Active Cash earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Chase Sapphire Reserve for Business",
+            "label" : "Flights",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Chase Sapphire Reserve for Business",
+            "label" : "Hotels",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Wells Fargo Active Cash",
+            "label" : "Other travel",
+            "rate" : "2%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
@@ -11851,7 +11951,21 @@
         "rateDisplay" : "2%",
         "reason" : "Wells Fargo Active Cash earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Chase Sapphire Reserve for Business",
+            "label" : "Flights",
+            "rate" : "7.2%"
+          },
+          {
+            "cardName" : "Chase Sapphire Reserve for Business",
+            "label" : "Hotels",
+            "rate" : "7.2%"
+          },
+          {
+            "cardName" : "Wells Fargo Active Cash",
+            "label" : "Other travel",
+            "rate" : "2%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
@@ -13849,6 +13963,11 @@
             "cardName" : "AAdvantage Platinum Select",
             "label" : "Hotels",
             "rate" : "1%"
+          },
+          {
+            "cardName" : "AAdvantage Platinum Select",
+            "label" : "Other travel",
+            "rate" : "1%"
           }
         ],
         "tieNote" : "Amex Platinum also earns 1% here. Its points can be worth more for travel, so try Points & miles.",
@@ -14075,6 +14194,11 @@
           {
             "cardName" : "American Express Platinum",
             "label" : "Hotels",
+            "rate" : "1.8%"
+          },
+          {
+            "cardName" : "American Express Platinum",
+            "label" : "Other travel",
             "rate" : "1.8%"
           }
         ],
@@ -16096,7 +16220,21 @@
         "rateDisplay" : "2%",
         "reason" : "SoFi Credit Card earns the most for travel: 2% per dollar.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Chase Sapphire Reserve",
+            "label" : "Flights",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Chase Sapphire Reserve",
+            "label" : "Hotels",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "SoFi Credit Card",
+            "label" : "Other travel",
+            "rate" : "2%"
+          }
         ],
         "tieNote" : "Venture X also earns 2% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
@@ -16323,7 +16461,21 @@
         "rateDisplay" : "3.4%",
         "reason" : "Capital One Venture X earns 2x miles on travel. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Chase Sapphire Reserve",
+            "label" : "Flights",
+            "rate" : "7.2%"
+          },
+          {
+            "cardName" : "Chase Sapphire Reserve",
+            "label" : "Hotels",
+            "rate" : "7.2%"
+          },
+          {
+            "cardName" : "Capital One Venture X",
+            "label" : "Other travel",
+            "rate" : "3.4%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
@@ -16985,6 +17137,11 @@
             "cardName" : "Visa Signature Flagship Rewards",
             "label" : "Hotels",
             "rate" : "4%"
+          },
+          {
+            "cardName" : "Visa Signature Flagship Rewards",
+            "label" : "Other travel",
+            "rate" : "4%"
           }
         ],
         "tieNote" : null,
@@ -17209,6 +17366,11 @@
           {
             "cardName" : "Visa Signature Flagship Rewards",
             "label" : "Hotels",
+            "rate" : "4%"
+          },
+          {
+            "cardName" : "Visa Signature Flagship Rewards",
+            "label" : "Other travel",
             "rate" : "4%"
           }
         ],

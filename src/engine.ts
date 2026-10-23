@@ -345,9 +345,12 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
 
 function subcategoryBreakdown(cards: CreditCard[], category: SpendCategory, overrides: Override[],
                               cardConfigs: Record<string, Set<SpendCategory>>, v: Valuation, now: Date): SubcategoryBest[] {
-  let subs: [string, string][];
+  // Travel also lists "Other travel" (the category's own rate), mirroring the
+  // Swift engine: a wallet whose flights and hotels go to one card still
+  // shows the split when everything else in travel goes to another.
+  let subs: [string | null, string][];
   if (category === "grocery") subs = [["in_store", "In a store"], ["online", "Online / delivery"]];
-  else if (category === "travel") subs = [["flight", "Flights"], ["hotel", "Hotels"]];
+  else if (category === "travel") subs = [["flight", "Flights"], ["hotel", "Hotels"], [null, "Other travel"]];
   else return [];
   const rows: SubcategoryBest[] = [];
   for (const [key, label] of subs) {
