@@ -2,14 +2,18 @@
 // Every rule here has a Swift twin; parity is enforced by test/parity.test.ts.
 
 export type SpendCategory =
-  | "dining" | "grocery" | "travel" | "gas" | "online" | "drugstore" | "transit" | "streaming" | "general";
+  | "dining" | "grocery" | "travel" | "gas" | "online" | "drugstore" | "transit" | "streaming"
+  | "entertainment" | "phone_internet" | "office_supply" | "general";
 
 export const ALL_CATEGORIES: SpendCategory[] =
-  ["dining", "grocery", "travel", "gas", "online", "drugstore", "transit", "streaming", "general"];
+  ["dining", "grocery", "travel", "gas", "online", "drugstore", "transit", "streaming",
+   "entertainment", "phone_internet", "office_supply", "general"];
 
 export const CATEGORY_DISPLAY: Record<SpendCategory, string> = {
   dining: "Dining", grocery: "Grocery", travel: "Travel", gas: "Gas", online: "Online",
-  drugstore: "Drugstores", transit: "Transit", streaming: "Streaming", general: "General",
+  drugstore: "Drugstores", transit: "Transit", streaming: "Streaming",
+  entertainment: "Entertainment", phone_internet: "Phone & internet", office_supply: "Office supplies",
+  general: "General",
 };
 
 export type RewardCurrency = "points" | "miles" | "cashback";
@@ -119,6 +123,15 @@ export const STORE_TYPE_CATEGORIES: Record<string, string[]> = {
   utilities: ["telecom", "utility"],
 };
 
+/** The directory store types a category stands for (mirrors
+ *  MerchantYieldEngine.storeTypes(for:), Oct 24 2026): a category tap uses a
+ *  quarter written as a store type, e.g. Discover's entertainment. */
+export function categoryStoreTypes(category: SpendCategory): string[] {
+  if (category === "entertainment") return ["entertainment"];
+  if (category === "phone_internet") return ["telecom"];
+  return [];
+}
+
 /** The store types a row applies to, or null for a category/merchant row. */
 export function storeTypes(o: Override): string[] | null {
   if (o.merchant && o.merchant !== "") return null;
@@ -172,9 +185,10 @@ export function standingCaps(cardId: string): StandingCap[] {
     case "chase_southwest_premier":
       return [{ id: "combined", categories: ["grocery", "dining"], limit: 8000, period: "cardYear", after: 1 }];
     case "chase_ink_business_preferred_credit_card":
-      return [{ id: "combined", categories: ["travel", "transit"], limit: 150000, period: "cardYear", after: 1 }];
+      return [{ id: "combined", categories: ["travel", "transit", "phone_internet"], limit: 150000, period: "cardYear", after: 1 }];
     case "chase_ink_business_cash_credit_card":
-      return [{ id: "combined", categories: ["gas", "dining"], limit: 25000, period: "cardYear", after: 1 }];
+      return [{ id: "essentials", categories: ["office_supply", "phone_internet"], limit: 25000, period: "cardYear", after: 1 },
+              { id: "combined", categories: ["gas", "dining"], limit: 25000, period: "cardYear", after: 1 }];
     case "discover_discover_it_chrome": case "discover_discover_it_student_chrome":
       return [{ id: "combined", categories: ["gas", "dining"], limit: 1000, period: "quarter", after: 1 }];
     case "u_s_bank_altitude_go_visa_signature_credit_card": case "u_s_bank_altitude_go_secured_visa_credit_card":

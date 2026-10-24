@@ -1,6 +1,6 @@
 // Mirrors MerchantYieldEngine (BASE-RATE mode only — offers live on the phone, never here).
 import {
-  CATEGORY_DISPLAY, capCovers, isPermanentMerchantBenefit, multiplier, overrideIsActive, rotatingCap, standingCaps, storeTypes,
+  CATEGORY_DISPLAY, capCovers, categoryStoreTypes, isPermanentMerchantBenefit, multiplier, overrideIsActive, rotatingCap, standingCaps, storeTypes,
   type CreditCard, type Override, type SpendCategory,
 } from "./model.js";
 import { merchantMatchesCoBrandBenefit, offerMatches } from "./matching.js";
@@ -170,7 +170,15 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
     } else if (storeTypes(o)) {
       // A store-type quarter (Discover's entertainment): only a store the
       // directory files under one of its types.
-      if (!merchantType || !storeTypes(o)!.includes(merchantType.toLowerCase())) continue;
+      // A category tap has no store: it matches when the category IS that
+      // kind of store (mirrors MerchantYieldEngine, Oct 24 2026).
+      const types = storeTypes(o)!;
+      if (merchantType) {
+        if (!types.includes(merchantType.toLowerCase())) continue;
+      } else {
+        if (merchantQuery && merchantQuery !== "") continue;
+        if (!categoryStoreTypes(category).some((t) => types.includes(t))) continue;
+      }
       matches = true;
     } else {
       matches = o.category.trim().toLowerCase() === category;
@@ -351,6 +359,7 @@ function subcategoryBreakdown(cards: CreditCard[], category: SpendCategory, over
   let subs: [string | null, string][];
   if (category === "grocery") subs = [["in_store", "In a store"], ["online", "Online / delivery"]];
   else if (category === "travel") subs = [["flight", "Flights"], ["hotel", "Hotels"], [null, "Other travel"]];
+  else if (category === "phone_internet") subs = [["phone", "Phone plans"], ["internet", "Internet & cable"]];
   else return [];
   const rows: SubcategoryBest[] = [];
   for (const [key, label] of subs) {
