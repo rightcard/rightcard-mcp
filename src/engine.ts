@@ -32,6 +32,10 @@ export interface Recommendation {
   /** The winning rotating quarter's limit and who wins after it (app: CapInfo). */
   capLimit?: string | null;
   afterLimit?: string | null;
+  /** The store's register refuses every card in the wallet (Costco takes Visa
+   *  only and none is a Visa). Then `caveat` is set by the engine and wins
+   *  over the directory's caveat. Mirrors RecommendationContext. */
+  walletRefusedAtRegister?: boolean;
 }
 
 export interface RecommendInput {
@@ -56,6 +60,24 @@ export function activationApp(issuer: string): string {
 }
 
 // ── formatting (Swift twins) ──
+/** A card network as people write it (mirrors MerchantYieldEngine.networkName). */
+export function networkName(raw: string): string {
+  switch (raw.toLowerCase()) {
+    case "visa": return "Visa";
+    case "mastercard": return "Mastercard";
+    case "amex": case "american express": return "American Express";
+    case "discover": return "Discover";
+    default: return raw.charAt(0).toUpperCase() + raw.slice(1);
+  }
+}
+
+/** "A", "A and B", "A, B, and C" (en ListFormatter). */
+function listJoin(items: string[]): string {
+  if (items.length <= 1) return items.join("");
+  if (items.length === 2) return `${items[0]} and ${items[1]}`;
+  return `${items.slice(0, -1).join(", ")}, and ${items[items.length - 1]}`;
+}
+
 export function formatPercent(v: number): string {
   return v === Math.round(v) ? `${Math.round(v)}%` : `${fmt1(v)}%`;
 }
@@ -325,9 +347,9 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     if (card.rewardCurrency !== null && card.rewardCurrency !== "cashback") {
       lines.push(category === "general"
         ? `Base rate: ${formatMultiplier(earn)} ${earnUnitLabel(v, card)} → ${valueStr}`
-        : `Base ${cat} earn: ${formatMultiplier(earn)} ${earnUnitLabel(v, card)} → ${valueStr}`);
+        : `Rate on ${cat}: ${formatMultiplier(earn)} ${earnUnitLabel(v, card)} → ${valueStr}`);
     } else {
-      lines.push(category === "general" ? `Base rate: ${valueStr}` : `Base ${cat} earn: ${valueStr}`);
+      lines.push(category === "general" ? `Base rate: ${valueStr}` : `Rate on ${cat}: ${valueStr}`);
     }
   }
 
@@ -383,6 +405,7 @@ export function recommend(input: RecommendInput): Recommendation | null {
   // caveat carries the register story. Unknown (null) network never gates.
   const accepted = input.acceptedNetworks;
   let refusedAtRegister: CreditCard[] = [];
+  let walletRefused = false;
   if (accepted && accepted.size > 0) {
     const eligible = cards.filter((c) => {
       const net = c.network?.toLowerCase();
@@ -391,6 +414,8 @@ export function recommend(input: RecommendInput): Recommendation | null {
     if (eligible.length > 0) {
       refusedAtRegister = cards.filter((c) => !eligible.includes(c));
       cards = eligible;
+    } else {
+      walletRefused = true;
     }
   }
   const v = withPooling(input.valuation, cards);
@@ -413,6 +438,15 @@ export function recommend(input: RecommendInput): Recommendation | null {
     if (refused && refused.valueCents > w.valueCents + 0.0001) {
       ctx.reason = `${w.card.displayName} is your best card that works at the ${merchantName} register: ${formatPercent(w.valueCents)} per dollar.`;
     }
+  }
+  // Every card is refused at the register: say so instead of headlining a
+  // card that won't swipe (mirrors MerchantYieldEngine, Oct 24 2026).
+  if (merchantName && walletRefused && accepted) {
+    const nets = listJoin([...accepted].sort().map(networkName));
+    ctx.walletRefusedAtRegister = true;
+    ctx.reason = `None of your cards works at the ${merchantName} register. Online, ${w.card.displayName} earns ${formatPercent(w.valueCents)} per dollar.`;
+    ctx.caveat = `None of your cards works at the ${merchantName} register. It takes ${nets} only. Online, this is your best card.`;
+    ctx.tieNote = null;
   }
   // Rotating limit (mirrors MerchantYieldEngine.capInfo): re-answer without
   // this card's capped quarter rows to name who wins after the limit.
