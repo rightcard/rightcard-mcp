@@ -5690,7 +5690,16 @@
         "rateDisplay" : "1%",
         "reason" : "Apple Card earns the most for phone & internet: 1% per dollar.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Wells Fargo Autograph",
+            "label" : "Phone plans",
+            "rate" : "3%"
+          },
+          {
+            "cardName" : "Apple Card",
+            "label" : "Internet & cable",
+            "rate" : "1%"
+          }
         ],
         "tieNote" : "Autograph also earns 1% here. Its points can be worth more for travel, so try Points & miles.",
         "valuationBasis" : "Cash value",
@@ -5987,7 +5996,16 @@
         "rateDisplay" : "1.5%",
         "reason" : "Wells Fargo Autograph earns 1x points on phone & internet. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Wells Fargo Autograph",
+            "label" : "Phone plans",
+            "rate" : "4.5%"
+          },
+          {
+            "cardName" : "Wells Fargo Autograph",
+            "label" : "Internet & cable",
+            "rate" : "1.5%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
@@ -11580,13 +11598,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on phone & internet: 2x miles → 2%"
+          "Rate on phone & internet: 5x points → 5%"
         ],
-        "cardId" : "capital_one_capital_one_venture_x_business",
-        "loggableRate" : 2,
+        "cardId" : "chase_ink_business_cash_credit_card",
+        "loggableRate" : 5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X Business earns the most for phone & internet: 2% per dollar.",
+        "rateDisplay" : "5%",
+        "reason" : "Ink Business Cash Credit Card earns the most for phone & internet: 5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -11604,13 +11622,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on office supplies: 2x miles → 2%"
+          "Rate on office supplies: 5x points → 5%"
         ],
-        "cardId" : "capital_one_capital_one_venture_x_business",
-        "loggableRate" : 2,
+        "cardId" : "chase_ink_business_cash_credit_card",
+        "loggableRate" : 5,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X Business earns the most for office supplies: 2% per dollar.",
+        "rateDisplay" : "5%",
+        "reason" : "Ink Business Cash Credit Card earns the most for office supplies: 5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -11876,22 +11894,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 2x miles",
-          "Valued at 1.7¢\/pt → 3.4% per $1"
+          "Earns 5x points",
+          "Valued at 1.8¢\/pt → 9% per $1"
         ],
-        "cardId" : "capital_one_capital_one_venture_x_business",
-        "loggableRate" : 3.3999999999999999,
+        "cardId" : "chase_ink_business_cash_credit_card",
+        "loggableRate" : 9,
         "portalNote" : null,
-        "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X Business earns 2x miles on phone & internet. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "rateDisplay" : "9%",
+        "reason" : "Ink Business Cash Credit Card earns 5x points on phone & internet. At 1.8¢ each, that's 9% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "2x miles · value per $1",
-        "valueMath" : "2x miles × 1.7¢ = 3.4¢ per $1",
-        "valueMathShort" : "2x pts × 1.7¢"
+        "valuationBasis" : "Chase Ultimate Rewards · 1.8¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 1.8¢ = 9.0¢ per $1",
+        "valueMathShort" : "5x pts × 1.8¢"
       },
       "wallet" : 19
     },
@@ -11901,22 +11919,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 2x miles",
-          "Valued at 1.7¢\/pt → 3.4% per $1"
+          "Earns 5x points",
+          "Valued at 1.8¢\/pt → 9% per $1"
         ],
-        "cardId" : "capital_one_capital_one_venture_x_business",
-        "loggableRate" : 3.3999999999999999,
+        "cardId" : "chase_ink_business_cash_credit_card",
+        "loggableRate" : 9,
         "portalNote" : null,
-        "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X Business earns 2x miles on office supplies. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "rateDisplay" : "9%",
+        "reason" : "Ink Business Cash Credit Card earns 5x points on office supplies. At 1.8¢ each, that's 9% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "2x miles · value per $1",
-        "valueMath" : "2x miles × 1.7¢ = 3.4¢ per $1",
-        "valueMathShort" : "2x pts × 1.7¢"
+        "valuationBasis" : "Chase Ultimate Rewards · 1.8¢ travel value",
+        "valueCaption" : "5x points · value per $1",
+        "valueMath" : "5x points × 1.8¢ = 9.0¢ per $1",
+        "valueMathShort" : "5x pts × 1.8¢"
       },
       "wallet" : 19
     },
@@ -12144,13 +12162,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 2%"
+          "Rate on entertainment: 3%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
-        "loggableRate" : 2,
+        "cardId" : "capitalone_savorone",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for entertainment: 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One SavorOne earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -12434,13 +12452,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 2%"
+          "Rate on entertainment: 3%"
         ],
-        "cardId" : "american_express_blue_business_cash_card_from_american_express",
-        "loggableRate" : 2,
+        "cardId" : "capitalone_savorone",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for entertainment: 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One SavorOne earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -12747,15 +12765,24 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on phone & internet: 1.5%"
+          "Rate on phone & internet: 3x points → 3%"
         ],
-        "cardId" : "paypal_cashback",
-        "loggableRate" : 1.5,
+        "cardId" : "chase_ink_business_preferred_credit_card",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "PayPal Cashback Mastercard earns the most for phone & internet: 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Ink Business Preferred Credit Card earns the most for phone & internet: 3% per dollar.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Wells Fargo Autograph",
+            "label" : "Phone plans",
+            "rate" : "3%"
+          },
+          {
+            "cardName" : "Ink Business Preferred Credit Card",
+            "label" : "Internet & cable",
+            "rate" : "3%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Cash value",
@@ -13043,22 +13070,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1x points",
-          "Valued at 1.8¢\/pt → 1.8% per $1"
+          "Earns 3x points",
+          "Valued at 1.8¢\/pt → 5.4% per $1"
         ],
         "cardId" : "chase_ink_business_preferred_credit_card",
-        "loggableRate" : 1.8,
+        "loggableRate" : 5.4000000000000004,
         "portalNote" : null,
-        "rateDisplay" : "1.8%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on phone & internet. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "rateDisplay" : "5.4%",
+        "reason" : "Ink Business Preferred Credit Card earns 3x points on phone & internet. At 1.8¢ each, that's 5.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Chase Ultimate Rewards · 1.8¢ travel value",
-        "valueCaption" : "1x points · value per $1",
-        "valueMath" : "1x points × 1.8¢ = 1.8¢ per $1",
-        "valueMathShort" : "1x pts × 1.8¢"
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 1.8¢ = 5.4¢ per $1",
+        "valueMathShort" : "3x pts × 1.8¢"
       },
       "wallet" : 21
     },
@@ -13346,7 +13373,16 @@
         "rateDisplay" : "1.2%",
         "reason" : "Hilton Honors Aspire Card earns 3x points on phone & internet. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Wells Fargo Autograph",
+            "label" : "Phone plans",
+            "rate" : "3%"
+          },
+          {
+            "cardName" : "Hilton Honors Aspire Card",
+            "label" : "Internet & cable",
+            "rate" : "1.2%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
@@ -13646,7 +13682,16 @@
         "rateDisplay" : "1.6%",
         "reason" : "Citi Strata Premier ® Card earns 1x points on phone & internet. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Wells Fargo Autograph",
+            "label" : "Phone plans",
+            "rate" : "4.5%"
+          },
+          {
+            "cardName" : "Citi Strata Premier ® Card",
+            "label" : "Internet & cable",
+            "rate" : "1.6%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Citi ThankYou Points · 1.6¢ travel value",
@@ -13904,17 +13949,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 1.5%"
+          "Rate on entertainment: 3%"
         ],
-        "cardId" : "navy_federal_cashrewards",
-        "loggableRate" : 1.5,
+        "cardId" : "capitalone_savor",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Navy Federal cashRewards earns the most for entertainment: 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One Savor earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "PenFed Power Cash Rewards Visa Signature also earns 1.5% here. Either one works.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -14192,17 +14237,17 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 1.5x points → 1.5%"
+          "Rate on entertainment: 3%"
         ],
-        "cardId" : "penfed_pathfinder",
-        "loggableRate" : 1.5,
+        "cardId" : "capitalone_savor",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "PenFed Pathfinder Rewards Visa Signature earns the most for entertainment: 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One Savor earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Navy Federal cashRewards also earns 1.5% here. We picked PenFed Pathfinder Rewards Visa Signature for transfer flexibility.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -15098,7 +15143,16 @@
         "rateDisplay" : "1.2%",
         "reason" : "Hilton Honors Surpass earns 3x points on phone & internet. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Wells Fargo Autograph",
+            "label" : "Phone plans",
+            "rate" : "3%"
+          },
+          {
+            "cardName" : "Hilton Honors Surpass",
+            "label" : "Internet & cable",
+            "rate" : "1.2%"
+          }
         ],
         "tieNote" : null,
         "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
@@ -15397,7 +15451,16 @@
         "rateDisplay" : "1.5%",
         "reason" : "Autograph® Journey Card earns 1x points on phone & internet. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
-
+          {
+            "cardName" : "Wells Fargo Autograph",
+            "label" : "Phone plans",
+            "rate" : "4.5%"
+          },
+          {
+            "cardName" : "Autograph® Journey Card",
+            "label" : "Internet & cable",
+            "rate" : "1.5%"
+          }
         ],
         "tieNote" : "One Key also earns 1.5% here. Either one works.",
         "valuationBasis" : "Wells Fargo Rewards · 1.5¢ travel value",
@@ -15669,13 +15732,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 2%"
+          "Rate on entertainment: 3%"
         ],
-        "cardId" : "wellsfargo_activecash",
-        "loggableRate" : 2,
+        "cardId" : "capitalone_savor",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Active Cash earns the most for entertainment: 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One Savor earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -15971,13 +16034,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 2%"
+          "Rate on entertainment: 3%"
         ],
-        "cardId" : "wellsfargo_activecash",
-        "loggableRate" : 2,
+        "cardId" : "capitalone_savor",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Active Cash earns the most for entertainment: 2% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One Savor earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -16259,13 +16322,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 1.5x points → 1.5%"
+          "Rate on entertainment: 3%"
         ],
-        "cardId" : "chase_ink_business_unlimited_credit_card",
-        "loggableRate" : 1.5,
+        "cardId" : "capitalone_savorone",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1.5%",
-        "reason" : "Ink Business Unlimited Credit Card earns the most for entertainment: 1.5% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One SavorOne earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -16550,22 +16613,21 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.5x points",
-          "Valued at 1.8¢\/pt → 2.7% per $1"
+          "Rate on entertainment: 3%"
         ],
-        "cardId" : "chase_ink_business_unlimited_credit_card",
-        "loggableRate" : 2.7000000000000002,
+        "cardId" : "capitalone_savorone",
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "2.7%",
-        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on entertainment. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One SavorOne earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Chase Ultimate Rewards · 1.8¢ travel value",
-        "valueCaption" : "1.5x points · value per $1",
-        "valueMath" : "1.5x points × 1.8¢ = 2.7¢ per $1",
-        "valueMathShort" : "1.5x pts × 1.8¢"
+        "valuationBasis" : "Cash value",
+        "valueCaption" : "value per $1",
+        "valueMath" : null,
+        "valueMathShort" : null
       },
       "wallet" : 27
     },
@@ -23418,17 +23480,17 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 1%"
+          "Rate on entertainment: 3%"
         ],
         "cardId" : "capitalone_savor",
-        "loggableRate" : 1,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1%",
-        "reason" : "Capital One Savor earns the most for entertainment: 1% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One Savor earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Sam's Club Mastercard also earns 1% here. Either one works.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
@@ -23706,17 +23768,17 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on entertainment: 1%"
+          "Rate on entertainment: 3%"
         ],
         "cardId" : "capitalone_savor",
-        "loggableRate" : 1,
+        "loggableRate" : 3,
         "portalNote" : null,
-        "rateDisplay" : "1%",
-        "reason" : "Capital One Savor earns the most for entertainment: 1% per dollar.",
+        "rateDisplay" : "3%",
+        "reason" : "Capital One Savor earns the most for entertainment: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
-        "tieNote" : "Sam's Club Mastercard also earns 1% here. Either one works.",
+        "tieNote" : null,
         "valuationBasis" : "Cash value",
         "valueCaption" : "value per $1",
         "valueMath" : null,
