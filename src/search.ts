@@ -54,10 +54,22 @@ export function withinOneEdit(aStr: string, bStr: string): boolean {
   return true;
 }
 
-export interface SearchForms { raw: string; norm: string; compact: string }
+export interface SearchForms { raw: string; norm: string; compact: string; body: string }
+
+/** Merchant.droppingWebEnding: "emirates.com" → "emirates". Anything with a space comes back unchanged. */
+export function droppingWebEnding(raw: string): string {
+  const s = raw.trim();
+  const dot = s.indexOf(".");
+  if (s.includes(" ") || dot < 0) return raw;
+  const after = s.slice(dot + 1).toLowerCase();
+  const endings = ["com", "co.uk", "co", "uk", "ca", "net", "org", "us", "io", "app", "shop", "store"];
+  if (!endings.some((e) => after === e || after.startsWith(e + "/") || after.startsWith(e + "."))) return raw;
+  return s.slice(0, dot);
+}
+
 export const searchForms = (raw: string): SearchForms => {
   const norm = searchNormalized(raw);
-  return { raw, norm, compact: compactForm(norm) };
+  return { raw, norm, compact: compactForm(norm), body: searchNormalized(droppingWebEnding(raw)) };
 };
 
 /** Merchant.matchScore(queryNorm:queryCompact:rawQuery:candidates:) */
@@ -78,7 +90,9 @@ export function matchScore(q: string, qc: string, rawQuery: string, candidates: 
     // character query matching mid-word is noise: "LG" returned Algenist,
     // Bulgari, Trafalgar and the glued alias "naturalgrocers.com" and no LG
     // (user report, Sep 17 2026). Mirrors Merchant.matchScore in the app.
-    if ([...q].length >= 4 && n.includes(q)) best = Math.max(best, 55);
+    // The mid-word tier reads the name without its web ending, so "tesco"
+    // can't match inside "emiratesCOm" (Oct 26 2026).
+    if ([...q].length >= 4 && c.body.includes(q)) best = Math.max(best, 55);
     if (best < 45 && merchantMatches(c.raw, rawQuery)) best = Math.max(best, 45);
     if (best < 30 && [...q].length >= 5) {
       if (withinOneEdit(n, q) || words.some((w) => [...w].length >= 5 && withinOneEdit(w, q))) best = Math.max(best, 30);
