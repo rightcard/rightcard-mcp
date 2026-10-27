@@ -173,6 +173,25 @@ export function basisLabel(v: Valuation, card: CreditCard): string {
  *  "1.6" where Swift prints "1.7" (Delta Biz Platinum transit 1.5x @ 1.1¢).
  *  toFixed(20) is the exact decimal expansion of the double, so a tie is a
  *  tie only when the digits past the tenths are literally 5000…0. */
+/** Swift `LocalNumber.decimal` for the US: up to two decimals, trailing
+ *  zeros dropped ("2.7", "1.25"). Oct 27 2026: one decimal turned a
+ *  bank-stated 1.25% into "1.2%". Ties round half-to-even on the double's
+ *  exact decimal expansion, the same way printf("%.2f") does (see fmt1). */
+export function fmtRate(x: number): string {
+  const exact = Math.abs(x).toFixed(20);
+  const [ip, fp] = exact.split(".");
+  let s: string;
+  if (/^[0-9]{2}50{17}$/.test(fp)) {
+    let n = parseInt(ip, 10) * 100 + parseInt(fp.slice(0, 2), 10);
+    if (n % 2 !== 0) n += 1;
+    s = (n / 100).toFixed(2);
+  } else {
+    s = Math.abs(x).toFixed(2);
+  }
+  s = s.replace(/0+$/, "").replace(/\.$/, "");
+  return x < 0 ? "-" + s : s;
+}
+
 export function fmt1(x: number): string {
   const exact = Math.abs(x).toFixed(20);
   const [ip, fp] = exact.split(".");

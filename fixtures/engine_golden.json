@@ -11652,22 +11652,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on grocery. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on grocery. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11677,22 +11677,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : "Booking through Capital One Travel? VentureOne earns up to 5x there.",
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on travel. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on travel. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11702,22 +11702,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on gas. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on gas. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11727,22 +11727,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on online. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on online. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11752,22 +11752,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on drugstores. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on drugstores. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11777,22 +11777,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on transit. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on transit. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11802,22 +11802,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on streaming. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on streaming. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11827,22 +11827,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on entertainment. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on entertainment. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11852,22 +11852,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on phone & internet. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on phone & internet. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11877,22 +11877,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on office supplies. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on office supplies. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -11902,22 +11902,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "wallet" : 19
     },
@@ -55762,22 +55762,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -55790,22 +55790,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -55818,22 +55818,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -55846,22 +55846,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on online. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on online. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -55874,22 +55874,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on grocery. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on grocery. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -55902,22 +55902,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on grocery. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on grocery. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -55930,22 +55930,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on streaming. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on streaming. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -55958,22 +55958,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on transit. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on transit. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -55986,22 +55986,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on transit. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on transit. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56014,22 +56014,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on streaming. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on streaming. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56042,22 +56042,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on drugstores. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on drugstores. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56070,22 +56070,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on drugstores. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on drugstores. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56098,22 +56098,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56153,22 +56153,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on gas. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on gas. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56181,22 +56181,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on streaming. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on streaming. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56209,22 +56209,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : "Booking through Capital One Travel? VentureOne earns up to 5x there.",
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on travel. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on travel. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "hotel",
       "wallet" : 19
@@ -56237,22 +56237,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on grocery. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on grocery. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -56265,22 +56265,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on grocery. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on grocery. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -56293,22 +56293,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on grocery. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on grocery. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -56321,22 +56321,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "in_store",
       "wallet" : 19
@@ -56349,22 +56349,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : "Booking through Capital One Travel? VentureOne earns up to 5x there.",
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on travel. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on travel. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "flight",
       "wallet" : 19
@@ -56377,22 +56377,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : "Booking through Capital One Travel? VentureOne earns up to 5x there.",
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on travel. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on travel. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : "hotel",
       "wallet" : 19
@@ -56405,22 +56405,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56460,22 +56460,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on gas. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on gas. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56488,22 +56488,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56516,22 +56516,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56544,22 +56544,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on everyday purchases. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on everyday purchases. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19
@@ -56572,22 +56572,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Earns 1.2x miles",
-          "Valued at 1.7¢\/pt → 2.1% per $1"
+          "Earns 1.25x miles",
+          "Valued at 1.7¢\/pt → 2.12% per $1"
         ],
         "cardId" : "capitalone_ventureone",
         "loggableRate" : 2.125,
         "portalNote" : null,
-        "rateDisplay" : "2.1%",
-        "reason" : "Capital One VentureOne earns 1.2x miles on streaming. At 1.7¢ each, that's 2.1% per dollar, the most in your wallet.",
+        "rateDisplay" : "2.12%",
+        "reason" : "Capital One VentureOne earns 1.25x miles on streaming. At 1.7¢ each, that's 2.12% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
         "valuationBasis" : "Capital One miles · 1.7¢ travel value",
-        "valueCaption" : "1.2x miles · value per $1",
-        "valueMath" : "1.2x miles × 1.7¢ = 2.1¢ per $1",
-        "valueMathShort" : "1.2x pts × 1.7¢"
+        "valueCaption" : "1.25x miles · value per $1",
+        "valueMath" : "1.25x miles × 1.7¢ = 2.1¢ per $1",
+        "valueMathShort" : "1.25x pts × 1.7¢"
       },
       "subKey" : null,
       "wallet" : 19

@@ -6,7 +6,7 @@ import {
 import { merchantMatchesCoBrandBenefit, offerMatches } from "./matching.js";
 import { specFor, type ConfigurableCardSpec } from "./configurable.js";
 import {
-  basisLabel, cashOutCPP, centsPerPoint, earnUnitLabel, effectiveProgram, fmt1, valuesPointsAboveCash,
+  basisLabel, cashOutCPP, centsPerPoint, earnUnitLabel, effectiveProgram, fmt1, fmtRate, valuesPointsAboveCash,
   withPooling, type RewardProgram, type Valuation,
 } from "./valuation.js";
 
@@ -79,10 +79,10 @@ function listJoin(items: string[]): string {
 }
 
 export function formatPercent(v: number): string {
-  return v === Math.round(v) ? `${Math.round(v)}%` : `${fmt1(v)}%`;
+  return v === Math.round(v) ? `${Math.round(v)}%` : `${fmtRate(v)}%`;
 }
 export function formatMultiplier(v: number): string {
-  return v === Math.round(v) ? `${Math.round(v)}x` : `${fmt1(v)}x`;
+  return v === Math.round(v) ? `${Math.round(v)}x` : `${fmtRate(v)}x`;
 }
 
 /** shortName: trim issuer/boilerplate so a card name fits a one-line note. */
