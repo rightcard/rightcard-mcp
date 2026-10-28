@@ -18,4 +18,7 @@ describe("fixed-value programs", () => {
     expect(inferProgram("PenFed", "penfed_pathfinder", "points")).toBe("fixedValue");
     expect(inferProgram("Bank of America", "bank_of_america_atmos_rewards_ascent_visa_signature", "points")).toBe("alaska");
   });
+  it("the Hawaiian card earns Atmos points (HawaiianMiles became Atmos)", () => {
+    expect(inferProgram("Barclays", "barclays_hawaiian_airlines", "miles")).toBe("alaska");
+  });
 });

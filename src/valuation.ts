@@ -17,7 +17,7 @@ export const PROGRAM_DISPLAY: Record<RewardProgram, string> = {
   bmoRewards: "BMO Rewards", hyatt: "World of Hyatt", marriott: "Marriott Bonvoy", ihg: "IHG One Rewards", choice: "Choice Privileges",
   hilton: "Hilton Honors", delta: "Delta SkyMiles", united: "United MileagePlus",
   american: "American AAdvantage", southwest: "Southwest Rapid Rewards", jetBlue: "JetBlue TrueBlue",
-  alaska: "Alaska Mileage Plan", avios: "British Airways Avios", aeroplan: "Air Canada Aeroplan",
+  alaska: "Atmos Rewards", avios: "British Airways Avios", aeroplan: "Air Canada Aeroplan",
   fixedValue: "Fixed-value miles", genericPoints: "Points", genericMiles: "Miles",
 };
 
@@ -60,7 +60,8 @@ export function inferProgram(issuer: string | null, id: string, currency: Credit
   if (has("aadvantage", "american airlines")) return "american";
   if (has("southwest", "rapid rewards")) return "southwest";
   if (has("jetblue", "trueblue")) return "jetBlue";
-  if (has("alaska", "atmos")) return "alaska";   // Atmos Ascent's id has no "alaska" (mirrors Swift)
+  // Atmos: Ascent's id has no "alaska"; HawaiianMiles became Atmos points (mirrors Swift)
+  if (has("alaska", "atmos", "hawaiian")) return "alaska";
   if (has("aeroplan", "air canada")) return "aeroplan";
   if (has("british airways", "avios")) return "avios";
   if (has("bilt")) return "bilt";
