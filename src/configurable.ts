@@ -9,6 +9,9 @@ export interface ConfigurableCardSpec {
   eligible: SpendCategory[];
   note: string;
   matchNeedles: string[];
+  /** When set, only these card ids use the spec (needles ignored). Venmo split
+   * its card in Oct 2026; both names contain "venmo". Mirrors the Swift spec. */
+  exactIDs?: string[];
   multiCardMax: number;
 }
 
@@ -56,7 +59,7 @@ export const CONFIGURABLE_SPECS: ConfigurableCardSpec[] = [
     key: "venmo_credit_card", displayName: "Venmo Credit Card", bonusRate: 3, slots: 1,
     eligible: ["dining", "grocery", "gas", "travel", "transit"],
     note: "3% back on the category you spend most in each month (2% on your second, 1% everywhere else). Venmo applies the tiers automatically from your actual spending. Set the category you expect to top so RightCard recommends it there. The 2% tier isn't modeled.",
-    matchNeedles: ["venmo"], multiCardMax: 1,
+    matchNeedles: ["venmo"], multiCardMax: 1, exactIDs: ["venmo_credit_card"],
   },
 ];
 
@@ -67,7 +70,8 @@ export function normalizeConfigurable(s: string): string {
 
 export function specFor(card: CreditCard): ConfigurableCardSpec | null {
   const hay = normalizeConfigurable(card.id) + normalizeConfigurable(card.displayName);
-  return CONFIGURABLE_SPECS.find((spec) => spec.matchNeedles.some((n) => hay.includes(n))) ?? null;
+  return CONFIGURABLE_SPECS.find((spec) =>
+    spec.exactIDs ? spec.exactIDs.includes(card.id) : spec.matchNeedles.some((n) => hay.includes(n))) ?? null;
 }
 
 export const isConfigurable = (card: CreditCard) => specFor(card) !== null;
