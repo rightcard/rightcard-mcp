@@ -288,7 +288,9 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
   const valueStr = formatPercent(valueCents);
   // "everyday purchases", not "general" — mirrors SpendCategory.inSentence
   // in the app (Oct 8 2026).
-  const cat = category === "general" ? "everyday purchases" : CATEGORY_DISPLAY[category].toLowerCase();
+  // "online shopping" too: "Rate on online: 2%" read as a typo (Oct 31 2026).
+  const cat = category === "general" ? "everyday purchases"
+    : category === "online" ? "online shopping" : CATEGORY_DISPLAY[category].toLowerCase();
   const disp = CATEGORY_DISPLAY[category];
   let reason: string;
   const lines: string[] = [];

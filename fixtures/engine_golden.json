@@ -136,13 +136,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1%"
+          "Rate on online shopping: 1%"
         ],
         "cardId" : "amex_blue_cash_preferred",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "American Express Blue Cash Preferred® earns the most for online: 1% per dollar.",
+        "reason" : "American Express Blue Cash Preferred® earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -457,7 +457,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express® Gold Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express® Gold Card earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -754,13 +754,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -1064,7 +1064,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Chase Freedom Unlimited earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Chase Freedom Unlimited earns 1.5x points on online shopping. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -1364,13 +1364,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -1664,13 +1664,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -1978,13 +1978,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -2293,13 +2293,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -2583,13 +2583,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -2882,7 +2882,7 @@
         "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "1.6%",
-        "reason" : "Citi Premier Card earns 1x points on online. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
+        "reason" : "Citi Premier Card earns 1x points on online shopping. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -3171,13 +3171,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x points → 1%"
+          "Rate on online shopping: 1x points → 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for online: 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -3460,13 +3460,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x points → 1%"
+          "Rate on online shopping: 1x points → 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for online: 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -3762,13 +3762,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x miles → 2%"
+          "Rate on online shopping: 2x miles → 2%"
         ],
         "cardId" : "capitalone_venture_x",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Venture X earns the most for online: 2% per dollar.",
+        "reason" : "Capital One Venture X earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -4075,7 +4075,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X earns 2x miles on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture X earns 2x miles on online shopping. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -4381,7 +4381,7 @@
         "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Hilton Honors American Express Card earns 3x points on online. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Hilton Honors American Express Card earns 3x points on online shopping. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -4688,7 +4688,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Chase Sapphire Preferred earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Chase Sapphire Preferred earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -5561,13 +5561,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1%"
+          "Rate on online shopping: 1%"
         ],
         "cardId" : "apple_card",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Apple Card earns the most for online: 1% per dollar.",
+        "reason" : "Apple Card earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -5868,7 +5868,7 @@
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Wells Fargo Autograph earns 1x points on online. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "Wells Fargo Autograph earns 1x points on online shopping. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -6744,13 +6744,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "navy_federal_cashrewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Navy Federal cashRewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Navy Federal cashRewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -7043,7 +7043,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Preferred Credit Card earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -7334,13 +7334,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5x points → 1.5%"
+          "Rate on online shopping: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_premium_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Premium Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -7624,13 +7624,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5x points → 1.5%"
+          "Rate on online shopping: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_premium_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Premium Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -7912,13 +7912,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "wells_fargo_one_key_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "One Key® Card earns the most for online: 1.5% per dollar.",
+        "reason" : "One Key® Card earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -8203,13 +8203,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "wells_fargo_one_key_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "One Key® Card earns the most for online: 1.5% per dollar.",
+        "reason" : "One Key® Card earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -8506,13 +8506,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x points → 2%"
+          "Rate on online shopping: 2x points → 2%"
         ],
         "cardId" : "bilt_palladium_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bilt Palladium Card earns the most for online: 2% per dollar.",
+        "reason" : "Bilt Palladium Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -8805,7 +8805,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "Bilt Palladium Card earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "Bilt Palladium Card earns 2x points on online shopping. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -9094,13 +9094,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -9393,7 +9393,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on online shopping. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -9682,13 +9682,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -9972,13 +9972,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -10277,13 +10277,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x points → 2%"
+          "Rate on online shopping: 2x points → 2%"
         ],
         "cardId" : "capital_one_t_mobile",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "T-Mobile earns the most for online: 2% per dollar.",
+        "reason" : "T-Mobile earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -10585,7 +10585,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "T-Mobile earns 2x points on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "T-Mobile earns 2x points on online shopping. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -10874,13 +10874,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -11173,7 +11173,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X earns 2x miles on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture X earns 2x miles on online shopping. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -11471,13 +11471,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -11772,13 +11772,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -12064,13 +12064,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -12356,13 +12356,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -12645,13 +12645,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -12937,13 +12937,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -13226,13 +13226,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -13519,13 +13519,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -13810,13 +13810,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "sofi_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "SoFi Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -14100,13 +14100,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "sofi_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "SoFi Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -14388,13 +14388,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x points → 2%"
+          "Rate on online shopping: 2x points → 2%"
         ],
         "cardId" : "bilt_palladium_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bilt Palladium Card earns the most for online: 2% per dollar.",
+        "reason" : "Bilt Palladium Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -14687,7 +14687,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "Bilt Palladium Card earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "Bilt Palladium Card earns 2x points on online shopping. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -14985,13 +14985,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5x points → 1.5%"
+          "Rate on online shopping: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_premium_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Premium Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -15296,13 +15296,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5x points → 1.5%"
+          "Rate on online shopping: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_premium_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Premium Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -15584,13 +15584,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for online: 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -15872,13 +15872,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for online: 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -16160,13 +16160,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x miles → 1%"
+          "Rate on online shopping: 1x miles → 1%"
         ],
         "cardId" : "barclays_aadvantage_aviator_red",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "AAdvantage Aviator Red Mastercard earns the most for online: 1% per dollar.",
+        "reason" : "AAdvantage Aviator Red Mastercard earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -16459,7 +16459,7 @@
         "loggableRate" : 1.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "1.4%",
-        "reason" : "AAdvantage Aviator Red Mastercard earns 1x miles on online. At 1.4¢ each, that's 1.4% per dollar, the most in your wallet.",
+        "reason" : "AAdvantage Aviator Red Mastercard earns 1x miles on online shopping. At 1.4¢ each, that's 1.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -16757,13 +16757,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 3%"
+          "Rate on online shopping: 3%"
         ],
         "cardId" : "robinhood_gold_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Robinhood Gold Card earns the most for online: 3% per dollar.",
+        "reason" : "Robinhood Gold Card earns the most for online shopping: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -17054,13 +17054,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 3%"
+          "Rate on online shopping: 3%"
         ],
         "cardId" : "robinhood_gold_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Robinhood Gold Card earns the most for online: 3% per dollar.",
+        "reason" : "Robinhood Gold Card earns the most for online shopping: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -17356,13 +17356,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1%"
+          "Rate on online shopping: 1%"
         ],
         "cardId" : "upgrade_upgrade_triple_cash_rewards_visa",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Upgrade Triple Cash Rewards Visa earns the most for online: 1% per dollar.",
+        "reason" : "Upgrade Triple Cash Rewards Visa earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -17669,7 +17669,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express Platinum earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express Platinum earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -17957,13 +17957,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -18245,13 +18245,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -18542,13 +18542,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 3x points → 3%"
+          "Rate on online shopping: 3x points → 3%"
         ],
         "cardId" : "barclays_gm_rewards_mastercard",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "GM Rewards Mastercard earns the most for online: 3% per dollar.",
+        "reason" : "GM Rewards Mastercard earns the most for online shopping: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -18839,13 +18839,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 3x points → 3%"
+          "Rate on online shopping: 3x points → 3%"
         ],
         "cardId" : "barclays_gm_rewards_mastercard",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "GM Rewards Mastercard earns the most for online: 3% per dollar.",
+        "reason" : "GM Rewards Mastercard earns the most for online shopping: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -19151,13 +19151,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "bofa_unlimited_cash_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America® Unlimited Cash Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America® Unlimited Cash Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -19473,7 +19473,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express® Gold Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express® Gold Card earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -19762,13 +19762,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1%"
+          "Rate on online shopping: 1%"
         ],
         "cardId" : "upgrade_upgrade_triple_cash_rewards_visa",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Upgrade Triple Cash Rewards Visa earns the most for online: 1% per dollar.",
+        "reason" : "Upgrade Triple Cash Rewards Visa earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -20050,13 +20050,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x points → 1%"
+          "Rate on online shopping: 1x points → 1%"
         ],
         "cardId" : "discover_discover_it_chrome",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Discover it® Chrome earns the most for online: 1% per dollar.",
+        "reason" : "Discover it® Chrome earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -20345,7 +20345,7 @@
         "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "1.6%",
-        "reason" : "Hilton Honors Surpass earns 4x points on online. At 0.4¢ each, that's 1.6% per dollar, the most in your wallet.",
+        "reason" : "Hilton Honors Surpass earns 4x points on online shopping. At 0.4¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -20645,7 +20645,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "British Airways Visa Signature Card earns 1x miles on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "British Airways Visa Signature Card earns 1x miles on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -20936,13 +20936,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x points → 1%"
+          "Rate on online shopping: 1x points → 1%"
         ],
         "cardId" : "southwest_priority",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Southwest Rapid Rewards Priority earns the most for online: 1% per dollar.",
+        "reason" : "Southwest Rapid Rewards Priority earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -21235,7 +21235,7 @@
         "loggableRate" : 1.2,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Southwest Rapid Rewards Priority earns 1x points on online. At 1.2¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Southwest Rapid Rewards Priority earns 1x points on online shopping. At 1.2¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -21538,13 +21538,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "capital_one_bj_s_one_mastercard",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "BJ's One Mastercard earns the most for online: 1.5% per dollar.",
+        "reason" : "BJ's One Mastercard earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -21851,7 +21851,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "British Airways Visa Signature Card earns 1x miles on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "British Airways Visa Signature Card earns 1x miles on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -22154,13 +22154,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -22456,13 +22456,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -22744,13 +22744,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -23032,13 +23032,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -23322,13 +23322,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x points → 2%"
+          "Rate on online shopping: 2x points → 2%"
         ],
         "cardId" : "capital_one_t_mobile",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "T-Mobile earns the most for online: 2% per dollar.",
+        "reason" : "T-Mobile earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -23621,7 +23621,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "T-Mobile earns 2x points on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "T-Mobile earns 2x points on online shopping. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -23900,13 +23900,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1%"
+          "Rate on online shopping: 1%"
         ],
         "cardId" : "amex_blue_cash_preferred",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "American Express Blue Cash Preferred® earns the most for online: 1% per dollar.",
+        "reason" : "American Express Blue Cash Preferred® earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -24720,7 +24720,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express® Gold Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express® Gold Card earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -25542,13 +25542,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -26367,7 +26367,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Chase Freedom Unlimited earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Chase Freedom Unlimited earns 1.5x points on online shopping. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -27202,13 +27202,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -28018,13 +28018,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -28834,13 +28834,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -29649,13 +29649,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -30472,13 +30472,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "chase_freedom_unlimited",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Chase Freedom Unlimited earns the most for online: 1.5% per dollar.",
+        "reason" : "Chase Freedom Unlimited earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -31294,7 +31294,7 @@
         "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "1.6%",
-        "reason" : "Citi Premier Card earns 1x points on online. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
+        "reason" : "Citi Premier Card earns 1x points on online shopping. At 1.6¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -32122,13 +32122,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x points → 1%"
+          "Rate on online shopping: 1x points → 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for online: 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -32934,13 +32934,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x points → 1%"
+          "Rate on online shopping: 1x points → 1%"
         ],
         "cardId" : "citi_custom_cash",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Citi Custom Cash earns the most for online: 1% per dollar.",
+        "reason" : "Citi Custom Cash earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -35403,7 +35403,7 @@
         "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Hilton Honors American Express Card earns 3x points on online. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Hilton Honors American Express Card earns 3x points on online shopping. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -36229,7 +36229,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Chase Sapphire Preferred earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Chase Sapphire Preferred earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -38693,13 +38693,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1%"
+          "Rate on online shopping: 1%"
         ],
         "cardId" : "apple_card",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Apple Card earns the most for online: 1% per dollar.",
+        "reason" : "Apple Card earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -39513,7 +39513,7 @@
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Wells Fargo Autograph earns 1x points on online. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
+        "reason" : "Wells Fargo Autograph earns 1x points on online shopping. At 1.5¢ each, that's 1.5% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -41959,13 +41959,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "navy_federal_cashrewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Navy Federal cashRewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Navy Federal cashRewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -42779,7 +42779,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "Ink Business Preferred Credit Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Preferred Credit Card earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -43609,13 +43609,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5x points → 1.5%"
+          "Rate on online shopping: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_premium_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Premium Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -44426,13 +44426,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5x points → 1.5%"
+          "Rate on online shopping: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_premium_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Premium Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -45243,13 +45243,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "wells_fargo_one_key_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "One Key® Card earns the most for online: 1.5% per dollar.",
+        "reason" : "One Key® Card earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -46054,13 +46054,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "wells_fargo_one_key_card",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "One Key® Card earns the most for online: 1.5% per dollar.",
+        "reason" : "One Key® Card earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -46874,13 +46874,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x points → 2%"
+          "Rate on online shopping: 2x points → 2%"
         ],
         "cardId" : "bilt_palladium_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bilt Palladium Card earns the most for online: 2% per dollar.",
+        "reason" : "Bilt Palladium Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -47697,7 +47697,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "Bilt Palladium Card earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "Bilt Palladium Card earns 2x points on online shopping. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -48527,13 +48527,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -49347,7 +49347,7 @@
         "loggableRate" : 2.7000000000000002,
         "portalNote" : null,
         "rateDisplay" : "2.7%",
-        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on online. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
+        "reason" : "Ink Business Unlimited Credit Card earns 1.5x points on online shopping. At 1.8¢ each, that's 2.7% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -50177,13 +50177,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -50987,13 +50987,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -51805,13 +51805,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x points → 2%"
+          "Rate on online shopping: 2x points → 2%"
         ],
         "cardId" : "capital_one_t_mobile",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "T-Mobile earns the most for online: 2% per dollar.",
+        "reason" : "T-Mobile earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -52633,7 +52633,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "T-Mobile earns 2x points on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "T-Mobile earns 2x points on online shopping. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -53463,13 +53463,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -54283,7 +54283,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "Capital One Venture X earns 2x miles on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "Capital One Venture X earns 2x miles on online shopping. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -55113,13 +55113,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -55923,13 +55923,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "citi_double_cash",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Citi Double Cash earns the most for online: 2% per dollar.",
+        "reason" : "Citi Double Cash earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -56752,13 +56752,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -57569,13 +57569,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -58394,13 +58394,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -59204,13 +59204,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -60026,13 +60026,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -60841,13 +60841,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -61666,13 +61666,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "sofi_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "SoFi Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -62483,13 +62483,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "sofi_credit_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "SoFi Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "SoFi Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -63300,13 +63300,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x points → 2%"
+          "Rate on online shopping: 2x points → 2%"
         ],
         "cardId" : "bilt_palladium_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bilt Palladium Card earns the most for online: 2% per dollar.",
+        "reason" : "Bilt Palladium Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -64120,7 +64120,7 @@
         "loggableRate" : 3.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "3.6%",
-        "reason" : "Bilt Palladium Card earns 2x points on online. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
+        "reason" : "Bilt Palladium Card earns 2x points on online shopping. At 1.8¢ each, that's 3.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -64950,13 +64950,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5x points → 1.5%"
+          "Rate on online shopping: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_premium_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Premium Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -65760,13 +65760,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5x points → 1.5%"
+          "Rate on online shopping: 1.5x points → 1.5%"
         ],
         "cardId" : "bofa_premium_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America Premium Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America Premium Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -66572,13 +66572,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for online: 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -67382,13 +67382,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "capital_one_capital_one_spark_cash_plus",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Capital One Spark Cash Plus earns the most for online: 2% per dollar.",
+        "reason" : "Capital One Spark Cash Plus earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -68192,13 +68192,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x miles → 1%"
+          "Rate on online shopping: 1x miles → 1%"
         ],
         "cardId" : "barclays_aadvantage_aviator_red",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "AAdvantage Aviator Red Mastercard earns the most for online: 1% per dollar.",
+        "reason" : "AAdvantage Aviator Red Mastercard earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -69012,7 +69012,7 @@
         "loggableRate" : 1.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "1.4%",
-        "reason" : "AAdvantage Aviator Red Mastercard earns 1x miles on online. At 1.4¢ each, that's 1.4% per dollar, the most in your wallet.",
+        "reason" : "AAdvantage Aviator Red Mastercard earns 1x miles on online shopping. At 1.4¢ each, that's 1.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -69842,13 +69842,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 3%"
+          "Rate on online shopping: 3%"
         ],
         "cardId" : "robinhood_gold_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Robinhood Gold Card earns the most for online: 3% per dollar.",
+        "reason" : "Robinhood Gold Card earns the most for online shopping: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -70652,13 +70652,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 3%"
+          "Rate on online shopping: 3%"
         ],
         "cardId" : "robinhood_gold_card",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "Robinhood Gold Card earns the most for online: 3% per dollar.",
+        "reason" : "Robinhood Gold Card earns the most for online shopping: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -71462,13 +71462,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1%"
+          "Rate on online shopping: 1%"
         ],
         "cardId" : "upgrade_upgrade_triple_cash_rewards_visa",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Upgrade Triple Cash Rewards Visa earns the most for online: 1% per dollar.",
+        "reason" : "Upgrade Triple Cash Rewards Visa earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -72282,7 +72282,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express Platinum earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express Platinum earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -73110,13 +73110,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -73920,13 +73920,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "american_express_blue_business_cash_card_from_american_express",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Blue Business Cash Card from American Express earns the most for online: 2% per dollar.",
+        "reason" : "Blue Business Cash Card from American Express earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -74730,13 +74730,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 3x points → 3%"
+          "Rate on online shopping: 3x points → 3%"
         ],
         "cardId" : "barclays_gm_rewards_mastercard",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "GM Rewards Mastercard earns the most for online: 3% per dollar.",
+        "reason" : "GM Rewards Mastercard earns the most for online shopping: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -75540,13 +75540,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 3x points → 3%"
+          "Rate on online shopping: 3x points → 3%"
         ],
         "cardId" : "barclays_gm_rewards_mastercard",
         "loggableRate" : 3,
         "portalNote" : null,
         "rateDisplay" : "3%",
-        "reason" : "GM Rewards Mastercard earns the most for online: 3% per dollar.",
+        "reason" : "GM Rewards Mastercard earns the most for online shopping: 3% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -76350,13 +76350,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "bofa_unlimited_cash_rewards",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "Bank of America® Unlimited Cash Rewards earns the most for online: 1.5% per dollar.",
+        "reason" : "Bank of America® Unlimited Cash Rewards earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -77173,7 +77173,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "American Express® Gold Card earns 1x points on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "American Express® Gold Card earns 1x points on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -78003,13 +78003,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1%"
+          "Rate on online shopping: 1%"
         ],
         "cardId" : "upgrade_upgrade_triple_cash_rewards_visa",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Upgrade Triple Cash Rewards Visa earns the most for online: 1% per dollar.",
+        "reason" : "Upgrade Triple Cash Rewards Visa earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -78813,13 +78813,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x points → 1%"
+          "Rate on online shopping: 1x points → 1%"
         ],
         "cardId" : "discover_discover_it_chrome",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Discover it® Chrome earns the most for online: 1% per dollar.",
+        "reason" : "Discover it® Chrome earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -79633,7 +79633,7 @@
         "loggableRate" : 1.6000000000000001,
         "portalNote" : null,
         "rateDisplay" : "1.6%",
-        "reason" : "Hilton Honors Surpass earns 4x points on online. At 0.4¢ each, that's 1.6% per dollar, the most in your wallet.",
+        "reason" : "Hilton Honors Surpass earns 4x points on online shopping. At 0.4¢ each, that's 1.6% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -80461,7 +80461,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "British Airways Visa Signature Card earns 1x miles on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "British Airways Visa Signature Card earns 1x miles on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -81291,13 +81291,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1x points → 1%"
+          "Rate on online shopping: 1x points → 1%"
         ],
         "cardId" : "southwest_priority",
         "loggableRate" : 1,
         "portalNote" : null,
         "rateDisplay" : "1%",
-        "reason" : "Southwest Rapid Rewards Priority earns the most for online: 1% per dollar.",
+        "reason" : "Southwest Rapid Rewards Priority earns the most for online shopping: 1% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -82118,7 +82118,7 @@
         "loggableRate" : 1.2,
         "portalNote" : null,
         "rateDisplay" : "1.2%",
-        "reason" : "Southwest Rapid Rewards Priority earns 1x points on online. At 1.2¢ each, that's 1.2% per dollar, the most in your wallet.",
+        "reason" : "Southwest Rapid Rewards Priority earns 1x points on online shopping. At 1.2¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -82948,13 +82948,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 1.5%"
+          "Rate on online shopping: 1.5%"
         ],
         "cardId" : "capital_one_bj_s_one_mastercard",
         "loggableRate" : 1.5,
         "portalNote" : null,
         "rateDisplay" : "1.5%",
-        "reason" : "BJ's One Mastercard earns the most for online: 1.5% per dollar.",
+        "reason" : "BJ's One Mastercard earns the most for online shopping: 1.5% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -83768,7 +83768,7 @@
         "loggableRate" : 1.8,
         "portalNote" : null,
         "rateDisplay" : "1.8%",
-        "reason" : "British Airways Visa Signature Card earns 1x miles on online. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
+        "reason" : "British Airways Visa Signature Card earns 1x miles on online shopping. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
@@ -84598,13 +84598,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -85408,13 +85408,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "bread_cashback",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Bread Cashback American Express Credit Card earns the most for online: 2% per dollar.",
+        "reason" : "Bread Cashback American Express Credit Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -86219,13 +86219,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -87029,13 +87029,13 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2%"
+          "Rate on online shopping: 2%"
         ],
         "cardId" : "wells_fargo_wells_fargo_signify_business_cash_card",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online: 2% per dollar.",
+        "reason" : "Wells Fargo Signify Business Cash Card earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -87842,13 +87842,13 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "Rate on online: 2x points → 2%"
+          "Rate on online shopping: 2x points → 2%"
         ],
         "cardId" : "capital_one_t_mobile",
         "loggableRate" : 2,
         "portalNote" : null,
         "rateDisplay" : "2%",
-        "reason" : "T-Mobile earns the most for online: 2% per dollar.",
+        "reason" : "T-Mobile earns the most for online shopping: 2% per dollar.",
         "subcategoryBreakdown" : [
 
         ],
@@ -88664,7 +88664,7 @@
         "loggableRate" : 3.3999999999999999,
         "portalNote" : null,
         "rateDisplay" : "3.4%",
-        "reason" : "T-Mobile earns 2x points on online. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
+        "reason" : "T-Mobile earns 2x points on online shopping. At 1.7¢ each, that's 3.4% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
