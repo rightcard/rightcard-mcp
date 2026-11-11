@@ -106,17 +106,22 @@ function optionalityRank(card: CreditCard, v: Valuation): number {
   return isTransferable ? 1 : 0;
 }
 
-// Two levels (Nov 10 2026, mirrors the Swift engine): on a tie the top card
-// wins (Sapphire Reserve over Sapphire Preferred, not the alphabet).
-const TOP_PREMIUM_NEEDLES = [
-  "sapphire reserve", "venture x", "platinum card", "prestige",
+const PREMIUM_NEEDLES = [
+  "sapphire reserve", "sapphire preferred", "venture x", "platinum card",
+  "gold card", "amex gold", "strata premier", "citi premier", "prestige",
   "ritz-carlton", "aspire", "altitude reserve", "brilliant",
 ];
-const PREMIUM_NEEDLES = ["sapphire preferred", "gold card", "amex gold", "strata premier", "citi premier"];
 function premiumRank(card: CreditCard): number {
   const n = card.displayName.toLowerCase();
-  if (TOP_PREMIUM_NEEDLES.some((x) => n.includes(x))) return 2;
   return PREMIUM_NEEDLES.some((x) => n.includes(x)) ? 1 : 0;
+}
+/** Mirrors MerchantYieldEngine.premiumFeeOrder (Nov 10 2026): between two
+ *  premium cards, the higher annual fee wins; an unverified fee counts lowest;
+ *  null = this rule doesn't decide. */
+function premiumFeeOrder(a: CreditCard, b: CreditCard): boolean | null {
+  if (premiumRank(a) !== 1 || premiumRank(b) !== 1) return null;
+  const fa = a.annualFee ?? -1, fb = b.annualFee ?? -1;
+  return fa === fb ? null : fa > fb;
 }
 
 function tieNote(winner: CreditCard, runnerUp: CreditCard, value: number, v: Valuation): string {
@@ -140,6 +145,9 @@ function tieNote(winner: CreditCard, runnerUp: CreditCard, value: number, v: Val
   }
   if (premiumRank(winner) > premiumRank(runnerUp)) {
     return `${other} also earns ${rate} here. We picked ${win} for its purchase protection.`;
+  }
+  if (premiumFeeOrder(winner, runnerUp) === true) {
+    return `${other} also earns ${rate} here. We picked ${win} because its higher annual fee comes with more benefits.`;
   }
   return `${other} also earns ${rate} here. Either one works.`;
 }
@@ -274,6 +282,8 @@ function bestBaseCard(cards: CreditCard[], category: SpendCategory, subKey: stri
     if (ra !== rb) return rb - ra;
     const pa = premiumRank(a.card), pb = premiumRank(b.card);
     if (pa !== pb) return pb - pa;
+    const fee = premiumFeeOrder(a.card, b.card);
+    if (fee !== null) return fee ? -1 : 1;
     return a.card.displayName.localeCompare(b.card.displayName, "en", { sensitivity: "accent" });
   });
   const w = tied[0];
