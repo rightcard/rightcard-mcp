@@ -108,7 +108,7 @@ function optionalityRank(card: CreditCard, v: Valuation): number {
 
 const PREMIUM_NEEDLES = [
   "sapphire reserve", "sapphire preferred", "venture x", "platinum card",
-  "gold card", "amex gold", "strata premier", "citi premier", "prestige",
+  "gold card", "amex gold", "strata premier", "strata elite", "citi premier", "prestige",
   "ritz-carlton", "aspire", "altitude reserve", "brilliant",
 ];
 /** Mirrors MerchantYieldEngine.benefitCategoryFits (Nov 10 2026): a store

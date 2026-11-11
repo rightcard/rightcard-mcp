@@ -35,4 +35,13 @@ describe("premium tiers", () => {
   it("Reserve wins the dining tie", () => {
     expect(ask("dining").cardId).toBe("chase_sapphire_reserve");
   });
+  it("Strata Elite is premium: it wins a tie with the Strata Premier (Nov 11 2026)", () => {
+    const card = (id: string, name: string, fee: number): CreditCard => ({ id, displayName: name, issuer: "Citi",
+      rewardCurrency: "points", multipliers: { general: 1, dining: 3 } as any, annualFee: fee });
+    const r = recommend({ cards: [card("citi_citi_strata_premier_card", "Citi Strata Premier Card", 95),
+                                  card("citi_citi_strata_elite_card", "Citi Strata Elite Card", 595)],
+      category: "dining", merchantName: null, overrides: [], valuation: makeValuation("smart"),
+      now: new Date("2026-11-10T12:00:00Z") }) as any;
+    expect(r.cardId).toBe("citi_citi_strata_elite_card");
+  });
 });

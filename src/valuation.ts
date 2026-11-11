@@ -121,7 +121,9 @@ export function pooledPrograms(wallet: CreditCard[]): Record<string, RewardProgr
   const isTYPUnlock = (c: CreditCard) => {
     const s = hay(c);
     const citi = s.includes("citi") || s.includes("thankyou") || s.includes("strata");
-    return citi && (s.includes("premier") || s.includes("prestige"));
+    // Strata Elite transfers ThankYou points too (mirrors Swift, Nov 11 2026).
+    return citi && (s.includes("premier") || s.includes("prestige")
+                    || s.includes("strata elite") || s.includes("strata_elite"));
   };
   if (wallet.some(isTYPUnlock)) {
     for (const c of wallet) {
