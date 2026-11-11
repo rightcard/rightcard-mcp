@@ -1,6 +1,6 @@
 // Mirrors MerchantYieldEngine (BASE-RATE mode only — offers live on the phone, never here).
 import {
-  CATEGORY_DISPLAY, capCovers, categoryStoreTypes, isPermanentMerchantBenefit, multiplier, requiresApplePay, overrideIsActive, rotatingCap, standingCaps, storeTypes,
+  ALL_CATEGORIES, CATEGORY_DISPLAY, capCovers, categoryStoreTypes, isPermanentMerchantBenefit, multiplier, requiresApplePay, overrideIsActive, rotatingCap, standingCaps, storeTypes,
   type CreditCard, type Override, type SpendCategory,
 } from "./model.js";
 import { merchantMatchesCoBrandBenefit, offerMatches } from "./matching.js";
@@ -111,6 +111,14 @@ const PREMIUM_NEEDLES = [
   "gold card", "amex gold", "strata premier", "citi premier", "prestige",
   "ritz-carlton", "aspire", "altitude reserve", "brilliant",
 ];
+/** Mirrors MerchantYieldEngine.benefitCategoryFits (Nov 10 2026): a store
+ *  benefit stored under a category other than "general" pays only on that
+ *  category there (Costco Anywhere Visa's 5% on gas at Costco). */
+function benefitCategoryFits(o: Override, category: SpendCategory): boolean {
+  const key = o.category.trim().toLowerCase();
+  if (key === "general" || !(ALL_CATEGORIES as string[]).includes(key)) return true;
+  return key === category;
+}
 function premiumRank(card: CreditCard): number {
   const n = card.displayName.toLowerCase();
   return PREMIUM_NEEDLES.some((x) => n.includes(x)) ? 1 : 0;
@@ -198,7 +206,7 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
     if (o.merchant && o.merchant !== "") {
       if (!merchantQuery || merchantQuery === "") continue;
       matches = isPermanentMerchantBenefit(o, now)
-        ? merchantMatchesCoBrandBenefit(o.merchant, merchantQuery)
+        ? merchantMatchesCoBrandBenefit(o.merchant, merchantQuery) && benefitCategoryFits(o, category)
         : offerMatches(o.merchant, merchantQuery, strict);
     } else if (storeTypes(o)) {
       // A store-type quarter (Discover's entertainment): only a store the
