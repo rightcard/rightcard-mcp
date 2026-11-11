@@ -45,7 +45,10 @@ function resolveMerchant(catalog: Catalog, name: string): Merchant | null {
 function shapeAnswer(r: Recommendation, merchant: Merchant | null, mode: "cash" | "points", unverified: string[]) {
   const caveats: string[] = [];
   if (r.walletRefusedAtRegister && r.caveat) caveats.push(r.caveat);
-  else if (merchant) { const cv = exclusionCaveat(merchant); if (cv) caveats.push(cv); }
+  else if (merchant && exclusionCaveat(merchant)) caveats.push(exclusionCaveat(merchant)!);
+  // The engine's own note (Apple Pay-only store benefits), as in the app:
+  // the directory's caveat first, else the engine's.
+  else if (r.caveat) caveats.push(r.caveat);
   if (r.capLimit) caveats.push(r.capLimit + (r.afterLimit ? ` ${r.afterLimit}` : ""));
   if (r.tieNote) caveats.push(r.tieNote);
   if (r.portalNote) caveats.push(r.portalNote);

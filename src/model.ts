@@ -234,6 +234,12 @@ export function overrideIsActive(o: Override, now: Date): boolean {
   return today >= o.startDate && today <= o.endDate;
 }
 
+/** SupabaseOverride.requiresApplePay: a store benefit that pays only through
+ *  Apple Pay (Apple Card at Uber; Nov 10 2026). The label says so. */
+export function requiresApplePay(o: Override): boolean {
+  return /apple pay/i.test(o.label ?? "");
+}
+
 /** SupabaseOverride.isPermanentMerchantBenefit: merchant-scoped, no activation, ends > 2 years out. */
 export function isPermanentMerchantBenefit(o: Override, now: Date): boolean {
   if (!o.merchant || o.merchant === "" || o.requiresActivation) return false;

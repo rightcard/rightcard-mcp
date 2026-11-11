@@ -1,6 +1,6 @@
 // Mirrors MerchantYieldEngine (BASE-RATE mode only — offers live on the phone, never here).
 import {
-  CATEGORY_DISPLAY, capCovers, categoryStoreTypes, isPermanentMerchantBenefit, multiplier, overrideIsActive, rotatingCap, standingCaps, storeTypes,
+  CATEGORY_DISPLAY, capCovers, categoryStoreTypes, isPermanentMerchantBenefit, multiplier, requiresApplePay, overrideIsActive, rotatingCap, standingCaps, storeTypes,
   type CreditCard, type Override, type SpendCategory,
 } from "./model.js";
 import { merchantMatchesCoBrandBenefit, offerMatches } from "./matching.js";
@@ -293,6 +293,7 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     : category === "online" ? "online shopping" : CATEGORY_DISPLAY[category].toLowerCase();
   const disp = CATEGORY_DISPLAY[category];
   let reason: string;
+  let applePayCaveat: string | null = null;
   const lines: string[] = [];
   const pointsAbove = valuesPointsAboveCash(v, card) && card.rewardCurrency !== null;
 
@@ -310,7 +311,14 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     // A store-type quarter reads like a merchant one: "at AMC Theatres".
     const scope = override.merchant ? `at ${override.merchant}`
       : (storeTypes(override) && storeName ? `at ${storeName}` : cat);
-    if (isPermanentMerchantBenefit(override, now)) {
+    if (isPermanentMerchantBenefit(override, now) && override.merchant && requiresApplePay(override)) {
+      // Mirrors the Swift engine (Nov 10 2026): Apple Card's 3% at Uber pays
+      // only through Apple Pay, so the reason, the line and the caveat say so.
+      const plain = formatPercent(multiplier(card, category) * centsPerPoint(v, card));
+      reason = `${card.displayName} earns ${valueStr} ${scope} when you pay with Apple Pay, the most in your wallet here.`;
+      lines.push(`${valueStr} ${scope} with Apple Pay · card benefit`);
+      applePayCaveat = `Pay with Apple Pay to get ${valueStr}. Paid any other way, ${card.displayName} earns ${plain} here.`;
+    } else if (isPermanentMerchantBenefit(override, now)) {
       reason = `${card.displayName} earns ${valueStr} ${scope}, the most in your wallet here.`;
       lines.push(`${valueStr} ${scope} · card benefit`);
     } else {
@@ -372,6 +380,7 @@ function rateContext(card: CreditCard, earn: number, valueCents: number, overrid
     cardId: card.id, cardName: card.displayName, rateDisplay: valueStr, valueCaption: caption, reason,
     breakdownLines: lines, loggableRate: valueCents, valueMath, valueMathShort,
     valuationBasis: basisLabel(v, card), valuationMode: v.mode, tieNote: null, portalNote: null, subcategoryBreakdown: [],
+    ...(applePayCaveat ? { caveat: applePayCaveat } : {}),
   };
 }
 
