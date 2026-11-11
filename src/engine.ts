@@ -114,6 +114,13 @@ const PREMIUM_NEEDLES = [
 /** Mirrors MerchantYieldEngine.benefitCategoryFits (Nov 10 2026): a store
  *  benefit stored under a category other than "general" pays only on that
  *  category there (Costco Anywhere Visa's 5% on gas at Costco). */
+/** Mirrors MerchantYieldEngine.sharesCategoryCap: a category-scoped store
+ *  benefit shares that category's standing cap (Costco Visa 5% + 4% gas). */
+function sharesCategoryCap(o: Override | null | undefined, now: Date): boolean {
+  if (!o) return true;
+  const key = o.category.trim().toLowerCase();
+  return isPermanentMerchantBenefit(o, now) && key !== "general" && (ALL_CATEGORIES as string[]).includes(key);
+}
 function benefitCategoryFits(o: Override, category: SpendCategory): boolean {
   const key = o.category.trim().toLowerCase();
   if (key === "general" || !(ALL_CATEGORIES as string[]).includes(key)) return true;
@@ -237,11 +244,11 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
     rate = spec.bonusRate; winningConfig = spec; winningOverride = null;
   }
   // A standing cap marked used up pays its "after" rate (mirrors the app).
-  if (!winningOverride && usedUp.size > 0) {
+  if (sharesCategoryCap(winningOverride, now) && usedUp.size > 0) {
     for (const cap of standingCaps(card.id)) {
       if (usedUp.has(`${card.id}|std|${cap.id}`) && capCovers(cap, category, !!winningConfig)) {
         const after = cap.after ?? multiplier(card, "general", null);
-        if (rate > after) { rate = after; winningConfig = null; }
+        if (rate > after) { rate = after; winningConfig = null; winningOverride = null; }
       }
     }
   }
@@ -275,7 +282,7 @@ function bestBaseCard(cards: CreditCard[], category: SpendCategory, subKey: stri
   // A card with NO spending limit on this rate beats one that stops paying it
   // after $X (mirrors MerchantYieldEngine.rateIsCapped, Oct 22 2026).
   const capped = (c: typeof candidates[number]): boolean => {
-    if (c.override) {
+    if (c.override && !sharesCategoryCap(c.override, now)) {
       return c.override.requiresActivation && !isPermanentMerchantBenefit(c.override, now) && rotatingCap(c.card.id) !== null;
     }
     const cap = standingCaps(c.card.id).find((x) => capCovers(x, category, !!c.configured));
@@ -498,7 +505,7 @@ export function recommend(input: RecommendInput): Recommendation | null {
       ? `After that: ${next.card.displayName}, ${formatPercent(next.valueCents)}.` : null;
   }
   // Standing category cap (mirrors MerchantYieldEngine.standingCapInfo).
-  if (!o) {
+  if (sharesCategoryCap(o, now)) {
     const chosen = !!w.configured;
     const capRow = standingCaps(w.card.id).find((c) => capCovers(c, category, chosen));
     const afterEarn = capRow ? (capRow.after ?? multiplier(w.card, "general", null)) : 0;

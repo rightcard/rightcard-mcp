@@ -19,4 +19,9 @@ describe("Costco gas", () => {
   it("5% at Costco Gas", () => expect(ask("Costco Gas", "gas")).toBe("5%"));
   it("the warehouse keeps 2%", () => expect(ask("Costco", "general")).toBe("2%"));
   it("other stations keep 4%", () => expect(ask("Shell", "gas")).toBe("4%"));
+  it("the $7,000 gas limit covers the 5% too", () => {
+    const r = recommend({ cards: [costco], category: "gas", merchantName: "Costco Gas", overrides,
+      valuation: makeValuation("cash"), now: new Date("2026-11-10T12:00:00Z") }) as any;
+    expect(r.capLimit ?? "").toContain("7,000");
+  });
 });
