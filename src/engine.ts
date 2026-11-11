@@ -106,13 +106,16 @@ function optionalityRank(card: CreditCard, v: Valuation): number {
   return isTransferable ? 1 : 0;
 }
 
-const PREMIUM_NEEDLES = [
-  "sapphire reserve", "sapphire preferred", "venture x", "platinum card",
-  "gold card", "amex gold", "strata premier", "citi premier", "prestige",
+// Two levels (Nov 10 2026, mirrors the Swift engine): on a tie the top card
+// wins (Sapphire Reserve over Sapphire Preferred, not the alphabet).
+const TOP_PREMIUM_NEEDLES = [
+  "sapphire reserve", "venture x", "platinum card", "prestige",
   "ritz-carlton", "aspire", "altitude reserve", "brilliant",
 ];
+const PREMIUM_NEEDLES = ["sapphire preferred", "gold card", "amex gold", "strata premier", "citi premier"];
 function premiumRank(card: CreditCard): number {
   const n = card.displayName.toLowerCase();
+  if (TOP_PREMIUM_NEEDLES.some((x) => n.includes(x))) return 2;
   return PREMIUM_NEEDLES.some((x) => n.includes(x)) ? 1 : 0;
 }
 
