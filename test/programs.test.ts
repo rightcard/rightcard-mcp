@@ -3,7 +3,7 @@
 // passes parity silently (found Oct 5 2026 with Navy Federal). Each case
 // mirrors RewardValuation.infer in the iOS app.
 import { describe, it, expect } from "vitest";
-import { inferProgram } from "../src/valuation.js";
+import { inferProgram, TRAVEL_CPP } from "../src/valuation.js";
 
 describe("fixed-value programs", () => {
   it("Navy Federal points are worth a set 1¢, including the Amex-network card", () => {
@@ -20,5 +20,9 @@ describe("fixed-value programs", () => {
   });
   it("the Hawaiian card earns Atmos points (HawaiianMiles became Atmos)", () => {
     expect(inferProgram("Barclays", "barclays_hawaiian_airlines", "miles")).toBe("alaska");
+  });
+  it("Wyndham points are their own program at 0.5¢, not the generic 2¢", () => {
+    expect(inferProgram("Barclays", "barclays_wyndham_earner_plus", "points")).toBe("wyndham");
+    expect(TRAVEL_CPP.wyndham).toBe(0.5);
   });
 });
