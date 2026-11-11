@@ -4,7 +4,7 @@
 import { describe, it, expect } from "vitest";
 import { recommend } from "../src/engine.js";
 import { makeValuation } from "../src/valuation.js";
-import type { CreditCard, Override } from "../src/model.js";
+import { exclusionCaveat, type CreditCard, type Override } from "../src/model.js";
 
 const costco: CreditCard = { id: "citi_costco_anywhere", displayName: "Costco Anywhere Visa Card by Citi",
   issuer: "Citi", rewardCurrency: "cashback", multipliers: { general: 1, gas: 4, dining: 3 } as any, network: "visa" };
@@ -23,5 +23,10 @@ describe("Costco gas", () => {
     const r = recommend({ cards: [costco], category: "gas", merchantName: "Costco Gas", overrides,
       valuation: makeValuation("cash"), now: new Date("2026-11-10T12:00:00Z") }) as any;
     expect(r.capLimit ?? "").toContain("7,000");
+  });
+  it("the gas-station warning talks about the pump", () => {
+    const m = { id: "costco_gas", displayName: "Costco Gas", category: "gas", subKey: null, isOnline: false,
+      aliases: [], merchantType: "gas" } as any;
+    expect(exclusionCaveat(m)).toBe("Costco gas stations take Visa only. This is your best card that works at the pump.");
   });
 });

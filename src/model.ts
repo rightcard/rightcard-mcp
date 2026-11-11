@@ -287,6 +287,10 @@ export function exclusionCaveat(m: Merchant): string | null {
       // warehouse's Visa-only registers; their own MCC stays honest (no
       // "bonuses don't post" clause). Mirrors the Swift engine (Sep 2026).
       if (acceptedNetworksAtRegister(m) !== null) {
+        // At the pump, mirrors the Swift engine (Nov 10 2026).
+        if (m.category === "gas" || m.merchantType === "gas") {
+          return "Costco gas stations take Visa only. This is your best card that works at the pump.";
+        }
         return "Costco takes Visa only at the register. This is your best card that works in-store. Other networks work on Costco.com.";
       }
       return null;
