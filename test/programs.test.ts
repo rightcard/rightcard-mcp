@@ -32,4 +32,12 @@ describe("fixed-value programs", () => {
     expect(pooledPrograms([cc, c("citi_citi_strata_elite_card", "Citi Strata Elite Card", "points")])[cc.id]).toBe("citiTYP");
     expect(pooledPrograms([cc, c("citi_aadvantage_platinum_select", "Citi AAdvantage Platinum Select World Elite Mastercard", "miles")])[cc.id]).toBeUndefined();
   });
+  it("the plain no-fee Chase Sapphire is no unlock, but pools beside a Preferred", () => {
+    const c = (id: string, name: string, cur: any) => ({ id, displayName: name, issuer: "Chase", rewardCurrency: cur,
+      multipliers: { general: 1 } as any }) as any;
+    const plain = c("chase_sapphire", "Chase Sapphire", "cashback");
+    const flex = c("chase_freedom_flex", "Chase Freedom Flex", "cashback");
+    expect(pooledPrograms([plain, flex])).toEqual({});
+    expect(pooledPrograms([plain, c("chase_sapphire_preferred", "Chase Sapphire Preferred", "points")])[plain.id]).toBe("chaseUR");
+  });
 });

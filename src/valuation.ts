@@ -107,15 +107,19 @@ const hay = (c: CreditCard) => (c.id + " " + c.displayName).toLowerCase();
 /** RewardValuation.pooledPrograms(wallet:) */
 export function pooledPrograms(wallet: CreditCard[]): Record<string, RewardProgram> {
   const map: Record<string, RewardProgram> = {};
-  const urUnlocked = wallet.some((c) => {
+  // The plain no-fee "Chase Sapphire" can't transfer, so only Preferred /
+  // Reserve unlock; it pools like a Freedom card (mirrors Swift, Nov 11 2026).
+  const isURUnlock = (c: CreditCard) => {
     const s = hay(c);
-    return s.includes("sapphire") || (s.includes("ink") && s.includes("preferred"));
-  });
+    return s.includes("sapphire preferred") || s.includes("sapphire reserve") || (s.includes("ink") && s.includes("preferred"));
+  };
+  const urUnlocked = wallet.some(isURUnlock);
   if (urUnlocked) {
     for (const c of wallet) {
       if (c.rewardCurrency !== "cashback") continue;
       const s = hay(c);
-      if (s.includes("freedom") || (s.includes("ink") && (s.includes("cash") || s.includes("unlimited")))) map[c.id] = "chaseUR";
+      if (s.includes("freedom") || (s.includes("sapphire") && !isURUnlock(c))
+          || (s.includes("ink") && (s.includes("cash") || s.includes("unlimited")))) map[c.id] = "chaseUR";
     }
   }
   const isTYPUnlock = (c: CreditCard) => {
