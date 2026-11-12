@@ -174,6 +174,8 @@ const PORTAL_BONUSES: PortalBonus[] = [
   { needles: ["freedom flex", "freedom unlimited"], rate: 5, portal: "Chase Travel", premium: false },
   { needles: ["venture x"], rate: 10, portal: "Capital One Travel", premium: true },
   { needles: ["venture"], rate: 5, portal: "Capital One Travel", premium: false },
+  // Strata Elite: 12x hotels, cars, attractions on cititravel.com (mirrors Swift, Nov 11 2026).
+  { needles: ["strata elite"], rate: 12, portal: "Citi Travel", premium: true },
   { needles: ["strata premier", "citi premier"], rate: 10, portal: "Citi Travel", premium: true },
   { needles: ["platinum card", "amex platinum", "american express platinum"], rate: 5, portal: "Amex Travel", premium: true },
 ];

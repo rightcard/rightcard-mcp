@@ -44,4 +44,15 @@ describe("premium tiers", () => {
       now: new Date("2026-11-10T12:00:00Z") }) as any;
     expect(r.cardId).toBe("citi_citi_strata_elite_card");
   });
+  it("the Strata Elite gets the Citi Travel note at 12x", () => {
+    const c = (id: string, name: string, m: any, issuer = "Citi"): CreditCard => ({ id, displayName: name, issuer,
+      rewardCurrency: "points", multipliers: m, annualFee: null });
+    const r = recommend({ cards: [c("wellsfargo_autograph", "Wells Fargo Autograph", { general: 1, travel: 3 }, "Wells Fargo"),
+                                  c("citi_citi_strata_elite_card", "Citi Strata Elite Card", { general: 1.5, dining: 3 })],
+      category: "travel", merchantName: null, overrides: [], valuation: makeValuation("cash"),
+      now: new Date("2026-11-10T12:00:00Z") }) as any;
+    expect(r.cardId).toBe("wellsfargo_autograph");
+    expect(JSON.stringify(r)).toContain("Citi Travel");
+    expect(JSON.stringify(r)).toContain("12x");
+  });
 });
