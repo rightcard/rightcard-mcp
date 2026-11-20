@@ -519,7 +519,7 @@ export function recommend(input: RecommendInput): Recommendation | null {
       const names = [...capRow.categories].sort().map((c) => CATEGORY_DISPLAY[c].toLowerCase());
       if (capRow.chosen && capRow.categories.length > 0) names.unshift("your chosen category");
       const list = names.length > 1 ? new Intl.ListFormat("en", { type: "conjunction" }).format(names) : null;
-      const per = capRow.period === "quarter" ? "each quarter" : capRow.period === "billingCycle" ? "each billing cycle" : "a year";
+      const per = capRow.period === "quarter" ? "each quarter" : capRow.period === "billingCycle" ? "each billing cycle" : capRow.period === "month" ? "each month" : "a year";
       ctx.capLimit = list
         ? `${rate} on your first $${spend} ${per} across ${list}, then ${then}.`
         : `${rate} on your first $${spend} ${per}, then ${then}.`;

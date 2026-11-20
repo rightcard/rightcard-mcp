@@ -156,7 +156,7 @@ export function rotatingCap(cardId: string): RotatingCap | null {
 /** A STANDING category cap (mirrors StandingCap in the app, Oct 14 2026):
  *  the bonus stops after a spend amount and comes back next period. Quoted
  *  from each issuer page; see the Swift table for the quotes. */
-export type CapPeriod = "quarter" | "calendarYear" | "cardYear" | "billingCycle";
+export type CapPeriod = "quarter" | "calendarYear" | "cardYear" | "billingCycle" | "month";
 export type StandingCap = {
   id: string; categories: SpendCategory[]; everything?: boolean; chosen?: boolean;
   limit: number; period: CapPeriod; after?: number;
@@ -181,6 +181,7 @@ export function standingCaps(cardId: string): StandingCap[] {
     case "sams_club_mastercard":
       return [{ id: "gas", categories: ["gas"], limit: 6000, period: "calendarYear", after: 1 }];
     case "citi_costco_anywhere":
+    case "citi_costco_anywhere_visa_business_card_by_citi":
       return [{ id: "gas", categories: ["gas"], limit: 7000, period: "calendarYear", after: 1 }];
     case "marriott_boundless":
       return [{ id: "combined", categories: ["grocery", "gas", "dining"], limit: 6000, period: "cardYear", after: 2 }];
@@ -188,6 +189,10 @@ export function standingCaps(cardId: string): StandingCap[] {
       return [{ id: "combined", categories: ["gas", "grocery"], limit: 5000, period: "cardYear", after: 1 }];
     case "chase_southwest_premier":
       return [{ id: "combined", categories: ["grocery", "dining"], limit: 8000, period: "cardYear", after: 1 }];
+    case "chase_southwest_rapid_rewards_premier_business_credit_card":
+      return [{ id: "combined", categories: ["gas", "dining"], limit: 8000, period: "cardYear", after: 1 }];
+    case "truist_truist_enjoy_cash_credit_card":
+      return [{ id: "combined", categories: ["gas", "grocery"], limit: 1000, period: "month", after: 1 }];
     case "chase_ink_business_preferred_credit_card":
       return [{ id: "combined", categories: ["travel", "transit", "phone_internet"], limit: 150000, period: "cardYear", after: 1 }];
     case "chase_ink_business_cash_credit_card":

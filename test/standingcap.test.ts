@@ -34,6 +34,18 @@ describe("standing caps", () => {
     const r = recommend({ cards: [hb], category: "general", overrides: [], valuation: makeValuation("smart"), now });
     expect(r?.capLimit).toBe("2% on your first $100,000 a year, then 1.2%.");
   });
+  it("Truist Enjoy Cash shares $1,000 a month", () => {
+    const t = card("truist_truist_enjoy_cash_credit_card", "Truist Enjoy Cash (3%-2%-1%)", { general: 1, gas: 3, grocery: 2 });
+    expect(ask([t], "gas")?.capLimit).toBe("3% on your first $1,000 each month across gas and grocery, then 1%.");
+  });
+  it("Southwest Premier Business shares $8,000 a card year", () => {
+    const s = card("chase_southwest_rapid_rewards_premier_business_credit_card", "Southwest Premier Business", { general: 1, gas: 2, dining: 2 });
+    expect(ask([s], "dining")?.capLimit).toBe("2% on your first $8,000 a year across dining and gas, then 1%.");
+  });
+  it("Costco Business gas stops at $7,000", () => {
+    const c = card("citi_costco_anywhere_visa_business_card_by_citi", "Costco Anywhere Visa Business", { general: 1, gas: 4 });
+    expect(ask([c], "gas")?.capLimit).toBe("4% on your first $7,000 a year, then 1%.");
+  });
   it("a quarterly shared cap", () => {
     const c = card("discover_discover_it_chrome", "Discover it Chrome", { general: 1, gas: 2, dining: 2 });
     expect(ask([c], "gas")?.capLimit).toBe("2% on your first $1,000 each quarter across dining and gas, then 1%.");
