@@ -87,6 +87,9 @@ export function inferProgram(issuer: string | null, id: string, currency: Credit
   // GM Rewards (Barclays, Sep 2026): points pegged at 1¢, redeemable only toward
   // GM — the generic 2¢ fallback read its flat 3x as "6%" (mirrors Swift).
   if (has("gm_rewards", "gm rewards")) return "fixedValue";
+  // Emirates Skywards (Barclays, Nov 19 2026): no value in our sources, so the
+  // 1¢ floor, not the generic 1.5¢ miles guess (mirrors Swift).
+  if (has("emirates", "skywards")) return "fixedValue";
   // Bank of America Premium Rewards + PenFed points: a set ~1¢, no transfer
   // partners (mirrors RewardValuation.infer, Sep 26 2026).
   if (has("bank of america", "bank_of_america", "penfed") || s.startsWith("bofa")) return "fixedValue";

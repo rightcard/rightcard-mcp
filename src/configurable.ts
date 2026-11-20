@@ -13,9 +13,29 @@ export interface ConfigurableCardSpec {
    * its card in Oct 2026; both names contain "venmo". Mirrors the Swift spec. */
   exactIDs?: string[];
   multiCardMax: number;
+  /** A second pick at a lower rate (TD Cash 2%), saved under "<card id>#2"
+   * in the picks map. Mirrors ConfigurableCardSpec.secondTier (Nov 19 2026). */
+  secondTier?: { rate: number; eligible: SpendCategory[] };
+}
+
+export const secondTierKey = (cardId: string) => cardId + "#2";
+
+/** The second tier as a spec of its own, so an answer it wins reads at its own rate. */
+export function secondTierSpec(spec: ConfigurableCardSpec): ConfigurableCardSpec | null {
+  if (!spec.secondTier) return null;
+  return { ...spec, key: spec.key + "#2", bonusRate: spec.secondTier.rate, slots: 1,
+           eligible: spec.secondTier.eligible, secondTier: undefined, multiCardMax: 1 };
 }
 
 export const CONFIGURABLE_SPECS: ConfigurableCardSpec[] = [
+  {
+    // TD Cash (Nov 19 2026, td.com): a 3% pick and a 2% pick, changeable each quarter.
+    key: "td_cash", displayName: "TD Cash", bonusRate: 3, slots: 1,
+    eligible: ["dining", "entertainment", "gas", "grocery", "travel"],
+    note: "TD Cash pays 3% in one category and 2% in another, from dining, entertainment, gas, groceries and travel. You can change both every quarter. A new card starts at 3% on dining and 2% on groceries.",
+    matchNeedles: [], exactIDs: ["td_bank_td_cash_credit_card"], multiCardMax: 1,
+    secondTier: { rate: 2, eligible: ["dining", "entertainment", "gas", "grocery", "travel"] },
+  },
   {
     key: "amex_business_gold", displayName: "Amex Business Gold", bonusRate: 4, slots: 2,
     // Nov 16 2026: Amex took airfare off the 4X list and added transit (mirrors Swift).

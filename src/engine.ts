@@ -4,7 +4,7 @@ import {
   type CreditCard, type Override, type SpendCategory,
 } from "./model.js";
 import { merchantMatchesCoBrandBenefit, offerMatches } from "./matching.js";
-import { specFor, type ConfigurableCardSpec } from "./configurable.js";
+import { specFor, secondTierKey, secondTierSpec, type ConfigurableCardSpec } from "./configurable.js";
 import {
   basisLabel, cashOutCPP, centsPerPoint, earnUnitLabel, effectiveProgram, fmt1, fmtRate, valuesPointsAboveCash,
   withPooling, type RewardProgram, type Valuation,
@@ -244,6 +244,11 @@ function appliedRate(card: CreditCard, category: SpendCategory, subKey: string |
   const spec = specFor(card);
   if (spec && spec.eligible.includes(category) && cardConfigs[card.id]?.has(category) && spec.bonusRate > rate) {
     rate = spec.bonusRate; winningConfig = spec; winningOverride = null;
+  }
+  const second = spec ? secondTierSpec(spec) : null;
+  if (second && second.eligible.includes(category) && cardConfigs[secondTierKey(card.id)]?.has(category)
+      && second.bonusRate > rate) {
+    rate = second.bonusRate; winningConfig = second; winningOverride = null;
   }
   // A standing cap marked used up pays its "after" rate (mirrors the app).
   if (sharesCategoryCap(winningOverride, now) && usedUp.size > 0) {

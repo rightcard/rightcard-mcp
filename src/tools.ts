@@ -77,7 +77,7 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
       category: CategorySchema.optional().describe("Spend category when there is no specific store."),
       valuation: z.enum(["cash", "points"]).default("cash").describe("'cash' counts each point at up to 1¢, and hotel/airline points at their lower value (default). 'points' values points per program at conservative travel values."),
       on: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional().describe("Date (YYYY-MM-DD, UTC) for rotating windows; defaults to today."),
-      chosen_categories: z.record(z.string(), z.array(CategorySchema)).optional().describe("For choose-your-category cards (Citi Custom Cash, BofA Customized, Venmo): card id → the categories the person set."),
+      chosen_categories: z.record(z.string(), z.array(CategorySchema)).optional().describe("For choose-your-category cards (Citi Custom Cash, BofA Customized, Venmo): card id → the categories the person set. TD Cash takes two picks: its 3% one under the card id, its 2% one under \"<card id>#2\"."),
     },
   }, async ({ wallet, merchant, category, valuation, on, chosen_categories }) => {
     const catalog = await getCatalog();

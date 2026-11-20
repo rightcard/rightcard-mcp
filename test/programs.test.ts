@@ -21,6 +21,9 @@ describe("fixed-value programs", () => {
   it("the Hawaiian card earns Atmos points (HawaiianMiles became Atmos)", () => {
     expect(inferProgram("Barclays", "barclays_hawaiian_airlines", "miles")).toBe("alaska");
   });
+  it("Emirates Skywards miles get the 1¢ floor, not the generic 1.5¢", () => {
+    expect(inferProgram("Barclays", "barclays_emirates_skywards_premium_world_elite_mastercard", "miles")).toBe("fixedValue");
+  });
   it("Wyndham points are their own program at 0.5¢, not the generic 2¢", () => {
     expect(inferProgram("Barclays", "barclays_wyndham_earner_plus", "points")).toBe("wyndham");
     expect(TRAVEL_CPP.wyndham).toBe(0.5);
