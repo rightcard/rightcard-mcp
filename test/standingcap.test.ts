@@ -27,6 +27,13 @@ describe("standing caps", () => {
     const b = card("marriott_boundless", "Marriott Bonvoy Boundless", { general: 2, grocery: 3, gas: 3, dining: 3 });
     expect(ask([b], "dining")?.capLimit).toBe("3% on your first $6,000 a year across dining, gas, and grocery, then 2%.");
   });
+  it("Hilton Business: 5x on the first $100,000 a year, then 3x", () => {
+    const hb: CreditCard = { id: "american_express_hilton_honors_american_express_business_card",
+      displayName: "Hilton Honors Business", issuer: "American Express", rewardCurrency: "points",
+      multipliers: { general: 5 } as any };
+    const r = recommend({ cards: [hb], category: "general", overrides: [], valuation: makeValuation("smart"), now });
+    expect(r?.capLimit).toBe("2% on your first $100,000 a year, then 1.2%.");
+  });
   it("a quarterly shared cap", () => {
     const c = card("discover_discover_it_chrome", "Discover it Chrome", { general: 1, gas: 2, dining: 2 });
     expect(ask([c], "gas")?.capLimit).toBe("2% on your first $1,000 each quarter across dining and gas, then 1%.");

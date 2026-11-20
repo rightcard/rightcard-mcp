@@ -174,6 +174,10 @@ export function standingCaps(cardId: string): StandingCap[] {
       return [{ id: "grocery", categories: ["grocery"], limit: 6000, period: "calendarYear", after: 1 }];
     case "american_express_blue_business_cash_card_from_american_express":
       return [{ id: "all", categories: [], everything: true, limit: 50000, period: "calendarYear", after: 1 }];
+    // Hilton Honors Business (Nov 19 2026): "5X on the first $100K in eligible purchases per
+    // calendar year, 3X Points thereafter."
+    case "american_express_hilton_honors_american_express_business_card":
+      return [{ id: "all", categories: [], everything: true, limit: 100000, period: "calendarYear", after: 3 }];
     case "sams_club_mastercard":
       return [{ id: "gas", categories: ["gas"], limit: 6000, period: "calendarYear", after: 1 }];
     case "citi_costco_anywhere":
