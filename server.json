@@ -7,7 +7,7 @@
     "url": "https://github.com/rightcard/rightcard-mcp",
     "source": "github"
   },
-  "version": "0.1.24",
+  "version": "0.1.25",
   "websiteUrl": "https://rightcard.ai/mcp",
   "remotes": [
     {
@@ -19,7 +19,7 @@
     {
       "registryType": "npm",
       "identifier": "rightcard-mcp",
-      "version": "0.1.24",
+      "version": "0.1.25",
       "transport": {
         "type": "stdio"
       }
