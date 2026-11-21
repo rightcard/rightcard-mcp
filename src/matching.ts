@@ -22,6 +22,12 @@ const COBRAND_PLACE_WORDS = new Set([
   "hotel", "hotels", "resort", "resorts", "suites", "express", "restaurant",
   "restaurants", "collection", "garden", "gardens", "plaza", "club",
   "vacations", "airlines", "airline", "airways", "market", "store", "stores",
+  // Nov 20 2026: short brand words (CVS, BJ's, AAA) are dropped, so these kinds
+  // of store let "Walmart Pharmacy" match "CVS Pharmacy" and "Whole Foods
+  // Market" match "Cub Foods".
+  "pharmacy", "drug", "food", "foods", "fresh", "grocery", "travel", "rental",
+  "rentals", "house", "shop", "mart", "hardware", "center", "optical", "tire",
+  "tires", "business",
 ]);
 
 const TLD_RE = /\.(com|net|org|co|io|tv|shop|store|us)\b/g;

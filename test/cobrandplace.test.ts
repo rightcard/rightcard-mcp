@@ -27,4 +27,22 @@ describe("co-brand benefit place words", () => {
     for (const [b, q] of right) expect(m(b, q), `${b} vs ${q}`).toBe(true);
     expect(m("Amazon", "Amazon Music")).toBe(false);
   });
+  // Mirrors CostcoBenefitLeakTests.kindOfStoreWordsNeverCarryAMatch (Nov 20 2026).
+  it("a kind of store or department never carries a match", () => {
+    const wrong: [string, string][] = [
+      ["Walmart Pharmacy", "CVS Pharmacy"], ["Walmart Pharmacy", "BJ's Pharmacy"],
+      ["Whole Foods Market", "Cub Foods"], ["Amazon Fresh", "Fresh"],
+      ["Citi Travel", "AAA Travel"], ["American Express Travel", "AAA Travel"],
+      ["National Car Rental", "Car Rental USA"], ["Hyatt House", "Row House"],
+      ["Costco Pharmacy", "CVS Pharmacy"], ["Costco Optical", "Eye Optical"],
+      ["Costco Tire Center", "NTB Tire Center"], ["Costco Business Center", "UPS Business Center"],
+    ];
+    for (const [b, q] of wrong) expect(m(b, q), `${b} vs ${q}`).toBe(false);
+    const right: [string, string][] = [
+      ["Walmart Pharmacy", "Walmart Pharmacy"], ["Whole Foods Market", "Whole Foods"],
+      ["Amazon Fresh", "Amazon Fresh"], ["Citi Travel", "Citi Travel"],
+      ["Hyatt House", "Hyatt House"], ["Costco Pharmacy", "Costco Pharmacy"],
+    ];
+    for (const [b, q] of right) expect(m(b, q), `${b} vs ${q}`).toBe(true);
+  });
 });
