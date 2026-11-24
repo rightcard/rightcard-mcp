@@ -65,6 +65,8 @@ function shapeAnswer(r: Recommendation, merchant: Merchant | null, mode: "cash" 
 // nothing depends on the caller's accounts, and the same question gives the
 // same answer. Directories (Claude's included) require these hints.
 const READ_ONLY = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false } as const;
+// The directory reads the human name from annotations.title, so each tool repeats its title there.
+const readOnly = (title: string) => ({ ...READ_ONLY, title });
 
 export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
   const server = new McpServer({ name: "rightcard", version: "0.1.0" }, {
@@ -75,7 +77,7 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
 
   server.registerTool("best_card", {
     title: "Best card for a store or category",
-    annotations: READ_ONLY,
+    annotations: readOnly("Best card for a store or category"),
     description: "Which of the given cards earns the most at a store (merchant) or for a spend category, today. Returns the card, the honest rate, why, and caveats (merchant-code traps, activation, ties). Base rates + rotating bonuses + built-in card benefits only; a user's personal bank offers live on their phone and are not consulted here.",
     inputSchema: {
       wallet: z.array(z.string()).min(1).describe("Card ids the person holds (from search_cards)."),
@@ -117,7 +119,7 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
 
   server.registerTool("lookup_merchant", {
     title: "How a store is coded",
-    annotations: READ_ONLY,
+    annotations: readOnly("How a store is coded"),
     description: "The store's reward category as RightCard's directory files it, its merchant type, and the merchant-code caveat when a category bonus usually will not post there (superstores like Walmart/Target, warehouse clubs like Costco/Sam's). Same ranking the app uses.",
     inputSchema: { name: z.string().min(2) },
   }, async ({ name }) => {
@@ -134,7 +136,7 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
 
   server.registerTool("search_cards", {
     title: "Find card ids",
-    annotations: READ_ONLY,
+    annotations: readOnly("Find card ids"),
     description: "Search RightCard's catalog by card or issuer name to get the ids to pass into best_card. Verified cards first; unverified cards are flagged, never hidden.",
     inputSchema: { query: z.string().min(2), issuer: z.string().optional(), limit: z.number().int().min(1).max(50).default(12) },
   }, async ({ query, issuer, limit }) => {
@@ -153,7 +155,7 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
 
   server.registerTool("card", {
     title: "A card's verified rates",
-    annotations: READ_ONLY,
+    annotations: readOnly("A card's verified rates"),
     description: "Everything RightCard knows about one card: rates by category, base rate, currency, annual fee, verification status, live rotating windows, and the choose-your-category spec if it has one.",
     inputSchema: { id: z.string() },
   }, async ({ id }) => {
@@ -184,7 +186,7 @@ export function buildServer(getCatalog: () => Promise<Catalog>): McpServer {
 
   server.registerTool("rotating_calendar", {
     title: "Rotating 5% windows",
-    annotations: READ_ONLY,
+    annotations: readOnly("Rotating 5% windows"),
     description: "Live and upcoming rotating-category windows (Freedom Flex, Discover it, Citi Dividend…) and permanent merchant benefits, from the same verified data as the app. Optionally filter by card id.",
     inputSchema: { card_id: z.string().optional() },
   }, async ({ card_id }) => {
