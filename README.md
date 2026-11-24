@@ -1,6 +1,6 @@
 # RightCard MCP
 
-[![npm](https://img.shields.io/npm/v/rightcard-mcp)](https://www.npmjs.com/package/rightcard-mcp)
+[![npm](https://img.shields.io/npm/v/rightcard-mcp)](https://www.npmjs.com/package/rightcard-mcp) [![rightcard/rightcard-mcp MCP server](https://glama.ai/mcp/servers/rightcard/rightcard-mcp/badges/score.svg)](https://glama.ai/mcp/servers/rightcard/rightcard-mcp)
 
 The card-selection oracle for agents: **which of your credit cards should pay here?**
 Answers come from RightCard's bank-published, two-source-verified reward data — the same
