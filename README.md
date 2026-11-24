@@ -6,6 +6,8 @@ The card-selection oracle for agents: **which of your credit cards should pay he
 Answers come from RightCard's bank-published, two-source-verified reward data — the same
 data the [RightCard iOS app](https://apps.apple.com/app/id6756834989) uses.
 
+Website and setup guide: [rightcard.ai/mcp](https://rightcard.ai/mcp). How each point program is valued, with the sources: [rightcard.ai/point-values](https://rightcard.ai/point-values).
+
 - **No bank login. No account. Nothing stored.** You pass card ids and a store name; you get an answer.
 - Honest by construction: merchant-code caveats (Costco is a warehouse club, so the grocery bonus
   won't post), rotating quarters with activation flags, ties named, points valued per program.

@@ -2,6 +2,7 @@
   "name": "rightcard-mcp",
   "version": "0.1.25",
   "mcpName": "ai.rightcard/mcp",
+  "homepage": "https://rightcard.ai/mcp",
   "description": "RightCard MCP — the card-selection oracle for agents. Which of your credit cards to use at any store, from verified data. No bank login.",
   "type": "module",
   "license": "MIT",
