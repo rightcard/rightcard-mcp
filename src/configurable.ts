@@ -41,7 +41,8 @@ export const CONFIGURABLE_SPECS: ConfigurableCardSpec[] = [
     // Nov 16 2026: Amex took airfare off the 4X list and added transit (mirrors Swift).
     eligible: ["dining", "gas", "transit"],
     note: "4× on the 2 categories your business spends the most on each billing cycle (restaurants, gas, transit, wireless phone service, advertising and select electronics and software), on your first $150,000 of purchases a year (1× after). Amex picks them from your spending. So RightCard can show the bonus, pick the up-to-2 you expect: restaurants, gas, or transit.",
-    matchNeedles: ["businessgold"], multiCardMax: 1,
+    // US card only: the UK and Canadian Business Gold cards have no top-2 picker.
+    matchNeedles: [], exactIDs: ["american_express_american_express_business_gold_card"], multiCardMax: 1,
   },
   {
     key: "bofa_business_customized", displayName: "BofA Business Advantage Customized Cash", bonusRate: 3, slots: 1,

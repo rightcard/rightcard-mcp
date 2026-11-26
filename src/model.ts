@@ -170,6 +170,9 @@ export function standingCaps(cardId: string): StandingCap[] {
       return [{ id: "grocery", categories: ["grocery"], limit: 6000, period: "calendarYear", after: 1 },
               { id: "online", categories: ["online"], limit: 6000, period: "calendarYear", after: 1 },
               { id: "gas", categories: ["gas"], limit: 6000, period: "calendarYear", after: 1 }];
+    case "usaa_usaa_cashback_rewards_plus_american_express_card":
+      return [{ id: "gas", categories: ["gas"], limit: 3000, period: "calendarYear", after: 1 },
+              { id: "grocery", categories: ["grocery"], limit: 3000, period: "calendarYear", after: 1 }];
     case "amex_blue_cash_preferred":
       return [{ id: "grocery", categories: ["grocery"], limit: 6000, period: "calendarYear", after: 1 }];
     case "american_express_blue_business_cash_card_from_american_express":
