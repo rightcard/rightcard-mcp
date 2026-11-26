@@ -54,7 +54,7 @@ export function withinOneEdit(aStr: string, bStr: string): boolean {
   return true;
 }
 
-export interface SearchForms { raw: string; norm: string; compact: string; body: string }
+export interface SearchForms { raw: string; norm: string; compact: string; body: string; bodyWords: string[] }
 
 /** Merchant.droppingWebEnding: "emirates.com" → "emirates". Anything with a space comes back unchanged. */
 export function droppingWebEnding(raw: string): string {
@@ -69,8 +69,24 @@ export function droppingWebEnding(raw: string): string {
 
 export const searchForms = (raw: string): SearchForms => {
   const norm = searchNormalized(raw);
-  return { raw, norm, compact: compactForm(norm), body: searchNormalized(droppingWebEnding(raw)) };
+  const host = droppingWebEnding(raw);
+  const body = searchNormalized(host);
+  // Each part of a dotted web address is a word too ("itunes.apple.com"):
+  // normalizing glues the dots away. Mirrors SearchForms.bodyWords.
+  const words = body.split(" ").filter((w) => w.length > 0);
+  if (!host.includes(" ") && host.includes(".")) {
+    for (const p of host.split(".")) { const w = searchNormalized(p); if (w.length > 0) words.push(w); }
+  }
+  return { raw, norm, compact: compactForm(norm), body, bodyWords: words };
 };
+
+/** Merchant.endsAGluedWord(_:body:words:) */
+export function endsAGluedWord(q: string, body: string, words: string[]): boolean {
+  if (q.includes(" ")) return body.includes(q);
+  const ql = [...q].length;
+  return words.some((w) => w.endsWith(q)
+    || ([...w].length > ql && w.endsWith("s") && w.slice(0, -1).endsWith(q)));
+}
 
 /** Merchant.matchScore(queryNorm:queryCompact:rawQuery:candidates:) */
 export function matchScore(q: string, qc: string, rawQuery: string, candidates: SearchForms[]): number | null {
@@ -92,7 +108,10 @@ export function matchScore(q: string, qc: string, rawQuery: string, candidates: 
     // (user report, Sep 17 2026). Mirrors Merchant.matchScore in the app.
     // The mid-word tier reads the name without its web ending, so "tesco"
     // can't match inside "emiratesCOm" (Oct 26 2026).
-    if ([...q].length >= 4 && c.body.includes(q)) best = Math.max(best, 55);
+    // Inside a word, a single-word query must END that word (plural "s"
+    // allowed): a glued name's last part ("disney" in "shopdisney"). "amaz"
+    // listed "Mamazzita Ecuadorian Cuisine" among the Amazon rows (Nov 25 2026).
+    if ([...q].length >= 4 && endsAGluedWord(q, c.body, c.bodyWords)) best = Math.max(best, 55);
     if (best < 45 && merchantMatches(c.raw, rawQuery)) best = Math.max(best, 45);
     if (best < 30 && [...q].length >= 5) {
       if (withinOneEdit(n, q) || words.some((w) => [...w].length >= 5 && withinOneEdit(w, q))) best = Math.max(best, 30);

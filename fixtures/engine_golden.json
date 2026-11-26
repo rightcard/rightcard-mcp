@@ -89562,8 +89562,7 @@
         "uber",
         "uber_eats",
         "uber_rent",
-        "jump_by_uber",
-        "auberge_collection"
+        "jump_by_uber"
       ],
       "query" : "uber"
     },
