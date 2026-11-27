@@ -120,5 +120,18 @@ export function merchantMatchesCoBrandBenefit(benefit: string, query: string): b
   const b = distinctive(benefit), q = distinctive(query);
   if (b.size === 0 || q.size === 0) return false;
   if (![...b].some((x) => q.has(x) && !COBRAND_PLACE_WORDS.has(x))) return false;
-  return isSubset(q, b);
+  if (!isSubset(q, b)) return false;
+  // Nov 26 2026 (mirrors Swift): a store covering only part of the benefit's name
+  // that adds a short word of its own is a different business ("United Way" is
+  // not United Airlines, "ABF Freight" is not Harbor Freight, "At Home" is not
+  // Home Depot).
+  if (q.size < b.size) {
+    const short = (s: string) => new Set(s.toLowerCase().split(/[^\p{L}\p{N}]+/u)
+      .filter((t) => t.length > 0 && t.length <= 3 && /^\p{L}+$/u.test(t)));
+    const bs = short(benefit);
+    for (const w of short(query)) if (!bs.has(w) && !COBRAND_FILLER.has(w)) return false;
+  }
+  return true;
 }
+
+const COBRAND_FILLER = new Set(["the", "by", "and", "of", "a", "an", "de", "du", "la", "le", "el", "los", "las", "y", "e", "n"]);

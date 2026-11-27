@@ -36187,21 +36187,22 @@
       "mode" : "cash",
       "result" : {
         "breakdownLines" : [
-          "2% at United Airlines · card benefit"
+          "Earns 3x points",
+          "Valued at 0.4¢\/pt → 1.2% per $1"
         ],
-        "cardId" : "united_gateway",
-        "loggableRate" : 2,
+        "cardId" : "american_express_hilton_honors_american_express_card",
+        "loggableRate" : 1.2000000000000002,
         "portalNote" : null,
-        "rateDisplay" : "2%",
-        "reason" : "United Gateway Card earns 2% at United Airlines, the most in your wallet here.",
+        "rateDisplay" : "1.2%",
+        "reason" : "Hilton Honors American Express Card earns 3x points on everyday purchases. At 0.4¢ each, that's 1.2% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "Cash value",
-        "valueCaption" : "card benefit · value per $1",
-        "valueMath" : null,
-        "valueMathShort" : null
+        "valuationBasis" : "Hilton Honors · 0.4¢ travel value",
+        "valueCaption" : "3x points · value per $1",
+        "valueMath" : "3x points × 0.4¢ = 1.2¢ per $1",
+        "valueMathShort" : "3x pts × 0.4¢"
       },
       "subKey" : null,
       "wallet" : 7
@@ -37025,22 +37026,22 @@
       "mode" : "smart",
       "result" : {
         "breakdownLines" : [
-          "2.4% at United Airlines · card benefit",
-          "2x miles × 1.2¢ → 2.4% per $1"
+          "Earns 1x points",
+          "Valued at 1.8¢\/pt → 1.8% per $1"
         ],
-        "cardId" : "united_gateway",
-        "loggableRate" : 2.3999999999999999,
+        "cardId" : "chase_sapphire_preferred",
+        "loggableRate" : 1.8,
         "portalNote" : null,
-        "rateDisplay" : "2.4%",
-        "reason" : "United Gateway Card earns 2.4% at United Airlines, the most in your wallet here.",
+        "rateDisplay" : "1.8%",
+        "reason" : "Chase Sapphire Preferred earns 1x points on everyday purchases. At 1.8¢ each, that's 1.8% per dollar, the most in your wallet.",
         "subcategoryBreakdown" : [
 
         ],
         "tieNote" : null,
-        "valuationBasis" : "United MileagePlus · 1.2¢ travel value",
-        "valueCaption" : "2x miles · card benefit · value per $1",
-        "valueMath" : "2x miles × 1.2¢ = 2.4¢ per $1",
-        "valueMathShort" : "2x pts × 1.2¢"
+        "valuationBasis" : "Chase Ultimate Rewards · 1.8¢ travel value",
+        "valueCaption" : "1x points · value per $1",
+        "valueMath" : "1x points × 1.8¢ = 1.8¢ per $1",
+        "valueMathShort" : "1x pts × 1.8¢"
       },
       "subKey" : null,
       "wallet" : 7

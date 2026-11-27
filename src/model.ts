@@ -186,6 +186,9 @@ export function standingCaps(cardId: string): StandingCap[] {
     case "citi_costco_anywhere":
     case "citi_costco_anywhere_visa_business_card_by_citi":
       return [{ id: "gas", categories: ["gas"], limit: 7000, period: "calendarYear", after: 1 }];
+    case "chase_marriott_bonvoy_bountiful_credit_card":
+    case "american_express_marriott_bonvoy_bevy_american_express_card":
+      return [{ id: "combined", categories: ["grocery", "dining"], limit: 15000, period: "calendarYear", after: 2 }];
     case "marriott_boundless":
       return [{ id: "combined", categories: ["grocery", "gas", "dining"], limit: 6000, period: "cardYear", after: 2 }];
     case "southwest_plus":
