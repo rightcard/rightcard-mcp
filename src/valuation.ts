@@ -8,6 +8,8 @@ export type RewardProgram =
   | "tdRewards" | "scenePlus" | "rbcAvion" | "bmoRewards"
   | "hyatt" | "marriott" | "ihg" | "choice" | "wyndham" | "hilton"
   | "delta" | "united" | "american" | "southwest" | "jetBlue" | "alaska" | "avios" | "aeroplan"
+  | "flyingBlue" | "lufthansa" | "cathay" | "koreanAir" | "lifemiles" | "turkish" | "virginRed" | "frontier"
+  | "bestWestern"
   | "fixedValue" | "genericPoints" | "genericMiles";
 
 export const PROGRAM_DISPLAY: Record<RewardProgram, string> = {
@@ -18,6 +20,9 @@ export const PROGRAM_DISPLAY: Record<RewardProgram, string> = {
   hilton: "Hilton Honors", delta: "Delta SkyMiles", united: "United MileagePlus",
   american: "American AAdvantage", southwest: "Southwest Rapid Rewards", jetBlue: "JetBlue TrueBlue",
   alaska: "Atmos Rewards", avios: "British Airways Avios", aeroplan: "Air Canada Aeroplan",
+  flyingBlue: "Air France-KLM Flying Blue", lufthansa: "Lufthansa Miles & More", cathay: "Cathay Asia Miles",
+  koreanAir: "Korean Air SKYPASS", lifemiles: "Avianca LifeMiles", turkish: "Turkish Airlines Miles&Smiles",
+  virginRed: "Virgin Points", frontier: "Frontier Miles", bestWestern: "Best Western Rewards",
   fixedValue: "Fixed-value miles", genericPoints: "Points", genericMiles: "Miles",
 };
 
@@ -28,6 +33,9 @@ export const TRAVEL_CPP: Record<RewardProgram, number> = {
   tdRewards: 0.5, scenePlus: 1.0, rbcAvion: 1.8, bmoRewards: 0.6, // Oct 2026 CA medians (the MCP serves US cards only)
   hyatt: 1.4, marriott: 0.7, ihg: 0.5, choice: 0.6, wyndham: 0.5, hilton: 0.4, // wyndham: Nov 11 2026 median 0.585
   delta: 1.1, united: 1.2, american: 1.4, southwest: 1.2, jetBlue: 1.3, alaska: 1.4, avios: 1.2, aeroplan: 1.3,
+  // Nov 27 2026 medians, rounded down (mirrors Swift; the receipt holds the four readings).
+  flyingBlue: 1.3, lufthansa: 1.3, cathay: 1.2, koreanAir: 1.3, lifemiles: 1.3, turkish: 1.2, virginRed: 1.4,
+  frontier: 1.1, bestWestern: 0.6,
   fixedValue: 1.0, genericPoints: 2.0, genericMiles: 1.5,
 };
 
@@ -67,6 +75,18 @@ export function inferProgram(issuer: string | null, id: string, currency: Credit
   if (has("alaska", "atmos", "hawaiian")) return "alaska";
   if (has("aeroplan", "air canada")) return "aeroplan";
   if (has("british airways", "avios")) return "avios";
+  // Nov 27 2026 coverage pass (mirrors Swift). Qatar, Iberia and Aer Lingus earn Avios.
+  if (has("qatar", "iberia", "aer_lingus", "aer lingus")) return "avios";
+  if (has("air_france", "air france", "klm", "flying blue")) return "flyingBlue";
+  if (has("lufthansa", "miles_more", "miles & more")) return "lufthansa";
+  if (has("cathay", "asia miles")) return "cathay";
+  if (has("korean", "skypass")) return "koreanAir";
+  if (has("avianca", "lifemiles")) return "lifemiles";
+  if (has("turkish", "miles_smiles")) return "turkish";
+  if (has("virgin")) return "virginRed";
+  if (has("frontier")) return "frontier";
+  if (has("best_western", "best western")) return "bestWestern";
+  if (has("breeze", "sun_country", "allegiant", "latam", "caesars", "mgm")) return "fixedValue";
   if (has("bilt")) return "bilt";
   if (has("scotia")) return "scenePlus";
   if (s.startsWith("td_") || s.endsWith(" td")) return "tdRewards";
