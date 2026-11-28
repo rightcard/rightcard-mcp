@@ -89275,7 +89275,8 @@
     },
     {
       "ids" : [
-        "aldi"
+        "aldi",
+        "grimaldi_s_pizzeria"
       ],
       "query" : "aldi"
     },
@@ -89285,7 +89286,8 @@
         "kroger_co_pharmacy",
         "kroger_fuel_center",
         "kroger_fuel_centers",
-        "kroger_pharmacy"
+        "kroger_pharmacy",
+        "roger_dunn_golf_shops"
       ],
       "query" : "kroger"
     },
@@ -89337,7 +89339,8 @@
     {
       "ids" : [
         "shell",
-        "zippy_shell"
+        "zippy_shell",
+        "bombshells"
       ],
       "query" : "shell"
     },
@@ -89454,6 +89457,8 @@
     {
       "ids" : [
         "ace",
+        "ace_hotel",
+        "ace_parking",
         "ace_rent_a_car",
         "acer"
       ],
@@ -89466,7 +89471,7 @@
         "apple_music",
         "apple_vacations",
         "applebee_s",
-        "itunes"
+        "big_apple_bagels"
       ],
       "query" : "apple"
     },
@@ -89479,7 +89484,8 @@
     },
     {
       "ids" : [
-        "hyatt_hotels"
+        "hyatt_hotels",
+        "spice_kitchen_west_african_grill"
       ],
       "query" : "hyatt"
     },
@@ -89488,9 +89494,9 @@
         "marriott",
         "ac_hotels_by_marriott",
         "courtyard_by_marriott",
+        "fairfield_by_marriott",
         "fairfield_inn_by_marriott",
-        "jw_marriott",
-        "residence_inn_by_marriott"
+        "homes_villas_by_marriott_bonvoy"
       ],
       "query" : "marriott"
     },
@@ -89505,7 +89511,9 @@
       "ids" : [
         "united_airlines",
         "united_supermarket",
-        "united_supermarkets"
+        "united_supermarkets",
+        "humane_society_of_the_united_states",
+        "market_street"
       ],
       "query" : "united"
     },
@@ -89523,12 +89531,12 @@
     },
     {
       "ids" : [
+        "the_walking_company",
+        "the_walrus_kitchen_and_public_house",
         "waldorf_astoria_hotels_resorts",
         "waldorf_astoria_conrad_lxr",
         "walgreens",
-        "walker_edison",
-        "walmart",
-        "walmart_marketplace"
+        "walk_on_s_sports_bistreaux"
       ],
       "query" : "wal"
     },
@@ -89537,9 +89545,9 @@
         "cost_cutters",
         "cost_plus_drugs",
         "cost_plus_pharmacy",
+        "costa_cruises",
         "costa_del_mar",
-        "costco",
-        "costco_gas"
+        "costa_vida"
       ],
       "query" : "cost"
     },
